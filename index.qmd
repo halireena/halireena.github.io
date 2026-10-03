@@ -1,0 +1,26 @@
+---
+title: "Hi, I'm Halireena"
+toc: false
+about:
+  template: jolla
+  image: images/profile.png
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/halireena
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/
+    - icon: envelope
+      text: Email
+      href: mailto:you@example.com
+---
+
+<!-- Replace this text with a short introduction about yourself. -->
+
+I'm a [your role] interested in [your interests]. This site collects my
+[projects](projects.qmd), [blog posts](blog.qmd) and my [CV](cv.qmd).
+
+**Currently:** working on ...
+
+**Skills:** Python · R · SQL · data visualisation · ...

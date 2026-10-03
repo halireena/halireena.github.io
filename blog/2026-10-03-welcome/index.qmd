@@ -1,0 +1,35 @@
+---
+title: "Welcome to my blog"
+description: "Why I started this site and what I'll write about."
+date: 2026-10-03
+categories: [news]
+# image: cover.png       # optional: thumbnail for the Blog page
+---
+
+<!--
+  TEMPLATE: copy this folder, rename it to YYYY-MM-DD-short-title,
+  then change the title, description, date and categories above.
+-->
+
+This is my first post. I'll use this blog to write about what I'm learning,
+projects in progress, and things I find interesting.
+
+## A heading
+
+Normal paragraphs are just text. You can write **bold**, *italic*,
+`inline code`, and [links](https://quarto.org).
+
+- Bullet lists
+- look like this
+
+> Quotes look like this.
+
+## Adding an image
+
+Put the image file in this post's folder, then:
+
+```markdown
+![A caption for the image](my-photo.jpg)
+```
+
+Thanks for reading!

@@ -1,0 +1,26 @@
+---
+title: "CV"
+---
+
+[Download my CV as PDF](cv/cv.pdf){.btn .btn-primary}
+
+<!-- Put your PDF at cv/cv.pdf (replace the placeholder file). -->
+
+## Education
+
+**Degree, Subject** — University name, 20XX–20XX
+
+## Experience
+
+**Job title** — Organisation, 20XX–present
+
+- What you did and what it achieved.
+
+## Skills
+
+- **Programming:** Python, R, SQL
+- **Tools:** Git, Quarto, ...
+
+## Publications & talks
+
+- Author, A. (20XX). *Title*. Venue.
