@@ -7,7 +7,7 @@ I am seeking internships and entry-level roles in bioinformatics, plant science 
 the UAE / Gulf region and the Netherlands. Use the form to get in touch or to request my CV.
 
 ```{=html}
-<div class="contact-grid">
+<div class="contact-grid column-body">
   <form id="contact-form" class="contact-form" method="POST" action="">
     <label>Your name <input type="text" name="name" required></label>
     <label>Your email <input type="email" name="email" required></label>
