@@ -19,8 +19,12 @@ website:
         text: About
       - href: projects.qmd
         text: Projects
+      - href: publications.qmd
+        text: Publications
       - href: blog.qmd
         text: Blog
+      - href: gallery/index.qmd
+        text: Gallery
       - href: cv.qmd
         text: CV
     right:

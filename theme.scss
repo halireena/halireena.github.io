@@ -224,3 +224,11 @@ figcaption { color: $muted; text-align: center; font-size: .92rem; }
 .contact-aside .small { font-size: .88rem; color: $muted; }
 .btn-copy { margin-left: .5rem; font-size: .8rem; padding: .15rem .55rem; border: 1px solid $primary; color: $primary; background: #fff; border-radius: 4px; cursor: pointer; }
 .btn-copy:hover { background: $primary; color: #fff; }
+
+/* ---------- Gallery ---------- */
+.photo-grid { column-count: 3; column-gap: 1rem; margin-top: 1.5rem; }
+@media (max-width: 860px) { .photo-grid { column-count: 2; } }
+@media (max-width: 520px) { .photo-grid { column-count: 1; } }
+.photo-grid figure { break-inside: avoid; margin: 0 0 1rem; }
+.photo-grid figure img { width: 100%; height: auto; border-radius: 8px; border: 1px solid $line; display: block; }
+.photo-grid figcaption { font-size: .85rem; margin-top: .35rem; }

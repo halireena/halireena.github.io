@@ -193,6 +193,28 @@ keep photos under ~1 MB.
 
 ---
 
+## 5b. Add photos to the Gallery
+
+1. Copy your photos into the `gallery/photos/` folder (jpg, png or webp).
+2. Name each file as the caption you want, with hyphens instead of spaces, and
+   start with a date so they sort newest first:
+   `2024-06-hydroponics-setup-at-northumbria.jpg`
+3. In a terminal in the website folder, run:
+
+   ```bash
+   python3 gallery/make_gallery.py
+   ```
+
+   This rewrites `gallery/index.qmd` with every photo in the folder. Clicking a
+   photo on the site opens it full size.
+4. Keep photos under about 1 MB each (export at ~1600 px wide). Only add photos
+   you have permission to publish, especially ones with other people in them.
+
+## 5c. Add a publication
+
+Open `publications.qmd`, copy one of the existing `::: {.tl-item}` blocks and change
+the year, title, authors and link.
+
 ## 6. Publish your changes
 
 After previewing, in a terminal in this folder:

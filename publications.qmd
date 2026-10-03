@@ -1,0 +1,53 @@
+---
+title: "Publications and presentations"
+toc: true
+---
+
+## Published abstracts
+
+::: {.timeline}
+::: {.tl-item}
+[2024]{.when}
+
+### Iron-biofortification of *Alternanthera sessilis* and *Ipomoea aquatica* to help alleviate iron deficiency in Sri Lanka: a comparative study of hydroponics techniques
+
+Mohomed, H. R. Published abstract from the BSc (Hons) Biotechnology dissertation,
+University of Northumbria. <!-- Add the venue, co-authors and link/DOI here. -->
+
+[Project page](projects/iron-biofortification/){.btn-cute}
+:::
+:::
+
+## In preparation
+
+::: {.timeline}
+::: {.tl-item}
+[2026 – 2027]{.when}
+
+### Detection of potato late blight from UAV multispectral imagery across 250+ varieties: how much signal survives variety-grouped validation?
+
+Evaluation study based on the MSc thesis. Conference abstract and journal manuscript in
+preparation with the research group at the University of Birmingham.
+
+[Project page](projects/potato-late-blight/){.btn-cute}
+:::
+:::
+
+## Presentations
+
+::: {.timeline}
+::: {.tl-item}
+[September 2026]{.when}
+
+### MSc thesis presentation, University of Birmingham Dubai
+
+Early detection of potato late blight from UAV multispectral imagery with machine learning.
+<!-- Add the date, panel and any slides or poster link here. -->
+:::
+:::
+
+## Theses and dissertations
+
+- **MSc Bioinformatics thesis** (2026), University of Birmingham Dubai: early detection of potato late blight from UAV multispectral imagery with machine learning.
+- **BSc (Hons) Biotechnology dissertation** (2024), University of Northumbria: iron biofortification of *Alternanthera sessilis* and *Ipomoea aquatica*.
+- **Higher Diploma in Biotechnology dissertation** (2024), BMS School of Science: amplification of the *rbcL* gene region in Sri Lankan pumpkin varieties.
