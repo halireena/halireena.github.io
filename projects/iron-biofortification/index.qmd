@@ -1,6 +1,6 @@
 ---
-title: "Growing more iron into leafy greens"
-description: "My BSc dissertation: comparing hydroponic techniques to iron-biofortify two leafy vegetables eaten in Sri Lanka. Published as an abstract."
+title: "Iron biofortification of Alternanthera sessilis and Ipomoea aquatica"
+description: "BSc dissertation. A comparative study of hydroponic techniques to raise the iron content of two leafy vegetables consumed in Sri Lanka. Published abstract."
 date: 2024-11-01
 order: 2             # position on the Projects page (1 = first)
 categories: [BSc dissertation, plant science, hydroponics, published abstract]

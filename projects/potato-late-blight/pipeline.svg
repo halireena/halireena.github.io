@@ -1,25 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" font-family="Nunito, Helvetica, Arial, sans-serif" role="img" aria-label="Workflow: drone flights, orthomosaics, per-plot features, models, validation grouped by variety">
-  <rect width="960" height="300" rx="10" fill="#FFFFFF"/>
-  <g font-size="17" font-weight="700" fill="#1E2A26" text-anchor="middle">
-    <!-- step boxes -->
-    <g transform="translate(30 60)"><rect width="160" height="150" rx="24" fill="#E6EEF2" stroke="#1E2A26" stroke-width="3"/>
-      <rect x="45" y="30" width="70" height="26" rx="12" fill="#FFFFFF" stroke="#1E2A26" stroke-width="3"/>
-      <ellipse cx="38" cy="28" rx="18" ry="5" fill="#E3EBE7" stroke="#1E2A26" stroke-width="2.5"/><ellipse cx="122" cy="28" rx="18" ry="5" fill="#E3EBE7" stroke="#1E2A26" stroke-width="2.5"/>
-      <text x="80" y="100">UAV flights</text><text x="80" y="124" font-weight="400" font-size="14">multispectral</text><text x="80" y="142" font-weight="400" font-size="14">2 dates</text></g>
-    <g transform="translate(215 60)"><rect width="160" height="150" rx="24" fill="#EEF4F0" stroke="#1E2A26" stroke-width="3"/>
-      <g stroke="#1E2A26" stroke-width="2" fill="#7FA894"><rect x="40" y="22" width="24" height="24" rx="4"/><rect x="68" y="22" width="24" height="24" rx="4" fill="#A8483B"/><rect x="96" y="22" width="24" height="24" rx="4"/><rect x="40" y="50" width="24" height="24" rx="4" fill="#F2F6F4"/><rect x="68" y="50" width="24" height="24" rx="4"/><rect x="96" y="50" width="24" height="24" rx="4" fill="#A8483B"/></g>
-      <text x="80" y="104">Orthomosaics</text><text x="80" y="128" font-weight="400" font-size="14">G · R · RedEdge · NIR</text></g>
-    <g transform="translate(400 60)"><rect width="160" height="150" rx="24" fill="#F2F6F4" stroke="#1E2A26" stroke-width="3"/>
-      <g stroke="#1E2A26" stroke-width="3" fill="none" stroke-linecap="round"><path d="M45 30 H 115 M45 48 H 100 M45 66 H 110"/></g>
-      <text x="80" y="104">Plot features</text><text x="80" y="128" font-weight="400" font-size="14">vegetation indices</text><text x="80" y="146" font-weight="400" font-size="14">+ texture</text></g>
-    <g transform="translate(585 60)"><rect width="160" height="150" rx="24" fill="#E8F0EC" stroke="#1E2A26" stroke-width="3"/>
-      <g stroke="#1E2A26" stroke-width="3" fill="#FFFFFF"><circle cx="50" cy="30" r="8"/><circle cx="50" cy="62" r="8"/><circle cx="110" cy="46" r="8"/><path d="M58 30 L 102 46 M58 62 L 102 46" fill="none"/></g>
-      <text x="80" y="104">Models</text><text x="80" y="128" font-weight="400" font-size="14">RF · XGBoost · NN</text><text x="80" y="146" font-weight="400" font-size="14">+ SNP fusion</text></g>
-    <g transform="translate(770 60)"><rect width="160" height="150" rx="24" fill="#E3EBE7" stroke="#1E2A26" stroke-width="3"/>
-      <g stroke="#1E2A26" stroke-width="2"><rect x="40" y="24" width="18" height="18" rx="4" fill="#FFFFFF"/><rect x="62" y="24" width="18" height="18" rx="4" fill="#FFFFFF"/><rect x="84" y="24" width="18" height="18" rx="4" fill="#FFFFFF"/><rect x="106" y="24" width="18" height="18" rx="4" fill="#A8483B"/></g>
-      <text x="80" y="104">Honest testing</text><text x="80" y="128" font-weight="400" font-size="14">folds by variety</text><text x="80" y="146" font-weight="400" font-size="14">+ permutation tests</text></g>
-    <!-- arrows -->
-    <g stroke="#1E2A26" stroke-width="4" stroke-linecap="round" fill="none"><path d="M193 135 H 210 M378 135 H 395 M563 135 H 580 M748 135 H 765"/></g>
-    <text x="480" y="260" font-size="15" font-weight="400" fill="#5B6B64">≈ 280 potato varieties · one row per plot per flight · scored 1–10 for blight, grouped into 3 classes</text>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 260" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-label="Workflow: UAV flights, orthomosaics, plot features, models, variety-grouped evaluation">
+<rect width="960" height="260" fill="#FFFFFF"/>
+<rect x="20" y="60" width="160" height="120" rx="6" fill="#F3F5F8" stroke="#DDE3EA" stroke-width="1.5"/>
+<rect x="20" y="60" width="160" height="6" rx="3" fill="#1F3A5F"/>
+<text x="100" y="105" text-anchor="middle" font-size="15" font-weight="600" fill="#1E2A26">UAV flights</text>
+<text x="100" y="130" text-anchor="middle" font-size="13" fill="#5B6B64">multispectral</text>
+<text x="100" y="149" text-anchor="middle" font-size="13" fill="#5B6B64">2 dates</text>
+<path d="M186 120 H 204" stroke="#1F3A5F" stroke-width="2"/><path d="M196 114 L 204 120 L 196 126" fill="none" stroke="#1F3A5F" stroke-width="2"/>
+<rect x="210" y="60" width="160" height="120" rx="6" fill="#F3F5F8" stroke="#DDE3EA" stroke-width="1.5"/>
+<rect x="210" y="60" width="160" height="6" rx="3" fill="#1F3A5F"/>
+<text x="290" y="105" text-anchor="middle" font-size="15" font-weight="600" fill="#1E2A26">Orthomosaics</text>
+<text x="290" y="130" text-anchor="middle" font-size="13" fill="#5B6B64">G, R, RedEdge, NIR</text>
+<text x="290" y="149" text-anchor="middle" font-size="13" fill="#5B6B64">bands</text>
+<path d="M376 120 H 394" stroke="#1F3A5F" stroke-width="2"/><path d="M386 114 L 394 120 L 386 126" fill="none" stroke="#1F3A5F" stroke-width="2"/>
+<rect x="400" y="60" width="160" height="120" rx="6" fill="#F3F5F8" stroke="#DDE3EA" stroke-width="1.5"/>
+<rect x="400" y="60" width="160" height="6" rx="3" fill="#1F3A5F"/>
+<text x="480" y="105" text-anchor="middle" font-size="15" font-weight="600" fill="#1E2A26">Plot features</text>
+<text x="480" y="130" text-anchor="middle" font-size="13" fill="#5B6B64">vegetation indices</text>
+<text x="480" y="149" text-anchor="middle" font-size="13" fill="#5B6B64">texture metrics</text>
+<path d="M566 120 H 584" stroke="#1F3A5F" stroke-width="2"/><path d="M576 114 L 584 120 L 576 126" fill="none" stroke="#1F3A5F" stroke-width="2"/>
+<rect x="590" y="60" width="160" height="120" rx="6" fill="#F3F5F8" stroke="#DDE3EA" stroke-width="1.5"/>
+<rect x="590" y="60" width="160" height="6" rx="3" fill="#1F3A5F"/>
+<text x="670" y="105" text-anchor="middle" font-size="15" font-weight="600" fill="#1E2A26">Models</text>
+<text x="670" y="130" text-anchor="middle" font-size="13" fill="#5B6B64">RF, XGBoost, NN,</text>
+<text x="670" y="149" text-anchor="middle" font-size="13" fill="#5B6B64">logistic; SNP fusion</text>
+<path d="M756 120 H 774" stroke="#1F3A5F" stroke-width="2"/><path d="M766 114 L 774 120 L 766 126" fill="none" stroke="#1F3A5F" stroke-width="2"/>
+<rect x="780" y="60" width="160" height="120" rx="6" fill="#F3F5F8" stroke="#DDE3EA" stroke-width="1.5"/>
+<rect x="780" y="60" width="160" height="6" rx="3" fill="#1F3A5F"/>
+<text x="860" y="105" text-anchor="middle" font-size="15" font-weight="600" fill="#1E2A26">Evaluation</text>
+<text x="860" y="130" text-anchor="middle" font-size="13" fill="#5B6B64">folds grouped by</text>
+<text x="860" y="149" text-anchor="middle" font-size="13" fill="#5B6B64">variety; permutation</text>
+<text x="480" y="235" text-anchor="middle" font-size="13" fill="#5B6B64">Field trial of 250+ potato varieties · one row per plot per flight · blight scored 1–10 and grouped into 3 classes</text></svg>

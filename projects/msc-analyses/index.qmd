@@ -1,6 +1,6 @@
 ---
-title: "MSc analyses: from microarrays to GWAS"
-description: "Analyses from my MSc modules: potato phosphate-stress transcriptomics, a GWAS in Peking ducks and a metagenomics project, now being rebuilt in my own code."
+title: "Transcriptomics, GWAS and metagenomics analyses"
+description: "MSc coursework. Potato phosphate-stress microarray analysis (limma, clusterProfiler), a Peking duck GWAS (PLINK, GAPIT3) and a metagenomics project."
 date: 2026-06-01
 order: 4             # position on the Projects page (1 = first)
 categories: [MSc, transcriptomics, GWAS, metagenomics, R]

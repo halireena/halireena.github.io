@@ -24,10 +24,10 @@ website:
       - href: cv.qmd
         text: CV
     right:
-      - icon: linkedin
+      - text: LinkedIn
         href: https://www.linkedin.com/in/halireena
         aria-label: LinkedIn
-      - icon: github
+      - text: GitHub
         href: https://github.com/halireena
         aria-label: GitHub
       - href: mailto:halireenarush@gmail.com

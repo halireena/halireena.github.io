@@ -4,10 +4,9 @@ subtitle: "Strongest work first. Each page follows the same structure: question,
 toc: false
 listing:
   contents: projects
-  type: grid
-  grid-columns: 2
-  image-height: 210px
+  type: default
   sort: "order"
   categories: false
-  fields: [image, title, description, categories]
+  image-align: right
+  fields: [image, title, description, categories, date]
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Why my model's score went down (and why that's a good thing)"
+title: "Why a lower score was the better result"
 description: "What 280 potato varieties taught me about honest validation."
 date: 2026-10-02
 categories: [machine learning, thesis, lessons]

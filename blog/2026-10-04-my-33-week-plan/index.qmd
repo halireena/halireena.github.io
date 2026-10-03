@@ -1,5 +1,5 @@
 ---
-title: "My 33-week plan to write my own bioinformatics code"
+title: "A 33-week plan for independent bioinformatics work"
 description: "From running tools to building analyses myself, one small daily win at a time."
 date: 2026-10-04
 categories: [learning, plans]

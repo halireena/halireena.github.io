@@ -1,6 +1,6 @@
 ---
-title: "Hello, world "
-description: "Why I built this site, and what you'll find here."
+title: "About this site"
+description: "Purpose and structure of this site."
 date: 2026-10-03
 categories: [news, personal]
 ---

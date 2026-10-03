@@ -1,6 +1,6 @@
 ---
-title: "Spotting potato late blight from the sky"
-description: "My MSc thesis: can drone images detect late blight across 250+ potato varieties, and how much of the signal survives honest testing?"
+title: "Detection of potato late blight from UAV multispectral imagery"
+description: "MSc thesis. Machine-learning detection of late blight across 250+ potato varieties, evaluated with variety-grouped validation and permutation tests."
 date: 2026-09-18
 order: 1             # position on the Projects page (1 = first)
 categories: [MSc thesis, machine learning, remote sensing, Python]

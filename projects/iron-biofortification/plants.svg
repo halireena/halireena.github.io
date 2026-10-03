@@ -1,22 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" font-family="Nunito, Helvetica, Arial, sans-serif" role="img" aria-label="Illustration: two leafy vegetables grown in hydroponic systems to raise their iron content">
-  <rect width="900" height="360" rx="10" fill="#FFFFFF"/>
-  <g stroke="#1E2A26" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
-    <!-- left plant: Alternanthera (small paired leaves) -->
-    <rect x="80" y="230" width="230" height="80" rx="16" fill="#E6EEF2"/>
-    <path d="M195 230 V 110" fill="none"/>
-    <g fill="#7FA894"><ellipse cx="170" cy="200" rx="26" ry="12"/><ellipse cx="220" cy="200" rx="26" ry="12"/><ellipse cx="172" cy="160" rx="24" ry="11"/><ellipse cx="218" cy="160" rx="24" ry="11"/><ellipse cx="175" cy="122" rx="20" ry="10"/><ellipse cx="215" cy="122" rx="20" ry="10"/></g>
-    <!-- right plant: Ipomoea (arrow-shaped leaves) -->
-    <rect x="590" y="230" width="230" height="80" rx="16" fill="#E6EEF2"/>
-    <path d="M705 230 C 700 180 710 140 705 100" fill="none"/>
-    <g fill="#8FB3A1"><path d="M705 190 L 650 170 L 670 200 L 650 225 Z"/><path d="M705 160 L 760 140 L 740 170 L 760 195 Z"/><path d="M705 120 L 655 100 L 672 128 L 655 150 Z"/></g>
-    <!-- arrow & iron -->
-    <path d="M360 190 H 540" fill="none"/><path d="M520 175 L 540 190 L 520 205" fill="none"/>
-    <path d="M450 80 C 450 80 420 122 420 142 C 420 159 433 172 450 172 C 467 172 480 159 480 142 C 480 122 450 80 450 80 Z" fill="#A8483B"/>
-  </g>
-  <text x="450" y="150" text-anchor="middle" font-size="24" font-weight="800" fill="#FFFFFF">Fe</text>
-  <g font-size="17" fill="#1E2A26" text-anchor="middle" font-weight="700">
-    <text x="195" y="345"><tspan font-style="italic">Alternanthera sessilis</tspan></text>
-    <text x="705" y="345"><tspan font-style="italic">Ipomoea aquatica</tspan></text>
-    <text x="450" y="225" font-weight="400" font-size="15" fill="#5B6B64">compare hydroponic techniques</text>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 260" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-label="Workflow of the iron biofortification study">
+<rect width="960" height="260" fill="#FFFFFF"/>
+<rect x="20" y="60" width="160" height="120" rx="6" fill="#F3F5F8" stroke="#DDE3EA" stroke-width="1.5"/>
+<rect x="20" y="60" width="160" height="6" rx="3" fill="#1F3A5F"/>
+<text x="100" y="105" text-anchor="middle" font-size="15" font-weight="600" fill="#1E2A26">Two species</text>
+<text x="100" y="130" text-anchor="middle" font-size="13" fill="#5B6B64">Alternanthera sessilis</text>
+<text x="100" y="149" text-anchor="middle" font-size="13" fill="#5B6B64">Ipomoea aquatica</text>
+<path d="M186 120 H 204" stroke="#1F3A5F" stroke-width="2"/><path d="M196 114 L 204 120 L 196 126" fill="none" stroke="#1F3A5F" stroke-width="2"/>
+<rect x="210" y="60" width="160" height="120" rx="6" fill="#F3F5F8" stroke="#DDE3EA" stroke-width="1.5"/>
+<rect x="210" y="60" width="160" height="6" rx="3" fill="#1F3A5F"/>
+<text x="290" y="105" text-anchor="middle" font-size="15" font-weight="600" fill="#1E2A26">Hydroponic systems</text>
+<text x="290" y="130" text-anchor="middle" font-size="13" fill="#5B6B64">alternative techniques</text>
+<text x="290" y="149" text-anchor="middle" font-size="13" fill="#5B6B64">compared</text>
+<path d="M376 120 H 394" stroke="#1F3A5F" stroke-width="2"/><path d="M386 114 L 394 120 L 386 126" fill="none" stroke="#1F3A5F" stroke-width="2"/>
+<rect x="400" y="60" width="160" height="120" rx="6" fill="#F3F5F8" stroke="#DDE3EA" stroke-width="1.5"/>
+<rect x="400" y="60" width="160" height="6" rx="3" fill="#1F3A5F"/>
+<text x="480" y="105" text-anchor="middle" font-size="15" font-weight="600" fill="#1E2A26">Iron treatment</text>
+<text x="480" y="130" text-anchor="middle" font-size="13" fill="#5B6B64">nutrient solution</text>
+<text x="480" y="149" text-anchor="middle" font-size="13" fill="#5B6B64">enriched with Fe</text>
+<path d="M566 120 H 584" stroke="#1F3A5F" stroke-width="2"/><path d="M576 114 L 584 120 L 576 126" fill="none" stroke="#1F3A5F" stroke-width="2"/>
+<rect x="590" y="60" width="160" height="120" rx="6" fill="#F3F5F8" stroke="#DDE3EA" stroke-width="1.5"/>
+<rect x="590" y="60" width="160" height="6" rx="3" fill="#1F3A5F"/>
+<text x="670" y="105" text-anchor="middle" font-size="15" font-weight="600" fill="#1E2A26">Tissue analysis</text>
+<text x="670" y="130" text-anchor="middle" font-size="13" fill="#5B6B64">iron content</text>
+<text x="670" y="149" text-anchor="middle" font-size="13" fill="#5B6B64">per technique</text>
+<path d="M756 120 H 774" stroke="#1F3A5F" stroke-width="2"/><path d="M766 114 L 774 120 L 766 126" fill="none" stroke="#1F3A5F" stroke-width="2"/>
+<rect x="780" y="60" width="160" height="120" rx="6" fill="#F3F5F8" stroke="#DDE3EA" stroke-width="1.5"/>
+<rect x="780" y="60" width="160" height="6" rx="3" fill="#1F3A5F"/>
+<text x="860" y="105" text-anchor="middle" font-size="15" font-weight="600" fill="#1E2A26">Comparison</text>
+<text x="860" y="130" text-anchor="middle" font-size="13" fill="#5B6B64">which technique</text>
+<text x="860" y="149" text-anchor="middle" font-size="13" fill="#5B6B64">raises iron most</text>
+<text x="480" y="235" text-anchor="middle" font-size="13" fill="#5B6B64">BSc (Hons) Biotechnology dissertation, University of Northumbria · published as an abstract</text></svg>

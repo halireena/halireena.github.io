@@ -1,6 +1,6 @@
 ---
-title: "Learning in public"
-description: "My 33-week plan to go from running tools to writing bioinformatics code myself, with every step on GitHub."
+title: "Independent bioinformatics: a 33-week programme"
+description: "A structured 33-week programme to move from using bioinformatics tools to writing analyses independently, with all work on GitHub."
 date: 2026-10-03
 order: 5             # position on the Projects page (1 = first)
 categories: [learning, Python, R, Git]
