@@ -24,21 +24,18 @@ page-layout: full
       <div class="btn-row">
         <a class="btn-cute accent" href="projects.html">Selected work</a>
         <a class="btn-cute light" href="cv.html">Download CV</a>
+        <a class="btn-cute light" href="contact.html">Contact</a>
       </div>
     </div>
-    <div>
-      <div class="portrait" id="portrait"><img src="images/me.jpg" alt="Halireena Rushdiha" onerror="document.getElementById('portrait').style.display='none'"></div>
-    <aside class="profile">
-      <h3>Profile</h3>
-      <dl>
-        <dt>Education</dt><dd>MSc Bioinformatics, University of Birmingham Dubai (expected 2026)</dd>
-        <dd>BSc (Hons) Biotechnology, First Class, University of Northumbria (2024)</dd>
-        <dt>Location</dt><dd>Dubai, United Arab Emirates</dd>
-        <dt>Contact</dt><dd>halireenarush@gmail.com</dd>
-        <dd><a href="contact.html">Contact form and CV request</a></dd>
-      </dl>
-    </aside>
-    </div>
+    <div class="portrait-wrap"><img class="portrait" src="images/me.jpg" alt="Halireena Rushdiha"></div>
+  </div>
+</section>
+
+<section class="band facts-band">
+  <div class="band-inner facts">
+    <div><span class="k">Education</span><span class="v">MSc Bioinformatics, University of Birmingham Dubai (expected 2026)</span><span class="v">BSc (Hons) Biotechnology, First Class, University of Northumbria (2024)</span></div>
+    <div><span class="k">Based in</span><span class="v">Dubai, United Arab Emirates</span><span class="v">Open to roles in the UAE / Gulf and the Netherlands</span></div>
+    <div><span class="k">Contact</span><span class="v">halireenarush@gmail.com</span><span class="v"><a href="contact.html">Contact form and CV request</a> · <a href="https://www.linkedin.com/in/halireena">LinkedIn</a></span></div>
   </div>
 </section>
 
