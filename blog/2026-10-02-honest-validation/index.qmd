@@ -3,7 +3,7 @@ title: "Why my model's score went down (and why that's a good thing)"
 description: "What 280 potato varieties taught me about honest validation."
 date: 2026-10-02
 categories: [machine learning, thesis, lessons]
-image: ../../images/thumbs/validation.svg
+image: ../../projects/potato-late-blight/validation.svg
 ---
 
 Here's a confession: the most important thing I learned in my thesis wasn't a new model.
@@ -31,8 +31,8 @@ actually expect on new varieties.
 
 ## Three takeaways
 
-1. 🌱 **Ask what "new data" means for your problem** (new plots? new varieties? new fields?) and split that way.
-2. 🎲 **Always compare to a dumb baseline.** "Always predict healthy" was surprisingly hard to beat.
-3. 🔍 **Check your labels.** Replicates of the same variety disagreed 35.8% of the time, which caps any model.
+1. **Ask what "new data" means for your problem** (new plots? new varieties? new fields?) and split that way.
+2. **Always compare to a dumb baseline.** "Always predict healthy" was surprisingly hard to beat.
+3. **Check your labels.** Replicates of the same variety disagreed 35.8% of the time, which caps any model.
 
-Honest numbers are less flashy, but they're the ones you can build on. 💚
+Honest numbers are less flashy, but they're the ones you can build on. 

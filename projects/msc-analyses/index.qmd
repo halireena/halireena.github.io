@@ -4,7 +4,7 @@ description: "Analyses from my MSc modules: potato phosphate-stress transcriptom
 date: 2026-06-01
 order: 4             # position on the Projects page (1 = first)
 categories: [MSc, transcriptomics, GWAS, metagenomics, R]
-image: ../../images/thumbs/msc.svg
+image: thumb.svg
 ---
 
 ::: {.question-box}
@@ -16,23 +16,17 @@ I'm now **rebuilding each one in my own code**, and each will get its own page a
 
 ::: {.card-grid}
 ::: {.cute-card}
-[🥔]{.icon .bg-butter}
-
 ### Phosphate-stress transcriptomics
 
 Potato microarray data (ArrayExpress E-MTAB-2990). Differential expression with **limma**,
 then enrichment with **clusterProfiler**.
 :::
 ::: {.cute-card}
-[🦆]{.icon .bg-sky}
-
 ### Peking duck GWAS
 
 Genome-wide association with **PLINK** for quality control and **GAPIT3** for association testing.
 :::
 ::: {.cute-card}
-[🦠]{.icon .bg-blush}
-
 ### Metagenomics
 
 A microbial community project done together with a friend.

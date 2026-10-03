@@ -4,7 +4,7 @@ description: "My 33-week plan to go from running tools to writing bioinformatics
 date: 2026-10-03
 order: 5             # position on the Projects page (1 = first)
 categories: [learning, Python, R, Git]
-image: ../../images/thumbs/learning.svg
+image: thumb.svg
 ---
 
 ::: {.question-box}
@@ -22,29 +22,21 @@ daily steps, with everything committed to GitHub so the progress is visible.
 
 ::: {.card-grid}
 ::: {.cute-card}
-[🧬]{.icon .bg-lavender}
-
 ### Sequence toolkit
 
 A small Python package: GC content, reverse complement, translation, with tests.
 :::
 ::: {.cute-card}
-[📄]{.icon .bg-sky}
-
 ### FASTA stats CLI
 
 A command-line tool that summarises real plant FASTA files.
 :::
 ::: {.cute-card}
-[🥔]{.icon .bg-butter}
-
 ### Tetraploid potato GWAS
 
 Dosage-aware GWAS in potato with GWASpoly, written by me.
 :::
 ::: {.cute-card}
-[🏠]{.icon .bg-blush}
-
 ### Rush Hub
 
 My own study website, where I plan and track all of this.

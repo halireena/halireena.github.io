@@ -1,6 +1,6 @@
 ---
 title: "Halireena Mohomed"
-pagetitle: "Halireena Mohomed · Plant science & bioinformatics"
+pagetitle: "Halireena Mohomed · Bioinformatics & Plant Science"
 toc: false
 title-block-banner: false
 page-layout: full
@@ -11,80 +11,89 @@ page-layout: full
 <div class="home-wrap">
 <section class="hero">
   <div>
-    <span class="hello">👋 Hi, I'm Halireena (Rush)!</span>
-    <h1>Plant scientist moving into <span class="accent">bioinformatics</span>.</h1>
+    <div class="kicker">Bioinformatics · Plant science</div>
+    <h1>Plant scientist moving into bioinformatics</h1>
     <p class="lead">
-      I like questions where plant biology meets data: crop stress, disease and the genetics behind them.
-      First Class BSc in Biotechnology, now finishing an MSc in Bioinformatics at the University of Birmingham Dubai.
+      I work on questions where plant biology meets data: crop stress, disease and the genetics
+      behind them. I hold a First Class BSc in Biotechnology and am completing an MSc in
+      Bioinformatics at the University of Birmingham Dubai.
     </p>
-    <p class="lead">🌱 <strong>Open to internships and entry-level roles</strong> in the UAE / Gulf and the Netherlands.</p>
     <div class="btn-row">
-      <a class="btn-cute solid" href="projects.html">✨ See my projects</a>
-      <a class="btn-cute" href="cv.html">📄 My CV</a>
-      <a class="btn-cute" href="https://www.linkedin.com/in/halireena">💼 LinkedIn</a>
+      <a class="btn-cute solid" href="projects.html">View projects</a>
+      <a class="btn-cute" href="cv.html">Curriculum vitae</a>
+      <a class="btn-cute" href="https://www.linkedin.com/in/halireena">LinkedIn</a>
     </div>
   </div>
-  <div style="text-align:center"><img src="images/hero.svg" alt="A smiling potato leaf being scanned by a little drone, next to a DNA helix"></div>
+  <aside class="glance">
+    <h3>At a glance</h3>
+    <dl>
+      <dt>Education</dt><dd>MSc Bioinformatics, University of Birmingham Dubai (2026)</dd>
+      <dd>BSc (Hons) Biotechnology, First Class, GPA 4.0</dd>
+      <dt>MSc thesis</dt><dd>Detecting potato late blight from UAV multispectral imagery</dd>
+      <dt>Based in</dt><dd>Dubai, UAE</dd>
+      <dt>Open to</dt><dd>Internships and entry-level roles in the UAE / Gulf and the Netherlands</dd>
+    </dl>
+  </aside>
 </section>
 
 <div class="stats">
-  <div class="stat"><div class="num">1st</div><div class="lbl">Class Honours, BSc Biotechnology</div></div>
-  <div class="stat"><div class="num">4.0</div><div class="lbl">BSc GPA</div></div>
-  <div class="stat"><div class="num">250+</div><div class="lbl">potato varieties in my MSc thesis</div></div>
-  <div class="stat"><div class="num">4</div><div class="lbl">languages spoken</div></div>
+  <div class="stat"><span class="num">1st</span><span class="lbl">Class Honours, BSc Biotechnology</span></div>
+  <div class="stat"><span class="num">4.0</span><span class="lbl">BSc GPA</span></div>
+  <div class="stat"><span class="num">250+</span><span class="lbl">potato varieties analysed in MSc thesis</span></div>
+  <div class="stat"><span class="num">1</span><span class="lbl">published abstract</span></div>
 </div>
 
-<p class="section-label">My journey</p>
-<h2>From the lab bench to the laptop</h2>
-<div class="journey">
-  <div class="step"><span class="em">🎃</span><span class="yr">Sri Lanka</span><h4>Higher Diploma</h4><p>Biotechnology, Distinction. rbcL gene in pumpkin varieties.</p></div>
-  <div class="step"><span class="em">🧪</span><span class="yr">2023</span><h4>Lab intern, ITI</h4><p>DNA extraction, PCR, gels. Best Performance award.</p></div>
-  <div class="step"><span class="em">🥬</span><span class="yr">2024</span><h4>BSc (Hons), 1st Class</h4><p>Northumbria. Iron biofortification of leafy greens.</p></div>
-  <div class="step"><span class="em">🏥</span><span class="yr">2024</span><h4>Hemas Hospital</h4><p>Medical transcription and the move to electronic records.</p></div>
-  <div class="step"><span class="em">🛸</span><span class="yr">2025 – 2026</span><h4>MSc Bioinformatics</h4><p>Birmingham Dubai. Potato late blight from drone images.</p></div>
-  <div class="step next"><span class="em">🌾</span><span class="yr">Next</span><h4>Plant genomics & agritech</h4><p>Crop stress, breeding and data. Maybe your team?</p></div>
-</div>
-
-<p class="section-label">Featured project</p>
-<h2>My MSc thesis</h2>
+<p class="section-label">Featured work</p>
+<h2>MSc thesis: potato late blight from the air</h2>
 <div class="feature">
-  <div><img src="projects/potato-late-blight/pipeline.svg" alt="Workflow from drone flights to honest model testing"></div>
+  <div><img src="projects/potato-late-blight/pipeline.svg" alt="Workflow from UAV flights to variety-grouped model evaluation"></div>
   <div>
-    <h3>🥔 Spotting potato late blight from the sky</h3>
-    <p>Can drone images tell which potato plots have late blight, across <strong>more than 250 varieties</strong>?
-      Tested honestly, the signal is real but smaller than most published papers suggest.
-      A conference abstract and paper are now in progress.</p>
-    <div class="btn-row"><a class="btn-cute solid" href="projects/potato-late-blight/">Read the project →</a></div>
+    <h3>How much disease signal survives honest validation?</h3>
+    <p>Using multispectral drone imagery of more than 250 potato varieties, I evaluated machine-learning
+      models with variety-grouped cross-validation and permutation tests. The signal is real but
+      smaller than most published studies report. A conference abstract and paper are in preparation.</p>
+    <div class="btn-row"><a class="btn-cute solid" href="projects/potato-late-blight/">Read the project</a></div>
   </div>
 </div>
 
+<p class="section-label">Background</p>
+<h2>Education and experience</h2>
+<div class="journey">
+  <div class="step"><span class="yr">2025 – 2026</span><h4>MSc Bioinformatics</h4><p>University of Birmingham Dubai</p></div>
+  <div class="step"><span class="yr">2024</span><h4>Medical Transcriptionist Trainee</h4><p>Hemas Hospital, Sri Lanka</p></div>
+  <div class="step"><span class="yr">2024</span><h4>BSc (Hons) Biotechnology, First Class</h4><p>University of Northumbria</p></div>
+  <div class="step"><span class="yr">2024</span><h4>Higher Diploma in Biotechnology, Distinction</h4><p>BMS School of Science, Sri Lanka</p></div>
+  <div class="step"><span class="yr">2023</span><h4>Laboratory Intern</h4><p>Industrial Technology Institute, Sri Lanka</p></div>
+  <div class="step"><span class="yr">Awards</span><h4>Dean's List · BMS Best Student</h4><p>Best Performance, ITI internship</p></div>
+</div>
+
 <p class="section-label">Skills</p>
-<h2>What I use (honestly)</h2>
+<h2>Technical skills</h2>
 <div class="levels">
-  <div class="level"><div class="dots">●●●</div><h3>Confident</h3>
-    <div class="chips"><span class="chip">R</span><span class="chip">SPSS</span><span class="chip">Statistics</span><span class="chip">Scientific writing</span><span class="chip">PCR & gels</span><span class="chip">DNA extraction</span></div></div>
-  <div class="level"><div class="dots">●●○</div><h3>Working knowledge</h3>
+  <div class="level"><h3>Proficient</h3>
+    <div class="chips"><span class="chip">R</span><span class="chip">SPSS</span><span class="chip">Statistical analysis</span><span class="chip">Scientific writing</span><span class="chip">PCR</span><span class="chip">DNA extraction</span><span class="chip">Gel electrophoresis</span></div></div>
+  <div class="level"><h3>Working knowledge</h3>
     <div class="chips"><span class="chip">Python</span><span class="chip">Bash</span><span class="chip">Git</span><span class="chip">Galaxy</span><span class="chip">BLAST</span><span class="chip">MEGA</span><span class="chip">PLINK</span><span class="chip">GAPIT3</span><span class="chip">MetaboAnalyst</span><span class="chip">limma</span></div></div>
-  <div class="level"><div class="dots">●○○</div><h3>Learning now</h3>
-    <div class="chips"><span class="chip">Snakemake</span><span class="chip">GWAS in code</span><span class="chip">Variant calling</span><span class="chip">Multi-omics</span><span class="chip">CNNs for imagery</span></div></div>
+  <div class="level"><h3>Currently developing</h3>
+    <div class="chips"><span class="chip">Snakemake</span><span class="chip">GWAS workflows</span><span class="chip">Variant calling</span><span class="chip">Multi-omics</span><span class="chip">CNNs for imagery</span></div></div>
 </div>
 
-<p class="section-label">Interests</p>
-<h2>What gets me excited</h2>
+<p class="section-label">Research interests</p>
+<h2>Areas of interest</h2>
 <div class="card-grid">
-  <div class="cute-card"><div class="icon bg-sage">🌾</div><h3>Crop genomics & breeding</h3><p>Finding the genetics behind traits breeders care about.</p></div>
-  <div class="cute-card"><div class="icon bg-sky">💧</div><h3>Salinity & drought stress</h3><p>How crops cope with the conditions of the Gulf.</p></div>
-  <div class="cute-card"><div class="icon bg-blush">🦠</div><h3>Plant–microbe interactions</h3><p>Disease, defence and the microbes around roots.</p></div>
-  <div class="cute-card"><div class="icon bg-butter">🏙️</div><h3>Hydroponics & vertical farming</h3><p>Growing more nutritious food with less land and water.</p></div>
+  <div class="cute-card"><h3>Crop genomics and breeding</h3><p>Linking genetic variation to traits that matter to breeders.</p></div>
+  <div class="cute-card"><h3>Abiotic stress</h3><p>Salinity and drought tolerance in crops grown in arid regions.</p></div>
+  <div class="cute-card"><h3>Plant–microbe interactions</h3><p>Disease, defence and the root microbiome.</p></div>
+  <div class="cute-card"><h3>Controlled-environment agriculture</h3><p>Hydroponics, vertical farming and biofortification.</p></div>
 </div>
 
-<div class="feature" style="background: linear-gradient(135deg, #FBE6A6, #F6C9C4); text-align:center; display:block">
-  <h3>💌 Let's work together</h3>
-  <p>I'm looking for internships and entry-level roles in bioinformatics, plant science and agritech.</p>
-  <div class="btn-row" style="justify-content:center">
-    <a class="btn-cute solid" href="https://www.linkedin.com/in/halireena">Connect on LinkedIn</a>
-    <a class="btn-cute" href="mailto:halireenarush@gmail.com">✉️ Email me</a>
-    <a class="btn-cute" href="https://github.com/halireena">🐙 GitHub</a>
+<div class="contact">
+  <h3>Contact</h3>
+  <p>I am seeking internships and entry-level roles in bioinformatics, plant science and agritech.</p>
+  <div class="btn-row">
+    <a class="btn-cute solid" href="mailto:halireenarush@gmail.com">Email</a>
+    <a class="btn-cute" href="https://www.linkedin.com/in/halireena">LinkedIn</a>
+    <a class="btn-cute" href="https://github.com/halireena">GitHub</a>
   </div>
 </div>
 </div>

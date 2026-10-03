@@ -1,29 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 330" font-family="Nunito, Helvetica, Arial, sans-serif" role="img" aria-label="Random plot splits leak varieties between training and test; grouped splits hold whole varieties out">
-  <rect width="960" height="330" rx="28" fill="#FFFBF5"/>
-  <g font-weight="700" fill="#2F4A3A">
-    <text x="240" y="48" text-anchor="middle" font-size="21">😬 Random split by plot</text>
-    <text x="720" y="48" text-anchor="middle" font-size="21">🌱 Split grouped by variety</text>
+  <rect width="960" height="330" rx="10" fill="#FFFFFF"/>
+  <g font-weight="700" fill="#1E2A26">
+    <text x="240" y="48" text-anchor="middle" font-size="21">Random split by plot</text>
+    <text x="720" y="48" text-anchor="middle" font-size="21">Split grouped by variety</text>
   </g>
-  <line x1="480" y1="30" x2="480" y2="300" stroke="#E6DED3" stroke-width="3" stroke-dasharray="8 8"/>
-  <g id="left" stroke="#2F4A3A" stroke-width="2.5">
-    <text x="60" y="100" font-size="15" font-weight="700" fill="#2F4A3A" stroke="none">train</text>
-    <text x="60" y="190" font-size="15" font-weight="700" fill="#2F4A3A" stroke="none">test</text>
-    <g fill="#F6C9C4"><circle cx="150" cy="95" r="16"/><circle cx="270" cy="95" r="16"/></g>
-    <g fill="#BFE0EC"><circle cx="190" cy="95" r="16"/><circle cx="310" cy="95" r="16"/></g>
-    <g fill="#FBE6A6"><circle cx="230" cy="95" r="16"/><circle cx="350" cy="95" r="16"/></g>
-    <g fill="#F6C9C4"><circle cx="190" cy="185" r="16"/></g><g fill="#BFE0EC"><circle cx="250" cy="185" r="16"/></g><g fill="#FBE6A6"><circle cx="310" cy="185" r="16"/></g>
+  <line x1="480" y1="30" x2="480" y2="300" stroke="#E1E8E4" stroke-width="3" stroke-dasharray="8 8"/>
+  <g id="left" stroke="#1E2A26" stroke-width="2.5">
+    <text x="60" y="100" font-size="15" font-weight="700" fill="#1E2A26" stroke="none">train</text>
+    <text x="60" y="190" font-size="15" font-weight="700" fill="#1E2A26" stroke="none">test</text>
+    <g fill="#E8F0EC"><circle cx="150" cy="95" r="16"/><circle cx="270" cy="95" r="16"/></g>
+    <g fill="#E6EEF2"><circle cx="190" cy="95" r="16"/><circle cx="310" cy="95" r="16"/></g>
+    <g fill="#F2F6F4"><circle cx="230" cy="95" r="16"/><circle cx="350" cy="95" r="16"/></g>
+    <g fill="#E8F0EC"><circle cx="190" cy="185" r="16"/></g><g fill="#E6EEF2"><circle cx="250" cy="185" r="16"/></g><g fill="#F2F6F4"><circle cx="310" cy="185" r="16"/></g>
   </g>
-  <text x="240" y="250" text-anchor="middle" font-size="16" fill="#55645a">the same varieties appear on both sides,</text>
-  <text x="240" y="274" text-anchor="middle" font-size="16" fill="#55645a">so the model can memorise them → scores look too good</text>
-  <g stroke="#2F4A3A" stroke-width="2.5">
-    <text x="540" y="100" font-size="15" font-weight="700" fill="#2F4A3A" stroke="none">train</text>
-    <text x="540" y="190" font-size="15" font-weight="700" fill="#2F4A3A" stroke="none">test</text>
-    <g fill="#F6C9C4"><circle cx="630" cy="95" r="16"/><circle cx="670" cy="95" r="16"/></g>
-    <g fill="#BFE0EC"><circle cx="730" cy="95" r="16"/><circle cx="770" cy="95" r="16"/></g>
-    <g fill="#CDBDF0"><circle cx="830" cy="95" r="16"/></g>
-    <g fill="#FBE6A6"><circle cx="690" cy="185" r="16"/><circle cx="740" cy="185" r="16"/></g><g fill="#DDEFD9"><circle cx="800" cy="185" r="16"/></g>
+  <text x="240" y="250" text-anchor="middle" font-size="16" fill="#5B6B64">the same varieties appear on both sides,</text>
+  <text x="240" y="274" text-anchor="middle" font-size="16" fill="#5B6B64">so the model can memorise them → scores look too good</text>
+  <g stroke="#1E2A26" stroke-width="2.5">
+    <text x="540" y="100" font-size="15" font-weight="700" fill="#1E2A26" stroke="none">train</text>
+    <text x="540" y="190" font-size="15" font-weight="700" fill="#1E2A26" stroke="none">test</text>
+    <g fill="#E8F0EC"><circle cx="630" cy="95" r="16"/><circle cx="670" cy="95" r="16"/></g>
+    <g fill="#E6EEF2"><circle cx="730" cy="95" r="16"/><circle cx="770" cy="95" r="16"/></g>
+    <g fill="#E3EBE7"><circle cx="830" cy="95" r="16"/></g>
+    <g fill="#F2F6F4"><circle cx="690" cy="185" r="16"/><circle cx="740" cy="185" r="16"/></g><g fill="#EEF4F0"><circle cx="800" cy="185" r="16"/></g>
   </g>
-  <text x="720" y="250" text-anchor="middle" font-size="16" fill="#55645a">test varieties are never seen in training,</text>
-  <text x="720" y="274" text-anchor="middle" font-size="16" fill="#55645a">so the score shows how it works on new varieties</text>
-  <text x="480" y="315" text-anchor="middle" font-size="13" fill="#8a958d">each colour = one potato variety</text>
+  <text x="720" y="250" text-anchor="middle" font-size="16" fill="#5B6B64">test varieties are never seen in training,</text>
+  <text x="720" y="274" text-anchor="middle" font-size="16" fill="#5B6B64">so the score shows how it works on new varieties</text>
+  <text x="480" y="315" text-anchor="middle" font-size="13" fill="#8A968F">each colour = one potato variety</text>
 </svg>

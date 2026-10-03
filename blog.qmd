@@ -1,12 +1,12 @@
 ---
 title: "Blog"
-subtitle: "Notes on bioinformatics, learning and the occasional potato 🥔"
+subtitle: "Notes on bioinformatics, plant science and learning to code"
 toc: false
 listing:
   contents: blog
   type: default
   sort: "date desc"
-  categories: true
+  categories: false
   feed: true
   fields: [image, date, title, description, categories, reading-time]
 ---

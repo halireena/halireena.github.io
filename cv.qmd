@@ -5,17 +5,17 @@ toc: true
 ---
 
 ::: {.chips}
-[📍 Dubai, UAE]{.chip}
-[🎓 MSc Bioinformatics (expected 2026)]{.chip}
-[🥇 BSc Biotechnology, First Class]{.chip}
-[🌱 Open to internships & entry-level roles]{.chip}
+[Dubai, UAE]{.chip}
+[MSc Bioinformatics (expected 2026)]{.chip}
+[BSc Biotechnology, First Class]{.chip}
+[Open to internships & entry-level roles]{.chip}
 :::
 
 MSc Bioinformatics student at the University of Birmingham Dubai with First Class Honours in
 Biotechnology. Strong background in biological data interpretation, genomics and scientific
 reporting, with experience in healthcare documentation and laboratory work.
 
-[💼 LinkedIn](https://www.linkedin.com/in/halireena){.btn-cute .solid} [✉️ Email me](mailto:halireenarush@gmail.com){.btn-cute}
+[LinkedIn](https://www.linkedin.com/in/halireena){.btn-cute .solid} [Email me](mailto:halireenarush@gmail.com){.btn-cute}
 
 ## Education
 
@@ -81,41 +81,33 @@ alleviate iron deficiency in Sri Lanka: a comparative study of hydroponic techni
 ## Awards
 
 ::: {.badges}
-[🥇 First Class Honours, BSc]{.badge-cute}
-[🏅 Dean's List Award]{.badge-cute}
-[⭐ BMS Best Student Award]{.badge-cute}
-[🎓 Higher Diploma with Distinction]{.badge-cute}
-[🧪 Best Performance, ITI internship]{.badge-cute}
-[📄 Published abstract]{.badge-cute}
+[First Class Honours, BSc]{.badge-cute}
+[Dean's List Award]{.badge-cute}
+[BMS Best Student Award]{.badge-cute}
+[Higher Diploma with Distinction]{.badge-cute}
+[Best Performance, ITI internship]{.badge-cute}
+[Published abstract]{.badge-cute}
 :::
 
 ## Skills
 
 ::: {.card-grid}
 ::: {.cute-card}
-[📊]{.icon .bg-blush}
-
 ### Data & statistics
 
 R, SPSS, statistical analysis, biological data interpretation; Python, Bash and Git (working knowledge)
 :::
 ::: {.cute-card}
-[🧬]{.icon .bg-lavender}
-
 ### Bioinformatics tools
 
 Galaxy, BLAST, Clustal Omega, MEGA, PLINK, GAPIT3, MetaboAnalyst, limma, clusterProfiler
 :::
 ::: {.cute-card}
-[🧪]{.icon .bg-butter}
-
 ### Laboratory
 
 DNA extraction, PCR, gel electrophoresis, spectrophotometry, hydroponic growing systems
 :::
 ::: {.cute-card}
-[✍️]{.icon .bg-sky}
-
 ### Communication
 
 Scientific writing and reporting, clinical documentation, Microsoft Office
@@ -125,8 +117,8 @@ Scientific writing and reporting, clinical documentation, Microsoft Office
 ## Languages
 
 ::: {.chips}
-[🇬🇧 English: fluent]{.chip}
-[🇱🇰 Sinhala: native]{.chip}
+[English: fluent]{.chip}
+[Sinhala: native]{.chip}
 [Tamil: understanding]{.chip}
 [Hindi: understanding]{.chip}
 :::

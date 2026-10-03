@@ -59,7 +59,7 @@ projects/                One folder per project
 blog.qmd                 Blog page – lists everything in blog/ automatically
 blog/                    One folder per blog post
 cv.qmd                   CV page
-images/                  Pictures used across the site (hero.svg, thumbs/ for card pictures)
+images/                  Pictures used across the site (e.g. the favicon)
 _templates/              Templates to copy: project-template, blog-post-template (not published)
 styles.css               Optional custom styling
 .github/workflows/       The GitHub Action that publishes the site
@@ -111,8 +111,8 @@ would hit the same error.
    - `date` must be `YYYY-MM-DD`.
    - `order` sets the position on the Projects page: 1 is first. Change the
      numbers in the other projects if you want to reorder them.
-   - `image` is the thumbnail on the Projects page. You can use one of the
-     ready-made pictures, e.g. `image: ../../images/thumbs/omics.svg`.
+   - `image` is the thumbnail on the Projects page. Use one of your figures,
+     e.g. `image: fig1.png`.
 4. Replace the text under each heading: **The question → The data → Methods →
    Results (2 figures) → What I learned → Code**.
 5. Replace `fig1.png` and `fig2.png` with your own figures (see section 5),
@@ -121,7 +121,7 @@ would hit the same error.
    from the `resources:` line at the top (or delete that line).
 7. Run `quarto preview`, click **Projects** — your new card should be there.
 
-Tip: the coloured boxes on the existing project pages (the question box, the
+Tip: the boxes on the existing project pages (the research question, the
 number tiles, the cards) are made with `::: {.question-box}` and similar
 lines. Open `projects/potato-late-blight/index.qmd` to see them and copy what you like.
 
@@ -174,8 +174,8 @@ lines. Open `projects/potato-late-blight/index.qmd` to see them and copy what yo
 
 **Image used across the site** (e.g. your photo): put it in `images/` and
 refer to it from the page, e.g. `![My photo](images/me.jpg)` on a top-level page.
-The big drawing on the home page is `images/hero.svg`. To use your own photo
-instead, put it in `images/` and change `images/hero.svg` in `index.qmd`.
+To add a profile photo to the home page, put it in `images/` and ask for it
+to be placed next to the "At a glance" box in `index.qmd`.
 
 Optional extras:
 

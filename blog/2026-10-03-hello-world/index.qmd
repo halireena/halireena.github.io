@@ -1,16 +1,15 @@
 ---
-title: "Hello, world 🌱"
+title: "Hello, world "
 description: "Why I built this site, and what you'll find here."
 date: 2026-10-03
 categories: [news, personal]
-image: ../../images/thumbs/hello.svg
 ---
 
-Hi, I'm Halireena, but most people call me Rush! 👋
+Hi, I'm Halireena, but most people call me Rush! 
 
 I'm a plant scientist moving into bioinformatics. I'm in the final stretch of my **MSc in
 Bioinformatics** at the University of Birmingham Dubai, where my thesis looked at spotting potato
-late blight from drone images. I presented it in September and it went really well. 🥔🛸
+late blight from drone images. I presented it in September and it went really well. 
 
 I built this site to keep my projects in one place, write down what I learn, and share it with
 anyone who's curious.
@@ -26,4 +25,4 @@ anyone who's curious.
 I'm turning my thesis into a conference abstract and a paper, learning to write my own
 bioinformatics code (follow along on the blog!), and looking for **internships and entry-level
 roles** in plant science, bioinformatics and agritech. If that sounds
-like your team, I'd love to hear from you! 💌
+like your team, I'd love to hear from you! 
