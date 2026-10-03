@@ -6,6 +6,8 @@ categories: [machine learning, thesis, lessons]
 image: ../../projects/potato-late-blight/validation.svg
 ---
 
+[← All posts](../../blog.qmd){.back-link}
+
 Here's a confession: the most important thing I learned in my thesis wasn't a new model.
 It was how to **test** one.
 

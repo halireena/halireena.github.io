@@ -4,8 +4,10 @@ description: "Analyses from my MSc modules: potato phosphate-stress transcriptom
 date: 2026-06-01
 order: 4             # position on the Projects page (1 = first)
 categories: [MSc, transcriptomics, GWAS, metagenomics, R]
-image: thumb.svg
+image: cover.svg
 ---
+
+[← All projects](../../projects.qmd){.back-link}
 
 ::: {.question-box}
 What happens inside a potato under phosphate stress, and which genes sit behind a trait?

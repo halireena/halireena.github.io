@@ -5,6 +5,8 @@ date: 2026-10-03
 categories: [news, personal]
 ---
 
+[← All posts](../../blog.qmd){.back-link}
+
 Hi, I'm Halireena, but most people call me Rush! 
 
 I'm a plant scientist moving into bioinformatics. I'm in the final stretch of my **MSc in

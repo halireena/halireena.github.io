@@ -1,0 +1,124 @@
+---
+title: "About me"
+subtitle: "Plant scientist moving into bioinformatics"
+toc: true
+---
+
+I grew up in Sri Lanka and started in the lab: extracting DNA, running PCRs and growing
+vegetables hydroponically. Along the way I noticed that the most interesting questions were in the
+data, so I moved into bioinformatics. I hold a First Class BSc (Hons) in Biotechnology and am
+completing an MSc in Bioinformatics at the University of Birmingham Dubai.
+
+I like questions where plant biology meets data: crop stress, disease and the genetics behind them.
+And I care about doing the analysis properly, because a model that scores well on a lucky split
+helps nobody.
+
+## Journey
+
+::: {.journey}
+::: {.step}
+[Completed 01/2024]{.yr}
+
+#### Higher Diploma in Biotechnology, Distinction
+
+BMS School of Science, Sri Lanka. Dissertation on the *rbcL* gene in pumpkin varieties.
+:::
+::: {.step}
+[02/2023]{.yr}
+
+#### Laboratory Intern
+
+Industrial Technology Institute, Sri Lanka. DNA extraction, PCR, gels. Best Performance award.
+:::
+::: {.step}
+[01/2024 – 11/2024]{.yr}
+
+#### BSc (Hons) Biotechnology, First Class
+
+University of Northumbria. Iron biofortification of leafy greens; published abstract.
+:::
+::: {.step}
+[10/2024 – 12/2024]{.yr}
+
+#### Medical Transcriptionist Trainee
+
+Hemas Hospital, Sri Lanka. Clinical documentation and the move to electronic records.
+:::
+::: {.step}
+[09/2025 – 10/2026]{.yr}
+
+#### MSc Bioinformatics
+
+University of Birmingham Dubai. Thesis on potato late blight from UAV imagery.
+:::
+::: {.step}
+[Next]{.yr}
+
+#### Plant genomics and agritech
+
+Crop stress, breeding and data, in the Gulf or the Netherlands.
+:::
+:::
+
+## Skills
+
+Listed honestly: only tools I have actually used.
+
+::: {.levels}
+::: {.level}
+### Proficient
+
+::: {.chips}
+[R]{.chip} [SPSS]{.chip} [Statistical analysis]{.chip} [Scientific writing]{.chip} [PCR]{.chip} [DNA extraction]{.chip} [Gel electrophoresis]{.chip}
+:::
+:::
+::: {.level}
+### Working knowledge
+
+::: {.chips}
+[Python]{.chip} [Bash]{.chip} [Git]{.chip} [Galaxy]{.chip} [BLAST]{.chip} [MEGA]{.chip} [PLINK]{.chip} [GAPIT3]{.chip} [MetaboAnalyst]{.chip} [limma]{.chip}
+:::
+:::
+::: {.level}
+### Currently developing
+
+::: {.chips}
+[Snakemake]{.chip} [GWAS workflows]{.chip} [Variant calling]{.chip} [Multi-omics]{.chip} [CNNs for imagery]{.chip}
+:::
+:::
+:::
+
+## Research interests
+
+::: {.card-grid}
+::: {.cute-card}
+### Crop genomics and breeding
+
+Linking genetic variation to traits that matter to breeders.
+:::
+::: {.cute-card}
+### Abiotic stress
+
+Salinity and drought tolerance in crops grown in arid regions.
+:::
+::: {.cute-card}
+### Plant–microbe interactions
+
+Disease, defence and the root microbiome.
+:::
+::: {.cute-card}
+### Controlled-environment agriculture
+
+Hydroponics, vertical farming and biofortification.
+:::
+:::
+
+## Languages
+
+::: {.chips}
+[English: fluent]{.chip} [Sinhala: native]{.chip} [Tamil: understanding]{.chip} [Hindi: understanding]{.chip}
+:::
+
+## Get in touch
+
+[Email me](mailto:halireenarush@gmail.com){.btn-cute .solid} [LinkedIn](https://www.linkedin.com/in/halireena){.btn-cute} [Full CV](cv.qmd){.btn-cute}

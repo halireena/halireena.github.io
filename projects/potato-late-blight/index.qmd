@@ -4,9 +4,11 @@ description: "My MSc thesis: can drone images detect late blight across 250+ pot
 date: 2026-09-18
 order: 1             # position on the Projects page (1 = first)
 categories: [MSc thesis, machine learning, remote sensing, Python]
-image: thumb.svg
+image: fig-scores.png
 resources: [make_figures.py]
 ---
+
+[← All projects](../../projects.qmd){.back-link}
 
 ::: {.question-box}
 Can multispectral drone images tell which potato plots have late blight, even for varieties the model has never seen before?

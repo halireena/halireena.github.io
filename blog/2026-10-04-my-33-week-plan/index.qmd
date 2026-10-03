@@ -6,6 +6,8 @@ categories: [learning, plans]
 image: ../../projects/learning-in-public/plan.svg
 ---
 
+[← All posts](../../blog.qmd){.back-link}
+
 Here's something I don't think people say enough: you can get through a bioinformatics MSc
 mostly by **running tools** (Galaxy, BLAST, PLINK, GAPIT3) without being able to write the code
 yourself. That was me. So I've made a plan to change it. 

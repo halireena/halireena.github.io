@@ -14,6 +14,8 @@ website:
   navbar:
     left:
       - href: index.qmd
+        text: Home
+      - href: about.qmd
         text: About
       - href: projects.qmd
         text: Projects
@@ -22,11 +24,18 @@ website:
       - href: cv.qmd
         text: CV
     right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/halireena
+        aria-label: LinkedIn
       - icon: github
         href: https://github.com/halireena
         aria-label: GitHub
+      - href: mailto:halireenarush@gmail.com
+        text: Contact
+        aria-label: Email Halireena
   page-footer:
-    center: "© 2026 Halireena Mohomed"
+    left: "© 2026 Halireena Mohomed"
+    right: "[LinkedIn](https://www.linkedin.com/in/halireena) · [GitHub](https://github.com/halireena) · [Email](mailto:halireenarush@gmail.com)"
 
 format:
   html:
@@ -36,3 +45,6 @@ format:
     toc-title: "On this page"
     smooth-scroll: true
     fig-align: center
+    include-after-body:
+      text: |
+        <script>document.querySelectorAll('.navbar a.nav-link[href^="mailto:"]').forEach(a=>a.classList.add('contact-btn'));</script>

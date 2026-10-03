@@ -53,7 +53,8 @@ rebuilds the site and publishes it at **https://halireena.github.io**.
 ```
 _quarto.yml              Site settings: title, menu bar
 theme.scss               Colours, fonts and all the cute styling
-index.qmd                About page (the home page)
+index.qmd                Home page (short landing page)
+about.qmd                About page: your story, journey, skills, interests
 projects.qmd             Projects page – lists everything in projects/ automatically
 projects/                One folder per project
 blog.qmd                 Blog page – lists everything in blog/ automatically
@@ -174,8 +175,9 @@ lines. Open `projects/potato-late-blight/index.qmd` to see them and copy what yo
 
 **Image used across the site** (e.g. your photo): put it in `images/` and
 refer to it from the page, e.g. `![My photo](images/me.jpg)` on a top-level page.
-To add a profile photo to the home page, put it in `images/` and ask for it
-to be placed next to the "At a glance" box in `index.qmd`.
+To put a profile photo in the circle on the home page, save it as `images/me.jpg`
+and replace `HM` inside the `portrait` div in `index.qmd` with
+`<img src="images/me.jpg" alt="Halireena Mohomed">`.
 
 Optional extras:
 
@@ -218,7 +220,10 @@ match the file. Fix it, check with `quarto preview`, and push again.
 
 - **Your name / site title / menu:** `_quarto.yml` → `title:` and `navbar:`.
 - **Home page text and buttons:** `index.qmd`. It's written in HTML, so change the
-  words between the `>` and `<` and leave the tags alone.
+  words between the `>` and `<` and leave the tags alone. The three "Featured work"
+  cards and the three "Latest writing" links are also here; update them when you add
+  a new project or post you want on the home page.
+- **Your story, journey and skills:** `about.qmd` (normal Markdown).
 - **CV:** edit `cv.qmd`. To offer a PDF, put it at `cv.pdf` next to `cv.qmd` and add
   the line `[📄 Download PDF](cv.pdf){.btn-cute .solid}`.
 - **Colours and fonts:** the top of `theme.scss` (e.g. `$rose: #D9837B;`).

@@ -4,8 +4,10 @@ description: "My 33-week plan to go from running tools to writing bioinformatics
 date: 2026-10-03
 order: 5             # position on the Projects page (1 = first)
 categories: [learning, Python, R, Git]
-image: thumb.svg
+image: plan.svg
 ---
+
+[← All projects](../../projects.qmd){.back-link}
 
 ::: {.question-box}
 How do I go from *using* bioinformatics tools to *writing* the code myself?

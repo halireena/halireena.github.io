@@ -4,8 +4,10 @@ description: "My Higher Diploma dissertation: amplifying the rbcL gene region in
 date: 2024-01-01
 order: 3             # position on the Projects page (1 = first)
 categories: [Higher Diploma, molecular biology, PCR, lab work]
-image: thumb.svg
+image: gel.svg
 ---
+
+[← All projects](../../projects.qmd){.back-link}
 
 ::: {.question-box}
 Can the *rbcL* gene region be amplified reliably from local pumpkin varieties, as a first step towards telling them apart?

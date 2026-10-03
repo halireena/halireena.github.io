@@ -1,13 +1,13 @@
 ---
 title: "Projects"
-subtitle: "Research and analysis projects in plant science and bioinformatics"
+subtitle: "Strongest work first. Each page follows the same structure: question, data, methods, results, what I learned."
 toc: false
 listing:
   contents: projects
   type: grid
   grid-columns: 2
-  image-height: 200px
+  image-height: 210px
   sort: "order"
   categories: false
-  fields: [image, title, description]
+  fields: [image, title, description, categories]
 ---

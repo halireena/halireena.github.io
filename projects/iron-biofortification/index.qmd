@@ -4,8 +4,10 @@ description: "My BSc dissertation: comparing hydroponic techniques to iron-biofo
 date: 2024-11-01
 order: 2             # position on the Projects page (1 = first)
 categories: [BSc dissertation, plant science, hydroponics, published abstract]
-image: thumb.svg
+image: plants.svg
 ---
+
+[← All projects](../../projects.qmd){.back-link}
 
 ::: {.question-box}
 Can hydroponic growing raise the iron content of everyday leafy vegetables, and which technique works best?
