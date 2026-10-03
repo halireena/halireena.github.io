@@ -7,7 +7,7 @@ I am seeking internships and entry-level roles in bioinformatics, plant science 
 the UAE / Gulf region and the Netherlands. Use the form to get in touch or to request my CV.
 
 ```{=html}
-<div class="contact-grid column-body">
+<div class="contact-grid">
   <form id="contact-form" class="contact-form" method="POST" action="">
     <label>Your name <input type="text" name="name" required></label>
     <label>Your email <input type="email" name="email" required></label>
@@ -24,7 +24,7 @@ the UAE / Gulf region and the Netherlands. Use the form to get in touch or to re
     <button type="submit" class="btn-cute solid">Send message</button>
     <p class="form-note" id="form-note"></p>
   </form>
-  <aside class="contact-aside">
+  <div class="contact-aside">
     <h3>Other ways to reach me</h3>
     <p><strong>Email</strong><br>
       <span id="email-text">halireenarush@gmail.com</span>
@@ -32,7 +32,7 @@ the UAE / Gulf region and the Netherlands. Use the form to get in touch or to re
     <p><strong>LinkedIn</strong><br><a href="https://www.linkedin.com/in/halireena">linkedin.com/in/halireena</a></p>
     <p><strong>GitHub</strong><br><a href="https://github.com/halireena">github.com/halireena</a></p>
     <p class="small">Based in Dubai, United Arab Emirates.</p>
-  </aside>
+  </div>
 </div>
 <script>
   // Form delivery is handled by Formspree. Paste your form ID between the quotes below.
