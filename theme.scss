@@ -208,8 +208,8 @@ figcaption { color: $muted; text-align: center; font-size: .92rem; }
 .band.dark .btn-cute.accent:hover { background: #E6EBF2; color: $dark; }
 
 /* ---------- Contact page ---------- */
-.contact-grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 2rem; margin-top: 1.5rem; }
-@media (max-width: 860px) { .contact-grid { grid-template-columns: 1fr; } }
+.contact-grid { display: grid !important; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr) !important; gap: 2rem; margin-top: 1.5rem; }
+@media (max-width: 860px) { .contact-grid { grid-template-columns: 1fr !important; } }
 .contact-form label { display: block; font-weight: 600; font-size: .9rem; margin-bottom: 1rem; }
 .contact-form input, .contact-form select, .contact-form textarea { display: block; width: 100%; margin-top: .3rem; padding: .6rem .7rem;
   border: 1px solid $line; border-radius: 6px; font: inherit; font-weight: 400; background: #fff; }
