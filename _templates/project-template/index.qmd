@@ -2,6 +2,7 @@
 title: "Do warmer days sell more ice cream?"
 description: "A short example project: one question, one dataset, two figures."
 date: 2026-10-03
+order: 99            # position on the Projects page (1 = first)
 categories: [Python, visualisation, regression]
 image: fig2.png          # thumbnail shown on the Projects page
 resources: [data.csv, make_figures.py]   # extra files to publish with the page

@@ -1,0 +1,17 @@
+---
+title: "My post title"
+description: "One sentence shown on the Blog page."
+date: 2026-10-03
+categories: [learning]
+image: ../../images/thumbs/hello.svg   # or put cover.png in this folder and write: image: cover.png
+---
+
+Start writing here. Normal paragraphs are just text. You can write **bold**, *italic*,
+`code`, and [links](https://quarto.org).
+
+## A heading
+
+- Bullet points
+- look like this
+
+![A caption for my picture](my-picture.png)

@@ -6,9 +6,11 @@ project:
     - "!HOW_TO_EDIT.md"
 
 website:
-  title: "Halireena"
+  title: "Halireena Rushdiha"
   site-url: https://halireena.github.io
-  description: "Portfolio, projects and writing."
+  description: "Bioinformatics portfolio: plant science, machine learning and honest validation."
+  favicon: images/favicon.svg
+  open-graph: true
   navbar:
     left:
       - href: index.qmd
@@ -24,12 +26,13 @@ website:
         href: https://github.com/halireena
         aria-label: GitHub
   page-footer:
-    center: "© 2026 Halireena · Built with [Quarto](https://quarto.org)"
+    center: "Made with 💚 and lots of tea by Halireena · Built with [Quarto](https://quarto.org)"
 
 format:
   html:
-    theme:
-      light: cosmo
-      dark: darkly
+    theme: [cosmo, theme.scss]
     css: styles.css
     toc: true
+    toc-title: "On this page"
+    smooth-scroll: true
+    fig-align: center

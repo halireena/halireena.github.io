@@ -1,10 +1,13 @@
 ---
 title: "Projects"
+subtitle: "Things I've built, measured and learned from 🌿"
 toc: false
 listing:
   contents: projects
   type: grid
-  sort: "date desc"
+  grid-columns: 2
+  image-height: 220px
+  sort: "order"
   categories: true
-  fields: [image, title, description, categories, date]
+  fields: [image, title, description, categories]
 ---

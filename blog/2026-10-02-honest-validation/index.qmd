@@ -1,0 +1,38 @@
+---
+title: "Why my model's score went down (and why that's a good thing)"
+description: "What 280 potato varieties taught me about honest validation."
+date: 2026-10-02
+categories: [machine learning, thesis, lessons]
+image: ../../images/thumbs/validation.svg
+---
+
+Here's a confession: the most important thing I learned in my thesis wasn't a new model.
+It was how to **test** one.
+
+## The trap
+
+Imagine you have several plots of each potato variety. If you split plots into training and
+test sets at random, the same variety ends up on both sides. The model can learn
+*"variety X looks like this"* instead of *"blight looks like this"*, and the score looks great.
+
+![Random splits leak varieties; grouped splits don't.](../../projects/potato-late-blight/validation.svg){fig-alt="Diagram comparing random and grouped splits"}
+
+## The fix
+
+Group the folds **by variety**, so every variety in the test set is brand new to the model.
+Then add a **permutation test** (shuffle the labels and see whether the model still "works") to check the
+signal is real and not luck.
+
+## What happened
+
+My score went down. On the test flight the model reached a macro-F1 of 0.394 against a
+0.308 baseline. That's small, but it's **real** (p = 0.004), and it's the number someone could
+actually expect on new varieties.
+
+## Three takeaways
+
+1. 🌱 **Ask what "new data" means for your problem** (new plots? new varieties? new fields?) and split that way.
+2. 🎲 **Always compare to a dumb baseline.** "Always predict healthy" was surprisingly hard to beat.
+3. 🔍 **Check your labels.** Replicates of the same variety disagreed 35.8% of the time, which caps any model.
+
+Honest numbers are less flashy, but they're the ones you can build on. 💚

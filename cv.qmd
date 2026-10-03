@@ -1,26 +1,87 @@
 ---
-title: "CV"
+title: "Curriculum Vitae"
+subtitle: "Bioinformatics · plant science · machine learning"
+toc: true
 ---
 
-[Download my CV as PDF](cv/cv.pdf){.btn .btn-primary}
-
-<!-- Put your PDF at cv/cv.pdf (replace the placeholder file). -->
+::: {.chips}
+[📍 Dubai, UAE]{.chip}
+[🎓 MSc Bioinformatics]{.chip}
+[🌱 Open to internships & graduate roles]{.chip}
+:::
 
 ## Education
 
-**Degree, Subject** — University name, 20XX–20XX
+::: {.timeline}
+::: {.tl-item}
+[2025 – 2026]{.when}
 
-## Experience
+### MSc Bioinformatics, University of Birmingham (Dubai)
 
-**Job title** — Organisation, 20XX–present
+**Thesis:** Detecting potato late blight from UAV multispectral imagery across ~280 varieties,
+with variety-grouped validation, permutation tests and SNP-data fusion.
+[Read the project →](projects/potato-late-blight/)
+:::
+:::
 
-- What you did and what it achieved.
+## Research & projects
+
+::: {.timeline}
+::: {.tl-item}
+[2026 – now]{.when}
+
+### Late-blight evaluation paper (in preparation)
+
+Turning the thesis into an evaluation study: a stricter held-out-variety test, confidence
+intervals that resample whole varieties, and a CNN feasibility test on plot images.
+:::
+::: {.tl-item}
+[2026]{.when}
+
+### rushtools: R & Python packages
+
+Personal function libraries with testthat and pytest suites, run automatically by GitHub Actions.
+[More →](projects/rushtools/)
+:::
+::: {.tl-item}
+[2026]{.when}
+
+### Paper reproduction labs
+
+Re-did published analyses from scratch: Palmer penguins, potato GWAS, RNA-seq (airway) and
+disease text mining. [More →](projects/paper-reproductions/)
+:::
+:::
 
 ## Skills
 
-- **Programming:** Python, R, SQL
-- **Tools:** Git, Quarto, ...
+::: {.card-grid}
+::: {.cute-card}
+[💻]{.icon .bg-sky}
 
-## Publications & talks
+### Programming
 
-- Author, A. (20XX). *Title*. Venue.
+Python (pandas, scikit-learn, XGBoost), R (tidyverse, testthat), Bash
+:::
+::: {.cute-card}
+[📊]{.icon .bg-blush}
+
+### Statistics & ML
+
+Grouped cross-validation, permutation tests, bootstrap confidence intervals, model comparison
+:::
+::: {.cute-card}
+[🧬]{.icon .bg-lavender}
+
+### Bioinformatics
+
+GWAS, SNP data, variant calling, RNA-seq, multi-omics, multispectral image features
+:::
+::: {.cute-card}
+[🛠️]{.icon .bg-butter}
+
+### Tools
+
+Git, GitHub Actions, HPC (BlueBEAR), Quarto, reproducible pipelines
+:::
+:::

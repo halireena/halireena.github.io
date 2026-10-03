@@ -1,5 +1,6 @@
 ---
 title: "Blog"
+subtitle: "Notes on bioinformatics, learning and the occasional potato 🥔"
 toc: false
 listing:
   contents: blog
@@ -7,4 +8,5 @@ listing:
   sort: "date desc"
   categories: true
   feed: true
+  fields: [image, date, title, description, categories, reading-time]
 ---

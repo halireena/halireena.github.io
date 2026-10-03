@@ -51,14 +51,16 @@ rebuilds the site and publishes it at **https://halireena.github.io**.
 ## 1. What's where
 
 ```
-_quarto.yml              Site settings: title, menu bar, theme
+_quarto.yml              Site settings: title, menu bar
+theme.scss               Colours, fonts and all the cute styling
 index.qmd                About page (the home page)
 projects.qmd             Projects page – lists everything in projects/ automatically
 projects/                One folder per project
 blog.qmd                 Blog page – lists everything in blog/ automatically
 blog/                    One folder per blog post
-cv.qmd                   CV page;  cv/cv.pdf is the downloadable PDF
-images/                  Images used across the site (e.g. profile.png)
+cv.qmd                   CV page
+images/                  Pictures used across the site (hero.svg, thumbs/ for card pictures)
+_templates/              Templates to copy: project-template, blog-post-template (not published)
 styles.css               Optional custom styling
 .github/workflows/       The GitHub Action that publishes the site
 ```
@@ -88,8 +90,8 @@ would hit the same error.
 
 ## 3. Add a project page
 
-1. **Copy** the folder `projects/example-project` and give the copy a short
-   name with no spaces, e.g. `projects/house-prices`.
+1. **Copy** the folder `_templates/project-template` into `projects/` and give
+   the copy a short name with no spaces, e.g. `projects/house-prices`.
    (The folder name becomes the web address:
    `halireena.github.io/projects/house-prices/`.)
 2. Open `projects/house-prices/index.qmd`.
@@ -100,13 +102,17 @@ would hit the same error.
    title: "Predicting house prices in Colombo"
    description: "One sentence that appears on the Projects page."
    date: 2026-11-01
+   order: 5
    categories: [R, machine learning]
    image: fig1.png
    ---
    ```
 
-   - `date` must be `YYYY-MM-DD`. Projects are sorted newest first.
-   - `image` is the thumbnail on the Projects page.
+   - `date` must be `YYYY-MM-DD`.
+   - `order` sets the position on the Projects page: 1 is first. Change the
+     numbers in the other projects if you want to reorder them.
+   - `image` is the thumbnail on the Projects page. You can use one of the
+     ready-made pictures, e.g. `image: ../../images/thumbs/omics.svg`.
 4. Replace the text under each heading: **The question → The data → Methods →
    Results (2 figures) → What I learned → Code**.
 5. Replace `fig1.png` and `fig2.png` with your own figures (see section 5),
@@ -115,15 +121,15 @@ would hit the same error.
    from the `resources:` line at the top (or delete that line).
 7. Run `quarto preview`, click **Projects** — your new card should be there.
 
-To hide the example project from your site, delete the
-`projects/example-project` folder (keep a copy somewhere if you like it as a
-template).
+Tip: the coloured boxes on the existing project pages (the question box, the
+number tiles, the cards) are made with `::: {.question-box}` and similar
+lines. Open `projects/potato-late-blight/index.qmd` to see them and copy what you like.
 
 ---
 
 ## 4. Add a blog post
 
-1. **Copy** the folder `blog/2026-10-03-welcome` and rename it to
+1. **Copy** the folder `_templates/blog-post-template` into `blog/` and rename it to
    `blog/YYYY-MM-DD-short-title`, e.g. `blog/2026-11-15-my-first-kaggle`.
 2. Open `index.qmd` inside it and update the top block:
 
@@ -167,9 +173,9 @@ template).
    The text in `[ ]` becomes the caption.
 
 **Image used across the site** (e.g. your photo): put it in `images/` and
-refer to it from the top-level page, e.g. in `index.qmd`:
-`image: images/profile.png`. To change your profile photo, just replace
-`images/profile.png` with your own (same name), or change that line.
+refer to it from the page, e.g. `![My photo](images/me.jpg)` on a top-level page.
+The big drawing on the home page is `images/hero.svg`. To use your own photo
+instead, put it in `images/` and change `images/hero.svg` in `index.qmd`.
 
 Optional extras:
 
@@ -211,15 +217,15 @@ match the file. Fix it, check with `quarto preview`, and push again.
 ## 7. Other common edits
 
 - **Your name / site title / menu:** `_quarto.yml` → `title:` and `navbar:`.
-- **Social links on the About page:** the `links:` list at the top of `index.qmd`.
-- **CV:** edit `cv.qmd`, and replace `cv/cv.pdf` with your own PDF (same name).
-- **Colours / theme:** change `cosmo` in `_quarto.yml` to another
-  [Bootswatch theme](https://quarto.org/docs/output-formats/html-themes.html),
-  e.g. `flatly`, `litera`, `minty`.
+- **Home page text and buttons:** `index.qmd`. It's written in HTML, so change the
+  words between the `>` and `<` and leave the tags alone.
+- **CV:** edit `cv.qmd`. To offer a PDF, put it at `cv.pdf` next to `cv.qmd` and add
+  the line `[📄 Download PDF](cv.pdf){.btn-cute .solid}`.
+- **Colours and fonts:** the top of `theme.scss` (e.g. `$rose: #D9837B;`).
 
 ## 8. (Later) Running code inside pages
 
-The example project makes its figures with a separate script, so GitHub
+The project pages make their figures with separate scripts, so GitHub
 never needs Python. If you'd rather put live ```` ```{python} ```` code chunks
 in a page, add this to `_quarto.yml`:
 

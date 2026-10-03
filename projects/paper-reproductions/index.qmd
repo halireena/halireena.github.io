@@ -1,0 +1,62 @@
+---
+title: "Paper reproduction labs"
+description: "Learning methods by re-doing published analyses from scratch: penguins, potato GWAS, RNA-seq and disease text mining."
+date: 2026-08-01
+order: 2             # position on the Projects page (1 = first)
+categories: [R, Python, reproducibility, learning]
+image: ../../images/thumbs/reproductions.svg
+---
+
+::: {.question-box}
+Can I reproduce a published result from the original data, and do I understand every step?
+:::
+
+## Why reproduce papers?
+
+Reading a methods section is easy. Getting the same numbers from the raw data is where the
+real learning happens. Each lab follows the same pattern: **get the data → rebuild the analysis →
+compare with the paper → write down what was hard**.
+
+::: {.card-grid}
+::: {.cute-card}
+[🐧]{.icon .bg-sky}
+
+### Palmer penguins
+
+Gorman et al. (2014): body measurements and sexual dimorphism in Antarctic penguins. A warm-up in tidy data and plotting.
+:::
+::: {.cute-card}
+[🥔]{.icon .bg-butter}
+
+### Potato GWAS
+
+Linking SNPs to traits: kinship, population structure and Manhattan plots.
+:::
+::: {.cute-card}
+[🧪]{.icon .bg-blush}
+
+### RNA-seq (airway)
+
+Differential expression on the classic airway dataset, from counts to volcano plot.
+:::
+::: {.cute-card}
+[📚]{.icon .bg-lavender}
+
+### Disease text mining
+
+Pulling disease mentions out of the literature and seeing what patterns appear.
+:::
+:::
+
+## Beyond the labs
+
+I'm also working through study projects in **variant calling, proteomics, metabolomics,
+microbiome analysis, multi-omics integration** and **wheat text mining**, all tracked on my
+[study hub](../rush-hub/).
+
+## What I learned
+
+::: {.learned}
+- Published methods often leave out small but important choices. Reproducing them shows you where.
+- Matching a paper's numbers exactly is hard, and explaining the gaps is a skill in itself.
+:::

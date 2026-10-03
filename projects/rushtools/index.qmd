@@ -1,0 +1,61 @@
+---
+title: "rushtools: my personal R & Python toolkits"
+description: "The helper functions I kept rewriting, packaged once with tests and automatic checks on GitHub."
+date: 2026-10-02
+order: 3             # position on the Projects page (1 = first)
+categories: [R, Python, packaging, GitHub Actions]
+image: ../../images/thumbs/rushtools.svg
+---
+
+::: {.question-box}
+How do I stop copy-pasting the same helper functions into every analysis?
+:::
+
+## The idea
+
+Every project needed the same little helpers. So I collected them into two proper packages,
+both called **rushtools**: one for R and one for Python, living side by side in one repository.
+
+::: {.card-grid}
+::: {.cute-card}
+[📦]{.icon .bg-blush}
+
+### R package
+
+`R/`, `tests/` and a `DESCRIPTION` file, tested with **testthat** via `devtools::test()`.
+:::
+::: {.cute-card}
+[🐍]{.icon .bg-sky}
+
+### Python package
+
+Modern `src/` layout with `pyproject.toml`, tested with **pytest**.
+:::
+::: {.cute-card}
+[✅]{.icon .bg-butter}
+
+### Automatic checks
+
+Two **GitHub Actions** run every test on each push, so a broken function shows up as a red ✗.
+:::
+:::
+
+## Install
+
+```r
+# R
+remotes::install_github("halireena/rushtools", subdir = "r")
+```
+
+```bash
+# Python
+pip install "git+https://github.com/halireena/rushtools#subdirectory=python"
+```
+
+## What I learned
+
+::: {.learned}
+- How R and Python packaging work, and how similar they are underneath.
+- Writing tests first makes refactoring much less scary.
+- Continuous integration catches mistakes I would never notice by hand.
+:::
