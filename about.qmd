@@ -88,6 +88,40 @@ Listed honestly: only tools I have actually used.
 :::
 :::
 
+## Experience
+
+::: {.timeline}
+::: {.tl-item}
+[10/2024 – 12/2024]{.when}
+
+### Medical Transcriptionist Trainee, Hemas Hospital, Sri Lanka
+
+- Transcribed dermatology and ophthalmology consultations for 40+ patients a day with high accuracy.
+- Supported the hospital's transition to electronic health records.
+- Worked with consultants, nurses and IT teams in a fast-paced clinical setting.
+:::
+::: {.tl-item}
+[02/2023]{.when}
+
+### Laboratory Intern, Industrial Technology Institute (ITI), Sri Lanka
+
+- DNA extraction, PCR, gel electrophoresis and spectrophotometry using standard protocols.
+- Reviewed results and flagged inconsistencies to improve data reliability.
+- Awarded Best Performance for consistently high-quality work.
+:::
+:::
+
+## Awards
+
+::: {.badges}
+[First Class Honours, BSc]{.badge-cute}
+[Dean's List Award]{.badge-cute}
+[BMS Best Student Award]{.badge-cute}
+[Higher Diploma with Distinction]{.badge-cute}
+[Best Performance, ITI internship]{.badge-cute}
+[Published abstract]{.badge-cute}
+:::
+
 ## Research interests
 
 ::: {.card-grid}
@@ -121,4 +155,4 @@ Hydroponics, vertical farming and biofortification.
 
 ## Get in touch
 
-[Email me](mailto:halireenarush@gmail.com){.btn-cute .solid} [LinkedIn](https://www.linkedin.com/in/halireena){.btn-cute} [Full CV](cv.qmd){.btn-cute}
+[Contact form](contact.qmd){.btn-cute .solid} [LinkedIn](https://www.linkedin.com/in/halireena){.btn-cute} [Download CV](cv.qmd){.btn-cute}

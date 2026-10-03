@@ -206,3 +206,19 @@ figcaption { color: $muted; text-align: center; font-size: .92rem; }
 .work-list .meta { font-size: .85rem; color: $muted; white-space: nowrap; text-align: right; }
 .band.dark .btn-cute.accent { background: #fff; border-color: #fff; color: $dark; }
 .band.dark .btn-cute.accent:hover { background: #E6EBF2; color: $dark; }
+
+/* ---------- Contact page ---------- */
+.contact-grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 2rem; margin-top: 1.5rem; }
+@media (max-width: 860px) { .contact-grid { grid-template-columns: 1fr; } }
+.contact-form label { display: block; font-weight: 600; font-size: .9rem; margin-bottom: 1rem; }
+.contact-form input, .contact-form select, .contact-form textarea { display: block; width: 100%; margin-top: .3rem; padding: .6rem .7rem;
+  border: 1px solid $line; border-radius: 6px; font: inherit; font-weight: 400; background: #fff; }
+.contact-form input:focus, .contact-form select:focus, .contact-form textarea:focus { outline: 2px solid $primary; border-color: $primary; }
+.contact-form button[disabled] { opacity: .5; cursor: not-allowed; }
+.form-note { margin-top: .8rem; font-size: .9rem; color: $muted; }
+.contact-aside { background: $tint; border: 1px solid $line; border-radius: 10px; padding: 1.3rem 1.5rem; align-self: start; }
+.contact-aside h3 { font-size: 1.05rem; margin: 0 0 .8rem; }
+.contact-aside p { margin: 0 0 .9rem; }
+.contact-aside .small { font-size: .88rem; color: $muted; }
+.btn-copy { margin-left: .5rem; font-size: .8rem; padding: .15rem .55rem; border: 1px solid $primary; color: $primary; background: #fff; border-radius: 4px; cursor: pointer; }
+.btn-copy:hover { background: $primary; color: #fff; }

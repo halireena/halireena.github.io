@@ -1,126 +1,18 @@
 ---
 title: "Curriculum Vitae"
-subtitle: "Halireena Mohomed · plant science · bioinformatics"
-toc: true
+toc: false
+resources:
+  - cv/Halireena_Mohomed_CV.pdf
 ---
 
-::: {.chips}
-[Dubai, UAE]{.chip}
-[MSc Bioinformatics (expected 2026)]{.chip}
-[BSc Biotechnology, First Class]{.chip}
-[Open to internships & entry-level roles]{.chip}
-:::
+My full CV is available as a PDF.
 
-MSc Bioinformatics student at the University of Birmingham Dubai with First Class Honours in
-Biotechnology. Strong background in biological data interpretation, genomics and scientific
-reporting, with experience in healthcare documentation and laboratory work.
+[Download CV (PDF)](cv/Halireena_Mohomed_CV.pdf){.btn-cute .solid download="Halireena_Mohomed_CV.pdf"}
+[Request the latest version](contact.qmd){.btn-cute}
 
-[LinkedIn](https://www.linkedin.com/in/halireena){.btn-cute .solid} [Email me](mailto:halireenarush@gmail.com){.btn-cute}
+**Summary:** MSc Bioinformatics candidate (University of Birmingham Dubai, expected 2026) with a
+First Class BSc (Hons) in Biotechnology (University of Northumbria, 2024). Research in
+machine-learning detection of crop disease from UAV imagery; laboratory experience in DNA
+extraction, PCR and hydroponic cultivation; clinical documentation experience.
 
-## Education
-
-::: {.timeline}
-::: {.tl-item}
-[09/2025 – 10/2026 (expected)]{.when}
-
-### MSc Bioinformatics, University of Birmingham Dubai
-
-**Thesis:** early detection of potato late blight from UAV multispectral images with machine
-learning. [Read the project →](projects/potato-late-blight/)
-
-**Key modules:** Introduction to Biology and Programming · Essentials of Biology · Mathematics &
-Statistics · Genomics & Next Generation Sequencing · Data Analytics & Statistical Machine Learning ·
-Metabolomics and advanced omics technologies
-:::
-::: {.tl-item}
-[01/2024 – 11/2024]{.when}
-
-### BSc (Hons) Biotechnology, University of Northumbria, Newcastle
-
-**First Class Honours · GPA 4.0** · Dean's List Award · BMS Best Student Award
-
-**Dissertation:** iron biofortification of *Alternanthera sessilis* and *Ipomoea aquatica* to help
-alleviate iron deficiency in Sri Lanka: a comparative study of hydroponic techniques
-(published abstract). [More →](projects/iron-biofortification/)
-:::
-::: {.tl-item}
-[Completed 01/2024]{.when}
-
-### Higher Diploma in Biotechnology, BMS School of Science, Sri Lanka
-
-**Distinction** · accredited pathway to the final year of the BSc (Hons) Biotechnology
-
-**Dissertation:** amplification of the *rbcL* gene region in pumpkin varieties in Sri Lanka.
-[More →](projects/pumpkin-rbcl/)
-:::
-:::
-
-## Experience
-
-::: {.timeline}
-::: {.tl-item}
-[10/2024 – 12/2024]{.when}
-
-### Medical Transcriptionist Trainee, Hemas Hospital, Sri Lanka
-
-- Transcribed dermatology and ophthalmology consultations for 40+ patients a day with high accuracy.
-- Supported the hospital's move to electronic health records.
-- Worked with consultants, nurses and IT teams in a fast-paced clinical setting.
-:::
-::: {.tl-item}
-[02/2023]{.when}
-
-### Laboratory Intern, Industrial Technology Institute (ITI), Sri Lanka
-
-- DNA extraction, PCR, gel electrophoresis and spectrophotometry using standard protocols.
-- Reviewed results and flagged inconsistencies to improve data reliability.
-- **Awarded Best Performance** for consistently high-quality work.
-:::
-:::
-
-## Awards
-
-::: {.badges}
-[First Class Honours, BSc]{.badge-cute}
-[Dean's List Award]{.badge-cute}
-[BMS Best Student Award]{.badge-cute}
-[Higher Diploma with Distinction]{.badge-cute}
-[Best Performance, ITI internship]{.badge-cute}
-[Published abstract]{.badge-cute}
-:::
-
-## Skills
-
-::: {.card-grid}
-::: {.cute-card}
-### Data & statistics
-
-R, SPSS, statistical analysis, biological data interpretation; Python, Bash and Git (working knowledge)
-:::
-::: {.cute-card}
-### Bioinformatics tools
-
-Galaxy, BLAST, Clustal Omega, MEGA, PLINK, GAPIT3, MetaboAnalyst, limma, clusterProfiler
-:::
-::: {.cute-card}
-### Laboratory
-
-DNA extraction, PCR, gel electrophoresis, spectrophotometry, hydroponic growing systems
-:::
-::: {.cute-card}
-### Communication
-
-Scientific writing and reporting, clinical documentation, Microsoft Office
-:::
-:::
-
-## Languages
-
-::: {.chips}
-[English: fluent]{.chip}
-[Sinhala: native]{.chip}
-[Tamil: understanding]{.chip}
-[Hindi: understanding]{.chip}
-:::
-
-References available on request.
+A summary of my education, experience and skills is on the [About](about.qmd) page.

@@ -1,0 +1,64 @@
+---
+title: "Contact"
+toc: false
+---
+
+I am seeking internships and entry-level roles in bioinformatics, plant science and agritech in
+the UAE / Gulf region and the Netherlands. Use the form to get in touch or to request my CV.
+
+```{=html}
+<div class="contact-grid">
+  <form id="contact-form" class="contact-form" method="POST" action="">
+    <label>Your name <input type="text" name="name" required></label>
+    <label>Your email <input type="email" name="email" required></label>
+    <label>Subject
+      <select name="subject">
+        <option>General enquiry</option>
+        <option>Request for CV</option>
+        <option>Internship or role</option>
+        <option>Collaboration</option>
+      </select>
+    </label>
+    <label>Message <textarea name="message" rows="6" required></textarea></label>
+    <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+    <button type="submit" class="btn-cute solid">Send message</button>
+    <p class="form-note" id="form-note"></p>
+  </form>
+  <aside class="contact-aside">
+    <h3>Other ways to reach me</h3>
+    <p><strong>Email</strong><br>
+      <span id="email-text">halireenarush@gmail.com</span>
+      <button type="button" class="btn-copy" id="copy-email">Copy</button></p>
+    <p><strong>LinkedIn</strong><br><a href="https://www.linkedin.com/in/halireena">linkedin.com/in/halireena</a></p>
+    <p><strong>GitHub</strong><br><a href="https://github.com/halireena">github.com/halireena</a></p>
+    <p class="small">Based in Dubai, United Arab Emirates.</p>
+  </aside>
+</div>
+<script>
+  // Form delivery is handled by Formspree. Paste your form ID between the quotes below.
+  const FORMSPREE_ID = "";
+  const form = document.getElementById("contact-form");
+  const note = document.getElementById("form-note");
+  if (FORMSPREE_ID) {
+    form.action = "https://formspree.io/f/" + FORMSPREE_ID;
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      note.textContent = "Sending…";
+      try {
+        const r = await fetch(form.action, { method: "POST", body: new FormData(form), headers: { Accept: "application/json" } });
+        if (r.ok) { form.reset(); note.textContent = "Thank you. Your message has been sent."; }
+        else { note.textContent = "Something went wrong. Please email me directly instead."; }
+      } catch { note.textContent = "Something went wrong. Please email me directly instead."; }
+    });
+  } else {
+    form.querySelector("button[type=submit]").disabled = true;
+    note.textContent = "The form is not connected yet. Please use the email address on the right.";
+  }
+  document.getElementById("copy-email").addEventListener("click", async (e) => {
+    const txt = document.getElementById("email-text").textContent;
+    try { await navigator.clipboard.writeText(txt); e.target.textContent = "Copied"; }
+    catch { window.prompt("Copy this address:", txt); }
+    setTimeout(() => { e.target.textContent = "Copy"; }, 2000);
+  });
+</script>
+```

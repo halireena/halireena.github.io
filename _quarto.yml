@@ -30,12 +30,11 @@ website:
       - text: GitHub
         href: https://github.com/halireena
         aria-label: GitHub
-      - href: mailto:halireenarush@gmail.com
+      - href: contact.qmd
         text: Contact
-        aria-label: Email Halireena
   page-footer:
     left: "© 2026 Halireena Mohomed"
-    right: "[LinkedIn](https://www.linkedin.com/in/halireena) · [GitHub](https://github.com/halireena) · [Email](mailto:halireenarush@gmail.com)"
+    right: "[LinkedIn](https://www.linkedin.com/in/halireena) · [GitHub](https://github.com/halireena) · [Contact](/contact.html)"
 
 format:
   html:
@@ -47,4 +46,4 @@ format:
     fig-align: center
     include-after-body:
       text: |
-        <script>document.querySelectorAll('.navbar a.nav-link[href^="mailto:"]').forEach(a=>a.classList.add('contact-btn'));</script>
+        <script>document.querySelectorAll('.navbar a.nav-link').forEach(a=>{ if (a.textContent.trim()==='Contact') a.classList.add('contact-btn'); });</script>

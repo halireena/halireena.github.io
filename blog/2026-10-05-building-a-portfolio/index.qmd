@@ -9,8 +9,8 @@ categories: [career, portfolio, writing]
 
 While rebuilding this site I read several guides on building a portfolio: a talk summary by a
 data scientist at a games company, a careers piece from a project-management training provider, a
-guide for student researchers, and a blog post by a data scientist who has kept a portfolio site
-going for six years. They come from very different corners, but they agree on more than I expected.
+guide for student researchers, a blog post by a data scientist who has kept a portfolio site
+going for six years, and a STEM recruiting firm's advice for science graduates. They come from very different corners, but they agree on more than I expected.
 
 Here is what stuck with me, in my own words, and what I changed because of it.
 
@@ -67,7 +67,16 @@ One guide lists "no call to action" as one of the most common mistakes.
 **What I changed:** the home page is now short. The detail lives on the About, Projects and CV pages,
 and every page ends with a way to contact me.
 
-## 7. Keep writing
+## 7. Say what did not work
+
+The science-recruiting guide and several data-science guides both ask for a "limitations and
+next steps" section. A project with honest limits reads as more credible than one that claims
+everything went well.
+
+**What I changed:** the thesis page now has a Limitations section: a test set that was not truly
+independent, noisy labels, and the detail lost by plot-level features.
+
+## 8. Keep writing
 
 The portfolio that has lasted six years works because its owner publishes something small every
 week. Long-form writing also shows communication skills that no code sample can.

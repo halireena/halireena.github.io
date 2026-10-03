@@ -75,6 +75,17 @@ The data belongs to my research group, so it isn't public. Everything below is s
 - **Bigger models didn't help:** random forest, XGBoost and the neural net scored no better than the baseline on the test flight.
 - **SNP data added nothing**, matching a recent study in wheat.
 
+## Limitations and next steps
+
+- **Flight 1 is not an independent test.** Most of its plots also appear in Flight 2, so the next
+  analysis trains on one flight and tests on varieties held out of the other.
+- **Labels are noisy.** Replicate plots of the same variety disagree 35.8% of the time, which caps
+  any model's achievable score.
+- **Plot-level features discard spatial detail.** A CNN on per-plot image crops is being tested as
+  a time-limited feasibility study.
+- **Data are not public.** They belong to the research group; a public version of the code will
+  accompany the paper.
+
 ## What I learned
 
 ::: {.learned}

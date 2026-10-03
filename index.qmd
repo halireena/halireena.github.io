@@ -23,7 +23,7 @@ page-layout: full
       </p>
       <div class="btn-row">
         <a class="btn-cute accent" href="projects.html">Selected work</a>
-        <a class="btn-cute light" href="cv.html">Curriculum vitae</a>
+        <a class="btn-cute light" href="cv.html">Download CV</a>
       </div>
     </div>
     <aside class="profile">
@@ -33,8 +33,8 @@ page-layout: full
         <dd>BSc (Hons) Biotechnology, First Class, University of Northumbria (2024)</dd>
         <dt>Thesis</dt><dd>Detection of potato late blight from UAV multispectral imagery</dd>
         <dt>Location</dt><dd>Dubai, United Arab Emirates</dd>
-        <dt>Contact</dt><dd><a href="mailto:halireenarush@gmail.com">halireenarush@gmail.com</a></dd>
-        <dd><a href="https://www.linkedin.com/in/halireena">linkedin.com/in/halireena</a></dd>
+        <dt>Contact</dt><dd>halireenarush@gmail.com</dd>
+        <dd><a href="contact.html">Contact form and CV request</a></dd>
       </dl>
     </aside>
   </div>
@@ -99,7 +99,7 @@ page-layout: full
         in the UAE / Gulf region and the Netherlands.</p>
     </div>
     <div class="contact-links">
-      <a href="mailto:halireenarush@gmail.com">halireenarush@gmail.com</a>
+      <a href="contact.html">Contact form and CV request</a>
       <a href="https://www.linkedin.com/in/halireena">linkedin.com/in/halireena</a>
       <a href="https://github.com/halireena">github.com/halireena</a>
     </div>

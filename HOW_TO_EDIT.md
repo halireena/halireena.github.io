@@ -59,7 +59,8 @@ projects.qmd             Projects page – lists everything in projects/ automat
 projects/                One folder per project
 blog.qmd                 Blog page – lists everything in blog/ automatically
 blog/                    One folder per blog post
-cv.qmd                   CV page
+cv.qmd                   CV page (download button); put your PDF at cv/Halireena_Mohomed_CV.pdf
+contact.qmd              Contact form (needs a free Formspree ID, see section 7)
 images/                  Pictures used across the site (e.g. the favicon)
 _templates/              Templates to copy: project-template, blog-post-template (not published)
 styles.css               Optional custom styling
@@ -224,8 +225,13 @@ match the file. Fix it, check with `quarto preview`, and push again.
   cards and the three "Latest writing" links are also here; update them when you add
   a new project or post you want on the home page.
 - **Your story, journey and skills:** `about.qmd` (normal Markdown).
-- **CV:** edit `cv.qmd`. To offer a PDF, put it at `cv.pdf` next to `cv.qmd` and add
-  the line `[📄 Download PDF](cv.pdf){.btn-cute .solid}`.
+- **CV:** save your CV as `cv/Halireena_Mohomed_CV.pdf` (exact name). The Download
+  button on the CV page points to it. To update your CV, just replace that file and push.
+- **Contact form:** it sends messages through Formspree (free). Sign up at
+  https://formspree.io, create a form that delivers to your email, copy its ID
+  (looks like `xabcdefg`), and paste it in `contact.qmd` on the line
+  `const FORMSPREE_ID = "";` between the quotes. Until then the form is disabled and
+  visitors are pointed to your email address instead.
 - **Colours and fonts:** the top of `theme.scss` (e.g. `$rose: #D9837B;`).
 
 ## 8. (Later) Running code inside pages
