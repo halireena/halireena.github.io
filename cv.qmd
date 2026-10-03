@@ -2,18 +2,18 @@
 title: "Curriculum Vitae"
 toc: false
 resources:
-  - cv/Halireena_Mohomed_CV.pdf
+  - cv/Halireena_Rushdiha_CV.pdf
 ---
 
 My full CV is available as a PDF.
 
-[Download CV (PDF)](cv/Halireena_Mohomed_CV.pdf){.btn-cute .solid #cv-download download="Halireena_Mohomed_CV.pdf"}
+[Download CV (PDF)](cv/Halireena_Rushdiha_CV.pdf){.btn-cute .solid #cv-download download="Halireena_Rushdiha_CV.pdf"}
 [Request the latest version](contact.qmd){.btn-cute}
 
 ```{=html}
 <script>
-  // Hide the download button until the PDF has been uploaded to cv/Halireena_Mohomed_CV.pdf
-  fetch("cv/Halireena_Mohomed_CV.pdf", { method: "HEAD" })
+  // Hide the download button until the PDF has been uploaded to cv/Halireena_Rushdiha_CV.pdf
+  fetch("cv/Halireena_Rushdiha_CV.pdf", { method: "HEAD" })
     .then(r => { if (!r.ok) throw new Error(); })
     .catch(() => {
       const b = document.getElementById("cv-download");

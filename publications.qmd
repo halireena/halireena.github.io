@@ -11,7 +11,7 @@ toc: true
 
 ### Iron-biofortification of *Alternanthera sessilis* and *Ipomoea aquatica* to help alleviate iron deficiency in Sri Lanka: a comparative study of hydroponics techniques
 
-Mohomed, H. R. Published abstract from the BSc (Hons) Biotechnology dissertation,
+Rushdiha, H. Published abstract from the BSc (Hons) Biotechnology dissertation,
 University of Northumbria. <!-- Add the venue, co-authors and link/DOI here. -->
 
 [Project page](projects/iron-biofortification/){.btn-cute}

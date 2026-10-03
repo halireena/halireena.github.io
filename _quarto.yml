@@ -6,7 +6,7 @@ project:
     - "!HOW_TO_EDIT.md"
 
 website:
-  title: "Halireena Mohomed"
+  title: "Halireena Rushdiha"
   site-url: https://halireena.github.io
   description: "Plant scientist moving into bioinformatics: crop disease, genomics and honest data analysis."
   favicon: images/favicon.svg
@@ -37,7 +37,7 @@ website:
       - href: contact.qmd
         text: Contact
   page-footer:
-    left: "© 2026 Halireena Mohomed"
+    left: "© 2026 Halireena Rushdiha"
     right: "[LinkedIn](https://www.linkedin.com/in/halireena) · [GitHub](https://github.com/halireena) · [Contact](/contact.html)"
 
 format:

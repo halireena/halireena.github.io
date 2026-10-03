@@ -13,50 +13,54 @@ I like questions where plant biology meets data: crop stress, disease and the ge
 And I care about doing the analysis properly, because a model that scores well on a lucky split
 helps nobody.
 
-## Journey
+## Timeline
 
-::: {.journey}
-::: {.step}
-[Completed 01/2024]{.yr}
+::: {.timeline}
+::: {.tl-item}
+[02/2023 · Sri Lanka]{.when}
 
-#### Higher Diploma in Biotechnology, Distinction
+### Laboratory Intern, Industrial Technology Institute (ITI)
 
-BMS School of Science, Sri Lanka. Dissertation on the *rbcL* gene in pumpkin varieties.
+DNA extraction, PCR, gel electrophoresis and spectrophotometry. Awarded Best Performance.
 :::
-::: {.step}
-[02/2023]{.yr}
+::: {.tl-item}
+[Completed 01/2024 · Sri Lanka]{.when}
 
-#### Laboratory Intern
+### Higher Diploma in Biotechnology, BMS School of Science
 
-Industrial Technology Institute, Sri Lanka. DNA extraction, PCR, gels. Best Performance award.
+Distinction. Dissertation on amplification of the *rbcL* gene region in pumpkin varieties.
+Accredited pathway to the final year of the BSc (Hons).
 :::
-::: {.step}
-[01/2024 – 11/2024]{.yr}
+::: {.tl-item}
+[01/2024 – 11/2024 · University of Northumbria, Newcastle]{.when}
 
-#### BSc (Hons) Biotechnology, First Class
+### BSc (Hons) Biotechnology, First Class
 
-University of Northumbria. Iron biofortification of leafy greens; published abstract.
+GPA 4.0. Dean's List Award and BMS Best Student Award. Dissertation on iron biofortification of
+leafy greens, published as an abstract.
 :::
-::: {.step}
-[10/2024 – 12/2024]{.yr}
+::: {.tl-item}
+[10/2024 – 12/2024 · Sri Lanka]{.when}
 
-#### Medical Transcriptionist Trainee
+### Medical Transcriptionist Trainee, Hemas Hospital
 
-Hemas Hospital, Sri Lanka. Clinical documentation and the move to electronic records.
+Transcribed dermatology and ophthalmology consultations for 40+ patients a day; supported the
+move to electronic health records; worked with consultants, nurses and IT teams.
 :::
-::: {.step}
-[09/2025 – 10/2026]{.yr}
+::: {.tl-item}
+[09/2025 – 10/2026 (expected) · University of Birmingham Dubai]{.when}
 
-#### MSc Bioinformatics
+### MSc Bioinformatics
 
-University of Birmingham Dubai. Thesis on potato late blight from UAV imagery.
+Thesis on detection of potato late blight from UAV multispectral imagery. Conference abstract
+and paper in preparation.
 :::
-::: {.step}
-[Next]{.yr}
+::: {.tl-item}
+[Next · UAE / Gulf or the Netherlands]{.when}
 
-#### Plant genomics and agritech
+### Plant genomics and agritech
 
-Crop stress, breeding and data, in the Gulf or the Netherlands.
+Internships and entry-level roles in bioinformatics, crop genomics and agritech.
 :::
 :::
 
@@ -76,38 +80,15 @@ Listed honestly: only tools I have actually used.
 ### Working knowledge
 
 ::: {.chips}
-[Python]{.chip} [Bash]{.chip} [Git]{.chip} [Galaxy]{.chip} [BLAST]{.chip} [MEGA]{.chip} [PLINK]{.chip} [GAPIT3]{.chip} [MetaboAnalyst]{.chip} [limma]{.chip}
+[Python]{.chip} [Bash]{.chip} [Git]{.chip} [Galaxy]{.chip} [BLAST]{.chip} [MEGA]{.chip} [MetaboAnalyst]{.chip} [limma]{.chip}
 :::
 :::
 ::: {.level}
 ### Currently developing
 
 ::: {.chips}
-[Snakemake]{.chip} [GWAS workflows]{.chip} [Variant calling]{.chip} [Multi-omics]{.chip} [CNNs for imagery]{.chip}
+[Snakemake]{.chip} [GWAS]{.chip} [Variant calling]{.chip} [Multi-omics]{.chip} [CNNs for imagery]{.chip}
 :::
-:::
-:::
-
-## Experience
-
-::: {.timeline}
-::: {.tl-item}
-[10/2024 – 12/2024]{.when}
-
-### Medical Transcriptionist Trainee, Hemas Hospital, Sri Lanka
-
-- Transcribed dermatology and ophthalmology consultations for 40+ patients a day with high accuracy.
-- Supported the hospital's transition to electronic health records.
-- Worked with consultants, nurses and IT teams in a fast-paced clinical setting.
-:::
-::: {.tl-item}
-[02/2023]{.when}
-
-### Laboratory Intern, Industrial Technology Institute (ITI), Sri Lanka
-
-- DNA extraction, PCR, gel electrophoresis and spectrophotometry using standard protocols.
-- Reviewed results and flagged inconsistencies to improve data reliability.
-- Awarded Best Performance for consistently high-quality work.
 :::
 :::
 

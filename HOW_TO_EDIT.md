@@ -59,7 +59,7 @@ projects.qmd             Projects page – lists everything in projects/ automat
 projects/                One folder per project
 blog.qmd                 Blog page – lists everything in blog/ automatically
 blog/                    One folder per blog post
-cv.qmd                   CV page (download button); put your PDF at cv/Halireena_Mohomed_CV.pdf
+cv.qmd                   CV page (download button); put your PDF at cv/Halireena_Rushdiha_CV.pdf
 contact.qmd              Contact form (needs a free Formspree ID, see section 7)
 images/                  Pictures used across the site (e.g. the favicon)
 _templates/              Templates to copy: project-template, blog-post-template (not published)
@@ -176,9 +176,8 @@ lines. Open `projects/potato-late-blight/index.qmd` to see them and copy what yo
 
 **Image used across the site** (e.g. your photo): put it in `images/` and
 refer to it from the page, e.g. `![My photo](images/me.jpg)` on a top-level page.
-To put a profile photo in the circle on the home page, save it as `images/me.jpg`
-and replace `HM` inside the `portrait` div in `index.qmd` with
-`<img src="images/me.jpg" alt="Halireena Mohomed">`.
+Your photo on the home page: save it as `images/me.jpg` (a square crop works best,
+about 600×600 px). It appears automatically; if the file is missing, the space is hidden.
 
 Optional extras:
 
@@ -247,7 +246,7 @@ match the file. Fix it, check with `quarto preview`, and push again.
   cards and the three "Latest writing" links are also here; update them when you add
   a new project or post you want on the home page.
 - **Your story, journey and skills:** `about.qmd` (normal Markdown).
-- **CV:** save your CV as `cv/Halireena_Mohomed_CV.pdf` (exact name). The Download
+- **CV:** save your CV as `cv/Halireena_Rushdiha_CV.pdf` (exact name). The Download
   button on the CV page points to it. To update your CV, just replace that file and push.
 - **Contact form:** it sends messages through Formspree (free). Sign up at
   https://formspree.io, create a form that delivers to your email, copy its ID

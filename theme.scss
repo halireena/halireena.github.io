@@ -232,3 +232,5 @@ figcaption { color: $muted; text-align: center; font-size: .92rem; }
 .photo-grid figure { break-inside: avoid; margin: 0 0 1rem; }
 .photo-grid figure img { width: 100%; height: auto; border-radius: 8px; border: 1px solid $line; display: block; }
 .photo-grid figcaption { font-size: .85rem; margin-top: .35rem; }
+.hero .portrait { width: 200px; height: 200px; border-radius: 50%; overflow: hidden; margin: 0 auto 1.2rem; border: 4px solid rgba(255,255,255,.15); }
+.hero .portrait img { width: 100%; height: 100%; object-fit: cover; display: block; }

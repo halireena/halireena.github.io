@@ -1,6 +1,6 @@
 ---
-title: "Halireena Mohomed"
-pagetitle: "Halireena Mohomed · Bioinformatics & Plant Science"
+title: "Halireena Rushdiha"
+pagetitle: "Halireena Rushdiha · Bioinformatics & Plant Science"
 toc: false
 title-block-banner: false
 page-layout: full
@@ -13,7 +13,7 @@ page-layout: full
   <div class="band-inner hero">
     <div>
       <div class="kicker">Bioinformatics · Plant science</div>
-      <h1>Halireena Mohomed</h1>
+      <h1>Halireena Rushdiha</h1>
       <div class="role">MSc Bioinformatics candidate, University of Birmingham Dubai</div>
       <p class="lead">
         Plant scientist moving into bioinformatics, with a First Class BSc (Hons) in Biotechnology.
@@ -26,17 +26,19 @@ page-layout: full
         <a class="btn-cute light" href="cv.html">Download CV</a>
       </div>
     </div>
+    <div>
+      <div class="portrait" id="portrait"><img src="images/me.jpg" alt="Halireena Rushdiha" onerror="document.getElementById('portrait').style.display='none'"></div>
     <aside class="profile">
       <h3>Profile</h3>
       <dl>
         <dt>Education</dt><dd>MSc Bioinformatics, University of Birmingham Dubai (expected 2026)</dd>
         <dd>BSc (Hons) Biotechnology, First Class, University of Northumbria (2024)</dd>
-        <dt>Thesis</dt><dd>Detection of potato late blight from UAV multispectral imagery</dd>
         <dt>Location</dt><dd>Dubai, United Arab Emirates</dd>
         <dt>Contact</dt><dd>halireenarush@gmail.com</dd>
         <dd><a href="contact.html">Contact form and CV request</a></dd>
       </dl>
     </aside>
+    </div>
   </div>
 </section>
 
@@ -63,7 +65,7 @@ page-layout: full
     </div>
     <div class="work-list">
       <a href="projects/iron-biofortification/"><div><h3>Iron biofortification of <em>Alternanthera sessilis</em> and <em>Ipomoea aquatica</em></h3><p>Comparative study of hydroponic techniques. BSc dissertation; published abstract.</p></div><div class="meta">BSc · 2024</div></a>
-      <a href="projects/msc-analyses/"><div><h3>Transcriptomics, GWAS and metagenomics analyses</h3><p>Potato phosphate-stress microarray analysis (limma), Peking duck GWAS (PLINK, GAPIT3) and a metagenomics project.</p></div><div class="meta">MSc · 2026</div></a>
+      <a href="projects/msc-analyses/"><div><h3>Transcriptomics and metagenomics analyses</h3><p>Potato phosphate-stress microarray analysis (limma, clusterProfiler) and a metagenomics project.</p></div><div class="meta">MSc · 2026</div></a>
       <a href="projects/pumpkin-rbcl/"><div><h3>Amplification of the <em>rbcL</em> gene region in Sri Lankan pumpkin varieties</h3><p>DNA extraction, PCR and gel electrophoresis. Higher Diploma dissertation, Distinction.</p></div><div class="meta">Higher Diploma · 2024</div></a>
     </div>
   </div>
@@ -73,7 +75,7 @@ page-layout: full
   <div class="band-inner">
     <h2>Areas of expertise</h2>
     <div class="info-grid">
-      <div class="info"><h3>Statistical evaluation</h3><p>Grouped cross-validation, permutation tests, bootstrap confidence intervals and baseline comparison, so that reported performance reflects generalisation.</p></div>
+      <div class="info"><h3>Bioinformatics and data analysis</h3><p>R-based analysis of biological data, from microarray transcriptomics to machine learning on crop imagery, with Galaxy, BLAST and MEGA for sequence work.</p></div>
       <div class="info"><h3>Plant biology and laboratory methods</h3><p>DNA extraction, PCR, gel electrophoresis, spectrophotometry and hydroponic cultivation, providing biological context for the data.</p></div>
       <div class="info"><h3>Scientific communication</h3><p>Scientific reports, a published abstract and clinical documentation experience.</p></div>
     </div>
@@ -84,9 +86,9 @@ page-layout: full
   <div class="band-inner">
     <div class="band-head"><h2>Recent writing</h2><a class="more" href="blog.html">All posts →</a></div>
     <div class="post-list">
-      <a href="blog/2026-10-05-building-a-portfolio/"><div class="date">5 October 2026</div><h3>What makes a research portfolio worth reading?</h3><p>Principles from four guides, and how they shaped this site.</p></a>
       <a href="blog/2026-10-04-my-33-week-plan/"><div class="date">4 October 2026</div><h3>A 33-week plan for independent bioinformatics work</h3><p>From running tools to building analyses from scratch.</p></a>
       <a href="blog/2026-10-02-honest-validation/"><div class="date">2 October 2026</div><h3>Why a lower score was the better result</h3><p>Variety-grouped validation in a 250-variety field trial.</p></a>
+      <a href="blog/2026-10-03-hello-world/"><div class="date">3 October 2026</div><h3>About this site</h3><p>Purpose and structure of this site.</p></a>
     </div>
   </div>
 </section>
