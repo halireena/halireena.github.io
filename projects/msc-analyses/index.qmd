@@ -1,0 +1,54 @@
+---
+title: "MSc analyses: from microarrays to GWAS"
+description: "Analyses from my MSc modules: potato phosphate-stress transcriptomics, a GWAS in Peking ducks and a metagenomics project, now being rebuilt in my own code."
+date: 2026-06-01
+order: 4             # position on the Projects page (1 = first)
+categories: [MSc, transcriptomics, GWAS, metagenomics, R]
+image: ../../images/thumbs/msc.svg
+---
+
+::: {.question-box}
+What happens inside a potato under phosphate stress, and which genes sit behind a trait?
+:::
+
+During my MSc I worked through three classic kinds of analysis using established tools.
+I'm now **rebuilding each one in my own code**, and each will get its own page as it's finished.
+
+::: {.card-grid}
+::: {.cute-card}
+[🥔]{.icon .bg-butter}
+
+### Phosphate-stress transcriptomics
+
+Potato microarray data (ArrayExpress E-MTAB-2990). Differential expression with **limma**,
+then enrichment with **clusterProfiler**.
+:::
+::: {.cute-card}
+[🦆]{.icon .bg-sky}
+
+### Peking duck GWAS
+
+Genome-wide association with **PLINK** for quality control and **GAPIT3** for association testing.
+:::
+::: {.cute-card}
+[🦠]{.icon .bg-blush}
+
+### Metagenomics
+
+A microbial community project done together with a friend.
+:::
+:::
+
+## Tools I used
+
+::: {.chips}
+[R]{.chip} [limma]{.chip} [clusterProfiler]{.chip} [PLINK]{.chip} [GAPIT3]{.chip}
+[Galaxy]{.chip} [BLAST]{.chip} [Clustal Omega]{.chip} [MEGA]{.chip} [MetaboAnalyst]{.chip}
+:::
+
+## What I learned
+
+::: {.learned}
+- Running a tool and understanding it are different things. That's why I'm rewriting these analyses myself.
+- Plant transcriptomics and GWAS are the areas I want to grow into.
+:::

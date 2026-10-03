@@ -1,87 +1,134 @@
 ---
 title: "Curriculum Vitae"
-subtitle: "Bioinformatics · plant science · machine learning"
+subtitle: "Halireena Mohomed · plant science · bioinformatics"
 toc: true
 ---
 
 ::: {.chips}
 [📍 Dubai, UAE]{.chip}
-[🎓 MSc Bioinformatics]{.chip}
-[🌱 Open to internships & graduate roles]{.chip}
+[🎓 MSc Bioinformatics (expected 2026)]{.chip}
+[🥇 BSc Biotechnology, First Class]{.chip}
+[🌱 Open to internships & entry-level roles]{.chip}
 :::
+
+MSc Bioinformatics student at the University of Birmingham Dubai with First Class Honours in
+Biotechnology. Strong background in biological data interpretation, genomics and scientific
+reporting, with experience in healthcare documentation and laboratory work.
+
+[💼 LinkedIn](https://www.linkedin.com/in/halireena){.btn-cute .solid} [✉️ Email me](mailto:halireenarush@gmail.com){.btn-cute}
 
 ## Education
 
 ::: {.timeline}
 ::: {.tl-item}
-[2025 – 2026]{.when}
+[09/2025 – 10/2026 (expected)]{.when}
 
-### MSc Bioinformatics, University of Birmingham (Dubai)
+### MSc Bioinformatics, University of Birmingham Dubai
 
-**Thesis:** Detecting potato late blight from UAV multispectral imagery across ~280 varieties,
-with variety-grouped validation, permutation tests and SNP-data fusion.
-[Read the project →](projects/potato-late-blight/)
+**Thesis:** early detection of potato late blight from UAV multispectral images with machine
+learning. [Read the project →](projects/potato-late-blight/)
+
+**Key modules:** Introduction to Biology and Programming · Essentials of Biology · Mathematics &
+Statistics · Genomics & Next Generation Sequencing · Data Analytics & Statistical Machine Learning ·
+Metabolomics and advanced omics technologies
+:::
+::: {.tl-item}
+[01/2024 – 11/2024]{.when}
+
+### BSc (Hons) Biotechnology, University of Northumbria, Newcastle
+
+**First Class Honours · GPA 4.0** · Dean's List Award · BMS Best Student Award
+
+**Dissertation:** iron biofortification of *Alternanthera sessilis* and *Ipomoea aquatica* to help
+alleviate iron deficiency in Sri Lanka: a comparative study of hydroponic techniques
+(published abstract). [More →](projects/iron-biofortification/)
+:::
+::: {.tl-item}
+[Completed 01/2024]{.when}
+
+### Higher Diploma in Biotechnology, BMS School of Science, Sri Lanka
+
+**Distinction** · accredited pathway to the final year of the BSc (Hons) Biotechnology
+
+**Dissertation:** amplification of the *rbcL* gene region in pumpkin varieties in Sri Lanka.
+[More →](projects/pumpkin-rbcl/)
 :::
 :::
 
-## Research & projects
+## Experience
 
 ::: {.timeline}
 ::: {.tl-item}
-[2026 – now]{.when}
+[10/2024 – 12/2024]{.when}
 
-### Late-blight evaluation paper (in preparation)
+### Medical Transcriptionist Trainee, Hemas Hospital, Sri Lanka
 
-Turning the thesis into an evaluation study: a stricter held-out-variety test, confidence
-intervals that resample whole varieties, and a CNN feasibility test on plot images.
+- Transcribed dermatology and ophthalmology consultations for 40+ patients a day with high accuracy.
+- Supported the hospital's move to electronic health records.
+- Worked with consultants, nurses and IT teams in a fast-paced clinical setting.
 :::
 ::: {.tl-item}
-[2026]{.when}
+[02/2023]{.when}
 
-### rushtools: R & Python packages
+### Laboratory Intern, Industrial Technology Institute (ITI), Sri Lanka
 
-Personal function libraries with testthat and pytest suites, run automatically by GitHub Actions.
-[More →](projects/rushtools/)
+- DNA extraction, PCR, gel electrophoresis and spectrophotometry using standard protocols.
+- Reviewed results and flagged inconsistencies to improve data reliability.
+- **Awarded Best Performance** for consistently high-quality work.
 :::
-::: {.tl-item}
-[2026]{.when}
-
-### Paper reproduction labs
-
-Re-did published analyses from scratch: Palmer penguins, potato GWAS, RNA-seq (airway) and
-disease text mining. [More →](projects/paper-reproductions/)
 :::
+
+## Awards
+
+::: {.badges}
+[🥇 First Class Honours, BSc]{.badge-cute}
+[🏅 Dean's List Award]{.badge-cute}
+[⭐ BMS Best Student Award]{.badge-cute}
+[🎓 Higher Diploma with Distinction]{.badge-cute}
+[🧪 Best Performance, ITI internship]{.badge-cute}
+[📄 Published abstract]{.badge-cute}
 :::
 
 ## Skills
 
 ::: {.card-grid}
 ::: {.cute-card}
-[💻]{.icon .bg-sky}
-
-### Programming
-
-Python (pandas, scikit-learn, XGBoost), R (tidyverse, testthat), Bash
-:::
-::: {.cute-card}
 [📊]{.icon .bg-blush}
 
-### Statistics & ML
+### Data & statistics
 
-Grouped cross-validation, permutation tests, bootstrap confidence intervals, model comparison
+R, SPSS, statistical analysis, biological data interpretation; Python, Bash and Git (working knowledge)
 :::
 ::: {.cute-card}
 [🧬]{.icon .bg-lavender}
 
-### Bioinformatics
+### Bioinformatics tools
 
-GWAS, SNP data, variant calling, RNA-seq, multi-omics, multispectral image features
+Galaxy, BLAST, Clustal Omega, MEGA, PLINK, GAPIT3, MetaboAnalyst, limma, clusterProfiler
 :::
 ::: {.cute-card}
-[🛠️]{.icon .bg-butter}
+[🧪]{.icon .bg-butter}
 
-### Tools
+### Laboratory
 
-Git, GitHub Actions, HPC (BlueBEAR), Quarto, reproducible pipelines
+DNA extraction, PCR, gel electrophoresis, spectrophotometry, hydroponic growing systems
+:::
+::: {.cute-card}
+[✍️]{.icon .bg-sky}
+
+### Communication
+
+Scientific writing and reporting, clinical documentation, Microsoft Office
 :::
 :::
+
+## Languages
+
+::: {.chips}
+[🇬🇧 English: fluent]{.chip}
+[🇱🇰 Sinhala: native]{.chip}
+[Tamil: understanding]{.chip}
+[Hindi: understanding]{.chip}
+:::
+
+References available on request.

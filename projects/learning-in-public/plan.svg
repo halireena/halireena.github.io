@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" font-family="Nunito, Helvetica, Arial, sans-serif" role="img" aria-label="My 33-week plan in five phases from October 2026 to May 2027">
+  <rect width="960" height="300" rx="28" fill="#FFFBF5"/>
+  <path d="M70 150 H 890" stroke="#E6DED3" stroke-width="10" stroke-linecap="round"/>
+  <g stroke="#2F4A3A" stroke-width="3.5" text-anchor="middle" font-size="16" font-weight="700" fill="#2F4A3A">
+    <circle cx="110" cy="150" r="34" fill="#FBE6A6"/><circle cx="290" cy="150" r="34" fill="#F6C9C4"/><circle cx="470" cy="150" r="34" fill="#BFE0EC"/><circle cx="650" cy="150" r="34" fill="#CDBDF0"/><circle cx="840" cy="150" r="34" fill="#DDEFD9"/>
+    <g stroke="none" font-size="22"><text x="110" y="158">A</text><text x="290" y="158">B</text><text x="470" y="158">C</text><text x="650" y="158">D</text><text x="840" y="158">E</text></g>
+    <g stroke="none"><text x="110" y="80">Restart</text><text x="290" y="80">Core skills</text><text x="470" y="80">Pipelines</text><text x="650" y="80">Omics breadth</text><text x="840" y="80">Independence</text></g>
+    <g stroke="none" font-weight="400" font-size="14" fill="#55645a">
+      <text x="110" y="215">Bash, Git, Python</text><text x="110" y="235">mini-projects</text>
+      <text x="290" y="215">R, statistics,</text><text x="290" y="235">GWAS, Snakemake</text>
+      <text x="470" y="215">Variant calling</text><text x="470" y="235">pipeline</text>
+      <text x="650" y="215">RNA-seq, proteomics,</text><text x="650" y="235">metabolomics, SQL</text>
+      <text x="840" y="215">Rebuild without help,</text><text x="840" y="235">new datasets</text>
+      <text x="110" y="110">Oct – Nov</text><text x="290" y="110">Dec – Jan</text><text x="470" y="110">Jan – Feb</text><text x="650" y="110">Feb – Apr</text><text x="840" y="110">May 2027</text>
+    </g>
+  </g>
+</svg>

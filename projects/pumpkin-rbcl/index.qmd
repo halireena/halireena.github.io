@@ -1,0 +1,39 @@
+---
+title: "A barcode gene in Sri Lankan pumpkins"
+description: "My Higher Diploma dissertation: amplifying the rbcL gene region in pumpkin varieties grown in Sri Lanka."
+date: 2024-01-01
+order: 3             # position on the Projects page (1 = first)
+categories: [Higher Diploma, molecular biology, PCR, lab work]
+image: ../../images/thumbs/pumpkin.svg
+---
+
+::: {.question-box}
+Can the *rbcL* gene region be amplified reliably from local pumpkin varieties, as a first step towards telling them apart?
+:::
+
+::: {.badges}
+[🎓 Distinction]{.badge-cute}
+[🧬 Wet-lab project]{.badge-cute}
+:::
+
+## The question
+
+*rbcL* is a chloroplast gene widely used as a **DNA barcode** for plants. Before you can compare
+varieties with it, you need a reliable way to amplify it from each one. My dissertation tested
+that for pumpkin varieties grown in Sri Lanka.
+
+## Methods
+
+![From leaf to gel: the steps of the project.](gel.svg){fig-alt="Workflow illustration: leaf sample, DNA extraction, PCR of rbcL, gel electrophoresis"}
+
+1. **DNA extraction** from pumpkin leaf samples.
+2. **PCR** to amplify the *rbcL* gene region.
+3. **Gel electrophoresis** to check the amplified products.
+
+## What I learned
+
+::: {.learned}
+- Core molecular biology lab skills that I later used as a lab intern at the Industrial Technology Institute.
+- How to troubleshoot a PCR, and why careful documentation matters.
+- This project is where I first saw that DNA sequences are data, which led me to bioinformatics.
+:::

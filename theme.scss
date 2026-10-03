@@ -145,3 +145,24 @@ figcaption { font-style: italic; color: #6a786f; text-align: center; }
 .page-footer { border-top: 1px solid rgba(47,74,58,.08); }
 .home-wrap { max-width: 1120px; margin: 0 auto; padding: 0 1rem; }
 .stat .num, .stat .lbl { display: block; }
+
+/* ---------- Skill levels ---------- */
+.levels { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.2rem; margin: 1.2rem 0 2.5rem; }
+.level { background: #fff; border-radius: 1.4rem; padding: 1.3rem; box-shadow: var(--shadow); }
+.level h3 { font-size: 1.15rem; margin: 0 0 .2rem; }
+.level .dots { letter-spacing: .2em; color: $rose; font-size: 1.1rem; margin-bottom: .6rem; }
+.level .chips { margin: 0; }
+
+/* ---------- Journey ---------- */
+.journey { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 1rem; margin: 1.2rem 0 2.5rem; counter-reset: step; }
+.journey .step { position: relative; background: #fff; border-radius: 1.4rem; padding: 1.1rem 1rem 1rem; box-shadow: var(--shadow); text-align: center; }
+.journey .step .em { font-size: 2rem; display: block; margin-bottom: .3rem; }
+.journey .step .yr { font-weight: 800; color: $rose; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; }
+.journey .step h4 { font-family: "Fraunces", serif; color: $forest; font-size: 1.02rem; margin: .25rem 0; }
+.journey .step p { font-size: .88rem; color: #55645a; margin: 0; }
+.journey .step.next { background: linear-gradient(135deg, $butter, $blush); }
+
+.badges { display: flex; flex-wrap: wrap; gap: .7rem; margin: .8rem 0 2rem; }
+.badge-cute { background: #fff; border-radius: 1rem; padding: .6rem .9rem; box-shadow: var(--shadow); font-weight: 700; color: $forest; font-size: .95rem; }
+.journey { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 800px) { .journey { grid-template-columns: repeat(2, 1fr); } }

@@ -6,23 +6,24 @@ categories: [news, personal]
 image: ../../images/thumbs/hello.svg
 ---
 
-Hi, I'm Halireena! 👋
+Hi, I'm Halireena, but most people call me Rush! 👋
 
-I've just finished my **MSc in Bioinformatics** at the University of Birmingham (Dubai), where
-my thesis looked at spotting potato late blight from drone images. I presented it in September
-and it went really well. 🥔🛸
+I'm a plant scientist moving into bioinformatics. I'm in the final stretch of my **MSc in
+Bioinformatics** at the University of Birmingham Dubai, where my thesis looked at spotting potato
+late blight from drone images. I presented it in September and it went really well. 🥔🛸
 
 I built this site to keep my projects in one place, write down what I learn, and share it with
 anyone who's curious.
 
 ## What you'll find here
 
-- **[Projects](../../projects.qmd):** my thesis, my R and Python toolkits, and the papers I've reproduced to learn new methods.
+- **[Projects](../../projects.qmd):** my MSc thesis, my BSc and Higher Diploma dissertations, and the analyses I'm rebuilding in code.
 - **Blog:** short, friendly notes on things I've figured out, especially the ones that took me a while.
 - **[CV](../../cv.qmd):** the formal version of all of the above.
 
 ## What's next
 
-I'm turning my thesis into an evaluation paper, testing whether a CNN on the raw images can do
-better, and looking for **internships and graduate roles in bioinformatics**. If that sounds
+I'm turning my thesis into a conference abstract and a paper, learning to write my own
+bioinformatics code (follow along on the blog!), and looking for **internships and entry-level
+roles** in plant science, bioinformatics and agritech. If that sounds
 like your team, I'd love to hear from you! 💌

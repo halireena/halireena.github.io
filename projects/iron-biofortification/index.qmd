@@ -1,0 +1,41 @@
+---
+title: "Growing more iron into leafy greens"
+description: "My BSc dissertation: comparing hydroponic techniques to iron-biofortify two leafy vegetables eaten in Sri Lanka. Published as an abstract."
+date: 2024-11-01
+order: 2             # position on the Projects page (1 = first)
+categories: [BSc dissertation, plant science, hydroponics, published abstract]
+image: ../../images/thumbs/iron.svg
+---
+
+::: {.question-box}
+Can hydroponic growing raise the iron content of everyday leafy vegetables, and which technique works best?
+:::
+
+::: {.badges}
+[🥇 First Class Honours]{.badge-cute}
+[📄 Published abstract]{.badge-cute}
+[🏅 Dean's List Award]{.badge-cute}
+[⭐ BMS Best Student Award]{.badge-cute}
+:::
+
+## The question
+
+Iron deficiency is a common nutrition problem in Sri Lanka. Two leafy vegetables, *Alternanthera
+sessilis* and *Ipomoea aquatica* (water spinach), are cheap and widely eaten. If they could carry
+more iron, they could help close that gap without changing what people eat.
+
+## The approach
+
+![Two everyday leafy greens, grown with different hydroponic techniques to raise their iron content.](plants.svg){fig-alt="Illustration of Alternanthera sessilis and Ipomoea aquatica growing in hydroponic tanks with an iron droplet between them"}
+
+I grew both species with different **hydroponic techniques** and compared how well each one raised
+the plants' iron content. This was my dissertation for the BSc (Hons) Biotechnology at the
+University of Northumbria, and the work was **published as an abstract**.
+
+## What I learned
+
+::: {.learned}
+- How to plan and run a full plant experiment, from growing set-up to analysis and write-up.
+- That biofortification sits where plant science meets public health, which is exactly where I want to work.
+- How to turn a project into a short published abstract.
+:::

@@ -1,6 +1,6 @@
 ---
-title: "Halireena Rushdiha"
-pagetitle: "Halireena Rushdiha · Bioinformatics"
+title: "Halireena Mohomed"
+pagetitle: "Halireena Mohomed · Plant science & bioinformatics"
 toc: false
 title-block-banner: false
 page-layout: full
@@ -8,37 +8,41 @@ page-layout: full
 
 ```{=html}
 <style>#title-block-header { display: none; }</style>
-
 <div class="home-wrap">
 <section class="hero">
   <div>
-    <span class="hello">👋 Hi, I'm Halireena!</span>
-    <h1>I turn <span class="accent">plant data</span> into honest answers.</h1>
+    <span class="hello">👋 Hi, I'm Halireena (Rush)!</span>
+    <h1>Plant scientist moving into <span class="accent">bioinformatics</span>.</h1>
     <p class="lead">
-      Bioinformatician with an MSc from the University of Birmingham (Dubai). I love drones, potatoes,
-      genomes and making sure a model's score means what it says.
+      I like questions where plant biology meets data: crop stress, disease and the genetics behind them.
+      First Class BSc in Biotechnology, now finishing an MSc in Bioinformatics at the University of Birmingham Dubai.
     </p>
-    <p class="lead">🌱 <strong>Open to internships and graduate roles in bioinformatics.</strong></p>
+    <p class="lead">🌱 <strong>Open to internships and entry-level roles</strong> in the UAE / Gulf and the Netherlands.</p>
     <div class="btn-row">
       <a class="btn-cute solid" href="projects.html">✨ See my projects</a>
       <a class="btn-cute" href="cv.html">📄 My CV</a>
-      <a class="btn-cute" href="https://github.com/halireena">🐙 GitHub</a>
+      <a class="btn-cute" href="https://www.linkedin.com/in/halireena">💼 LinkedIn</a>
     </div>
   </div>
   <div style="text-align:center"><img src="images/hero.svg" alt="A smiling potato leaf being scanned by a little drone, next to a DNA helix"></div>
 </section>
 
-<p class="section-label">What I do</p>
-<h2>Things I'm good at</h2>
-<div class="card-grid">
-  <div class="cute-card"><div class="icon bg-sky">🛸</div><h3>Remote sensing</h3>
-    <p>Turning UAV multispectral imagery into per-plot vegetation indices and texture features.</p></div>
-  <div class="cute-card"><div class="icon bg-blush">🤖</div><h3>Machine learning</h3>
-    <p>Random forests, XGBoost and neural nets, tested with folds grouped by variety so the scores are honest.</p></div>
-  <div class="cute-card"><div class="icon bg-lavender">🧬</div><h3>Genomics</h3>
-    <p>SNP data, GWAS, variant calling and multi-omics, learned by reproducing published analyses.</p></div>
-  <div class="cute-card"><div class="icon bg-butter">🧰</div><h3>Reproducible code</h3>
-    <p>R and Python packages with tests, GitHub Actions, and one script that rebuilds every result.</p></div>
+<div class="stats">
+  <div class="stat"><div class="num">1st</div><div class="lbl">Class Honours, BSc Biotechnology</div></div>
+  <div class="stat"><div class="num">4.0</div><div class="lbl">BSc GPA</div></div>
+  <div class="stat"><div class="num">250+</div><div class="lbl">potato varieties in my MSc thesis</div></div>
+  <div class="stat"><div class="num">4</div><div class="lbl">languages spoken</div></div>
+</div>
+
+<p class="section-label">My journey</p>
+<h2>From the lab bench to the laptop</h2>
+<div class="journey">
+  <div class="step"><span class="em">🎃</span><span class="yr">Sri Lanka</span><h4>Higher Diploma</h4><p>Biotechnology, Distinction. rbcL gene in pumpkin varieties.</p></div>
+  <div class="step"><span class="em">🧪</span><span class="yr">2023</span><h4>Lab intern, ITI</h4><p>DNA extraction, PCR, gels. Best Performance award.</p></div>
+  <div class="step"><span class="em">🥬</span><span class="yr">2024</span><h4>BSc (Hons), 1st Class</h4><p>Northumbria. Iron biofortification of leafy greens.</p></div>
+  <div class="step"><span class="em">🏥</span><span class="yr">2024</span><h4>Hemas Hospital</h4><p>Medical transcription and the move to electronic records.</p></div>
+  <div class="step"><span class="em">🛸</span><span class="yr">2025 – 2026</span><h4>MSc Bioinformatics</h4><p>Birmingham Dubai. Potato late blight from drone images.</p></div>
+  <div class="step next"><span class="em">🌾</span><span class="yr">Next</span><h4>Plant genomics & agritech</h4><p>Crop stress, breeding and data. Maybe your team?</p></div>
 </div>
 
 <p class="section-label">Featured project</p>
@@ -47,35 +51,40 @@ page-layout: full
   <div><img src="projects/potato-late-blight/pipeline.svg" alt="Workflow from drone flights to honest model testing"></div>
   <div>
     <h3>🥔 Spotting potato late blight from the sky</h3>
-    <p>Can drone images tell which potato plots have late blight, across about <strong>280 varieties</strong>?
-      I built the full pipeline and tested it strictly. The signal is real but smaller than most
-      published papers suggest.</p>
+    <p>Can drone images tell which potato plots have late blight, across <strong>more than 250 varieties</strong>?
+      Tested honestly, the signal is real but smaller than most published papers suggest.
+      A conference abstract and paper are now in progress.</p>
     <div class="btn-row"><a class="btn-cute solid" href="projects/potato-late-blight/">Read the project →</a></div>
   </div>
 </div>
 
-<div class="stats">
-  <div class="stat"><div class="num">~280</div><div class="lbl">potato varieties</div></div>
-  <div class="stat"><div class="num">2</div><div class="lbl">UAV flights</div></div>
-  <div class="stat"><div class="num">0.617</div><div class="lbl">macro-F1, healthy vs diseased</div></div>
-  <div class="stat"><div class="num">0.004</div><div class="lbl">p-value, permutation test</div></div>
+<p class="section-label">Skills</p>
+<h2>What I use (honestly)</h2>
+<div class="levels">
+  <div class="level"><div class="dots">●●●</div><h3>Confident</h3>
+    <div class="chips"><span class="chip">R</span><span class="chip">SPSS</span><span class="chip">Statistics</span><span class="chip">Scientific writing</span><span class="chip">PCR & gels</span><span class="chip">DNA extraction</span></div></div>
+  <div class="level"><div class="dots">●●○</div><h3>Working knowledge</h3>
+    <div class="chips"><span class="chip">Python</span><span class="chip">Bash</span><span class="chip">Git</span><span class="chip">Galaxy</span><span class="chip">BLAST</span><span class="chip">MEGA</span><span class="chip">PLINK</span><span class="chip">GAPIT3</span><span class="chip">MetaboAnalyst</span><span class="chip">limma</span></div></div>
+  <div class="level"><div class="dots">●○○</div><h3>Learning now</h3>
+    <div class="chips"><span class="chip">Snakemake</span><span class="chip">GWAS in code</span><span class="chip">Variant calling</span><span class="chip">Multi-omics</span><span class="chip">CNNs for imagery</span></div></div>
 </div>
 
-<p class="section-label">Toolbox</p>
-<h2>Languages & tools</h2>
-<div class="chips">
-  <span class="chip">Python</span><span class="chip">R</span><span class="chip">scikit-learn</span>
-  <span class="chip">XGBoost</span><span class="chip">pandas</span><span class="chip">tidyverse</span>
-  <span class="chip">HPC (BlueBEAR)</span><span class="chip">Git & GitHub Actions</span><span class="chip">Quarto</span>
-  <span class="chip">GWAS</span><span class="chip">Variant calling</span><span class="chip">Multispectral imaging</span>
-  <span class="chip">Permutation tests</span><span class="chip">Bootstrap CIs</span><span class="chip">testthat & pytest</span>
+<p class="section-label">Interests</p>
+<h2>What gets me excited</h2>
+<div class="card-grid">
+  <div class="cute-card"><div class="icon bg-sage">🌾</div><h3>Crop genomics & breeding</h3><p>Finding the genetics behind traits breeders care about.</p></div>
+  <div class="cute-card"><div class="icon bg-sky">💧</div><h3>Salinity & drought stress</h3><p>How crops cope with the conditions of the Gulf.</p></div>
+  <div class="cute-card"><div class="icon bg-blush">🦠</div><h3>Plant–microbe interactions</h3><p>Disease, defence and the microbes around roots.</p></div>
+  <div class="cute-card"><div class="icon bg-butter">🏙️</div><h3>Hydroponics & vertical farming</h3><p>Growing more nutritious food with less land and water.</p></div>
 </div>
 
 <div class="feature" style="background: linear-gradient(135deg, #FBE6A6, #F6C9C4); text-align:center; display:block">
   <h3>💌 Let's work together</h3>
-  <p>I'm looking for internships and graduate roles in bioinformatics, especially in plant science and agri-tech.</p>
+  <p>I'm looking for internships and entry-level roles in bioinformatics, plant science and agritech.</p>
   <div class="btn-row" style="justify-content:center">
-    <a class="btn-cute solid" href="https://github.com/halireena">Say hi on GitHub</a>
+    <a class="btn-cute solid" href="https://www.linkedin.com/in/halireena">Connect on LinkedIn</a>
+    <a class="btn-cute" href="mailto:halireenarush@gmail.com">✉️ Email me</a>
+    <a class="btn-cute" href="https://github.com/halireena">🐙 GitHub</a>
   </div>
 </div>
 </div>

@@ -1,0 +1,30 @@
+---
+title: "My 33-week plan to write my own bioinformatics code"
+description: "From running tools to building analyses myself, one small daily win at a time."
+date: 2026-10-04
+categories: [learning, plans]
+image: ../../images/thumbs/roadmap.svg
+---
+
+Here's something I don't think people say enough: you can get through a bioinformatics MSc
+mostly by **running tools** (Galaxy, BLAST, PLINK, GAPIT3) without being able to write the code
+yourself. That was me. So I've made a plan to change it. 🌱
+
+![The five phases of my plan.](../../projects/learning-in-public/plan.svg){fig-alt="Timeline of five learning phases from October 2026 to May 2027"}
+
+## The rules I'm following
+
+1. **Small wins.** Every task fits in 60–90 minutes.
+2. **I type every line.** Hints first, answers only when I'm really stuck.
+3. **Everything goes on GitHub**, so progress is visible, even the messy bits.
+4. **One blog post a week** about what I built or learned.
+
+## What's first
+
+Three small Python projects about biology: a sequence toolkit, a FASTA stats tool and a plotter
+for plant trait data. Each one gets tests, a README and a page here when it's done.
+
+## Why share it?
+
+Because learning in public keeps me honest, and maybe it helps someone else who's in the same
+spot. If you're learning too, say hi! 💚

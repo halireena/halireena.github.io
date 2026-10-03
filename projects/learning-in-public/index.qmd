@@ -1,0 +1,60 @@
+---
+title: "Learning in public"
+description: "My 33-week plan to go from running tools to writing bioinformatics code myself, with every step on GitHub."
+date: 2026-10-03
+order: 5             # position on the Projects page (1 = first)
+categories: [learning, Python, R, Git]
+image: ../../images/thumbs/learning.svg
+---
+
+::: {.question-box}
+How do I go from *using* bioinformatics tools to *writing* the code myself?
+:::
+
+## The plan
+
+I've used many bioinformatics tools. Now I'm learning to build analyses from scratch, in small
+daily steps, with everything committed to GitHub so the progress is visible.
+
+![Five phases, October 2026 to May 2027.](plan.svg){fig-alt="Timeline of five phases: Restart, Core skills, Pipelines, Omics breadth, Independence"}
+
+## Coming soon
+
+::: {.card-grid}
+::: {.cute-card}
+[🧬]{.icon .bg-lavender}
+
+### Sequence toolkit
+
+A small Python package: GC content, reverse complement, translation, with tests.
+:::
+::: {.cute-card}
+[📄]{.icon .bg-sky}
+
+### FASTA stats CLI
+
+A command-line tool that summarises real plant FASTA files.
+:::
+::: {.cute-card}
+[🥔]{.icon .bg-butter}
+
+### Tetraploid potato GWAS
+
+Dosage-aware GWAS in potato with GWASpoly, written by me.
+:::
+::: {.cute-card}
+[🏠]{.icon .bg-blush}
+
+### Rush Hub
+
+My own study website, where I plan and track all of this.
+:::
+:::
+
+## How I learn
+
+::: {.learned}
+- Small daily wins: every task fits in 60–90 minutes.
+- I type every line myself, and only look at answers after trying.
+- One short blog post a week about what I built.
+:::

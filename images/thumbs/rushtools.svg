@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
-  <defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBE6A6"/><stop offset="1" stop-color="#F6C9C4"/></linearGradient></defs>
-  <rect width="600" height="400" fill="url(#b)"/>
-  <circle cx="520" cy="70" r="90" fill="#FFFBF5" opacity=".35"/><circle cx="70" cy="350" r="110" fill="#FFFBF5" opacity=".3"/>
-  <g stroke="#2F4A3A" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><rect x="170" y="160" width="260" height="150" rx="22" fill="#FFFBF5"/><path d="M250 160 V 125 Q 250 105 270 105 H 330 Q 350 105 350 125 V 160" fill="none"/><path d="M170 215 H 430"/><rect x="280" y="200" width="40" height="30" rx="8" fill="#6E9B76"/><text x="300" y="370" font-family="Georgia" font-size="34" text-anchor="middle" fill="#2F4A3A" stroke="none">R  +  Python</text></g>
-</svg>
