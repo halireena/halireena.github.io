@@ -83,6 +83,40 @@ cases involved consanguinity; both were treated as first-class considerations.
   Congress, Le Méridien Dubai, 19–20 September 2026. I wrote the poster's background section.
 - A manuscript is in preparation.
 
+## The congress poster
+
+The work was refined after the sprint and presented as **Poster No. 72** at the 4th International
+UAE Rare Disease Society Congress, Le Méridien Dubai, 19–20 September 2026.
+
+[![Poster No. 72: Transparent phenotype-driven variant reanalysis for unsolved rare disease cases in a Middle Eastern cohort. Click to enlarge. (Contact details blurred.)](poster-72.jpg){fig-alt="Congress poster with background, seven-step methods, results, discussion and conclusion sections" width=80%}](poster-72.jpg)
+
+Headline results in the congress version:
+
+::: {.stats}
+::: {.stat}
+[133]{.num}
+[evaluable cases (5 excluded)]{.lbl}
+:::
+::: {.stat}
+[15]{.num}
+[cases prioritised for expert review (11%)]{.lbl}
+:::
+::: {.stat}
+[18.5%]{.num}
+[of ACMG classifications with explicit evidence gaps]{.lbl}
+:::
+::: {.stat}
+[130]{.num}
+[cases with copy-number variant results]{.lbl}
+:::
+:::
+
+- *KMT2D* ranked first in agreement with Exomiser, with top-five agreement in 2 of 4 cases.
+- In an independent comparison with the one available clinical report, the top-ranked candidate
+  matched.
+- A lesson the poster highlights: a variant missing from gnomAD is not evidence that it is rare,
+  especially for under-represented populations.
+
 ## My role
 
 This was a team of three. My contributions included looking after the GitHub repository,

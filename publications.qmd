@@ -72,8 +72,10 @@ University of Sri Jayewardenepura. [Project page](projects/iron-biofortification
 
 ### Transparent phenotype-driven variant re-analysis for unsolved rare disease cases in a Middle Eastern cohort
 
-Team poster (Poster No. 72) based on our first-place BioConnect 2026 sprint project. I wrote the
-background section. [Project page](projects/rare-disease-reanalysis/)
+Baroudi, R., Latheef, F.N., **Mohomed, H.R.**, Waasia, F.Z., Toure, S.M. and El-Hadidi, M. (2026).
+Poster No. 72, 4th International UAE Rare Disease Society Congress, Le Méridien Dubai, 19–20
+September 2026. Based on our first-place BioConnect 2026 sprint project; I wrote the background
+section. [View the poster](projects/rare-disease-reanalysis/#the-congress-poster)
 :::
 ::: {.tl-item}
 [2026 · University of Birmingham Dubai]{.when}
