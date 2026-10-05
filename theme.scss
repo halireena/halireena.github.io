@@ -238,10 +238,11 @@ figcaption { color: $muted; text-align: center; font-size: .92rem; }
 /* ---------- Hero with photo ---------- */
 .hero { grid-template-columns: 1.4fr 1fr; }
 .portrait-wrap { display: flex; justify-content: center; }
-.hero .portrait { width: 300px; height: 300px; border-radius: 50%; object-fit: cover; border: 6px solid rgba(255,255,255,.14); box-shadow: 0 24px 60px -24px rgba(0,0,0,.7); display: block; }
+.hero .portrait { width: 300px; height: 300px; border-radius: 50%; object-fit: cover; border: none !important; background: none !important; box-shadow: 0 24px 60px -24px rgba(0,0,0,.6); display: block; }
 @media (max-width: 860px) { .hero .portrait { width: 220px; height: 220px; } .portrait-wrap { order: -1; } }
 .facts-band { padding: 1.4rem 0; background: $tint; border-bottom: 1px solid $line; }
 .facts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
 @media (max-width: 860px) { .facts { grid-template-columns: 1fr; gap: 1rem; } }
 .facts .k { display: block; font-size: .75rem; text-transform: uppercase; letter-spacing: .12em; color: $muted; font-weight: 600; margin-bottom: .3rem; }
 .facts .v { display: block; font-size: .93rem; color: $ink; }
+@media (max-width: 860px) { .hero { grid-template-columns: 1fr !important; text-align: center; } .hero .lead { margin-left: auto; margin-right: auto; } }

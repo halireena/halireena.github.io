@@ -2,6 +2,7 @@
 title: "Detection of potato late blight from UAV multispectral imagery"
 description: "MSc thesis. Machine-learning detection of late blight across 250+ potato varieties, evaluated with variety-grouped validation and permutation tests."
 date: 2026-09-18
+date-modified: 2026-10-05
 order: 1             # position on the Projects page (1 = first)
 categories: [MSc thesis, machine learning, remote sensing, Python]
 image: fig-scores.png
@@ -83,8 +84,7 @@ The data belongs to my research group, so it isn't public. Everything below is s
   any model's achievable score.
 - **Plot-level features discard spatial detail.** A CNN on per-plot image crops is being tested as
   a time-limited feasibility study.
-- **Data are not public.** They belong to the research group; a public version of the code will
-  accompany the paper.
+- **Data are not public.** They belong to the research group; the code is public.
 
 ## What I learned
 
@@ -97,6 +97,6 @@ The data belongs to my research group, so it isn't public. Everything below is s
 
 ## Code
 
-The data stays private because it belongs to my research group. A public version of the code will follow with the paper.
+The data stay private because they belong to the research group. The analysis code is public, with one command that reproduces every result.
 
-[View my GitHub](https://github.com/halireena){.btn-cute .solid}
+[View the repository on GitHub](https://github.com/halireena/potato-late-blight-uav){.btn-cute .solid}

@@ -1,7 +1,7 @@
 ---
 title: "Transcriptomic response of potato to phosphate starvation (E-MTAB-2990)"
-description: "MSc internship, University of Sharjah. A five-stage R pipeline giving the first systematic analysis of a public potato microarray dataset across four cultivars."
-date: 2026-07-01
+description: "Bioinformatics Research Intern, University of Sharjah (Feb–May 2026). A five-stage R pipeline giving the first systematic analysis of a public potato microarray dataset across four cultivars."
+date: 2026-05-31
 order: 2             # position on the Projects page (1 = first)
 categories: [Internship, transcriptomics, R, limma, microarray]
 image: fig-degs.png

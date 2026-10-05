@@ -33,7 +33,7 @@ page-layout: full
 
 <section class="band facts-band">
   <div class="band-inner facts">
-    <div><span class="k">Education</span><span class="v">MSc Bioinformatics, University of Birmingham Dubai (expected 2026)</span><span class="v">BSc (Hons) Biotechnology, First Class, University of Northumbria (2024)</span></div>
+    <div><span class="k">Education</span><span class="v">MSc Bioinformatics, University of Birmingham Dubai (Sep 2025 – present)</span><span class="v">BSc (Hons) Biotechnology, First Class, University of Northumbria (2024)</span></div>
     <div><span class="k">Based in</span><span class="v">Dubai, United Arab Emirates</span><span class="v">Open to roles in the UAE / Gulf and the Netherlands</span></div>
     <div><span class="k">Contact</span><span class="v">halireenarush@gmail.com</span><span class="v"><a href="contact.html">Contact form and CV request</a> · <a href="https://www.linkedin.com/in/halireena">LinkedIn</a></span></div>
   </div>
@@ -46,7 +46,7 @@ page-layout: full
       <a class="proj-card wide" href="projects/potato-late-blight/">
         <div class="img"><img src="projects/potato-late-blight/fig-scores.png" alt="Bar chart of macro-F1 scores on the test flight"></div>
         <div class="body">
-          <div class="tag">MSc thesis, 2026 · Machine learning · Remote sensing</div>
+          <div class="tag">MSc research project, Apr 2026 – present · Machine learning · Remote sensing</div>
           <h3>Detection of potato late blight from UAV multispectral imagery</h3>
           <p>Models trained on vegetation-index and texture features from more than 250 potato
             varieties were evaluated with variety-grouped cross-validation, a second flight and
@@ -61,7 +61,8 @@ page-layout: full
       </a>
     </div>
     <div class="work-list">
-      <a href="projects/potato-phosphate/"><div><h3>Transcriptomic response of potato to phosphate starvation</h3><p>Five-stage R pipeline (limma, clusterProfiler, biomaRt, ape) on public microarray data from four cultivars. MSc internship, University of Sharjah.</p></div><div class="meta">Internship · 2026</div></a>
+      <a href="projects/potato-phosphate/"><div><h3>Transcriptomic response of potato to phosphate starvation</h3><p>Five-stage R pipeline (limma, clusterProfiler, biomaRt, ape) on public microarray data from four cultivars. Bioinformatics Research Intern, University of Sharjah.</p></div><div class="meta">Internship · Feb–May 2026</div></a>
+      <a href="projects/rare-disease-reanalysis/"><div><h3>Prioritising unsolved rare-disease cases for genomic re-analysis</h3><p>Team pipeline for the Abiomix challenge at the BioConnect 2026 Consultancy Sprint: phenotype extraction, a rule-based ACMG kernel (96.3% concordance with ClinVar) and explainable case ranking.</p></div><div class="meta">Team sprint · Jul 2026</div></a>
       <a href="projects/iron-biofortification/"><div><h3>Iron biofortification of <em>Alternanthera sessilis</em> and <em>Ipomoea aquatica</em></h3><p>Comparative study of hydroponic techniques. BSc dissertation; published abstract.</p></div><div class="meta">BSc · 2024</div></a>
       <a href="projects/pumpkin-rbcl/"><div><h3>Amplification of the <em>rbcL</em> gene region in Sri Lankan pumpkin varieties</h3><p>DNA extraction, PCR and gel electrophoresis. Higher Diploma dissertation, Distinction.</p></div><div class="meta">Higher Diploma · 2024</div></a>
     </div>

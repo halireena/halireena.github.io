@@ -17,52 +17,72 @@ helps nobody.
 
 ::: {.timeline}
 ::: {.tl-item}
-[02/2023 · Sri Lanka]{.when}
+[Feb 2023 · Industrial Technology Institute, Sri Lanka]{.when}
 
-### Laboratory Intern, Industrial Technology Institute (ITI)
+### Laboratory Intern
 
 DNA extraction, PCR, gel electrophoresis and spectrophotometry. Awarded Best Performance.
 :::
 ::: {.tl-item}
-[Completed 01/2024 · Sri Lanka]{.when}
+[Completed Jan 2024 · BMS School of Science, Sri Lanka]{.when}
 
-### Higher Diploma in Biotechnology, BMS School of Science
+### Higher Diploma in Biotechnology, Distinction
 
-Distinction. Dissertation on amplification of the *rbcL* gene region in pumpkin varieties.
-Accredited pathway to the final year of the BSc (Hons).
+Dissertation on amplification of the *rbcL* gene region in pumpkin varieties.
+[Project page](projects/pumpkin-rbcl/)
 :::
 ::: {.tl-item}
-[01/2024 – 11/2024 · University of Northumbria, Newcastle]{.when}
+[Jan 2024 – Nov 2024 · University of Northumbria, Newcastle, UK]{.when}
 
 ### BSc (Hons) Biotechnology, First Class
 
-GPA 4.0. Dean's List Award and BMS Best Student Award. Dissertation on iron biofortification of
-leafy greens, published as an abstract.
+GPA 4.0, Dean's List Award and BMS Best Student Award. Dissertation on iron biofortification of
+leafy greens, published as an abstract. [Project page](projects/iron-biofortification/)
 :::
 ::: {.tl-item}
-[10/2024 – 12/2024 · Sri Lanka]{.when}
+[Oct 2024 – Dec 2024 · Hemas Hospitals, Wattala, Sri Lanka]{.when}
 
-### Medical Transcriptionist Trainee, Hemas Hospital
+### Medical Transcriptionist Trainee
 
 Transcribed dermatology and ophthalmology consultations for 40+ patients a day; supported the
-move to electronic health records; worked with consultants, nurses and IT teams.
+move to electronic health records.
 :::
 ::: {.tl-item}
-[09/2025 – 10/2026 (expected) · University of Birmingham Dubai]{.when}
+[Sep 2025 – present · University of Birmingham Dubai, UAE]{.when}
 
 ### MSc Bioinformatics
 
-Thesis on detection of potato late blight from UAV multispectral imagery. Conference abstract
-and paper in preparation.
+Key modules include Genomics & Next Generation Sequencing, Data Analytics & Statistical Machine
+Learning, and Metabolomics and advanced omics technologies.
 :::
 ::: {.tl-item}
-[2026 · University of Sharjah, UAE]{.when}
+[Feb 2026 – May 2026 · University of Sharjah, UAE (hybrid)]{.when}
 
-### MSc Bioinformatics Intern
+### Bioinformatics Research Intern
 
-Built a five-stage R pipeline for the first systematic analysis of a public potato
-phosphate-starvation microarray dataset (E-MTAB-2990).
-[Project page](projects/potato-phosphate/)
+First systematic analysis of a public potato phosphate-starvation microarray dataset
+(E-MTAB-2990) with a five-stage R pipeline.
+[Project page](projects/potato-phosphate/) ·
+[Code](https://github.com/halireena/E-MTAB-2990-Potato-Phosphate-Transcriptomics)
+:::
+::: {.tl-item}
+[Apr 2026 – present · University of Birmingham Dubai, UAE]{.when}
+
+### MSc Research Project
+
+Machine-learning detection of potato late blight from UAV imagery across 250+ varieties.
+Presented September 2026; conference abstract and paper in preparation.
+[Project page](projects/potato-late-blight/) ·
+[Code](https://github.com/halireena/potato-late-blight-uav)
+:::
+::: {.tl-item}
+[Jul 2026 · BioConnect 2026, University of Birmingham Dubai]{.when}
+
+### Consultancy Sprint, Abiomix challenge (team of three)
+
+Built an explainable pipeline for prioritising unsolved rare-disease cases for re-analysis.
+[Project page](projects/rare-disease-reanalysis/) ·
+[Code](https://github.com/halireena/abiomix-rare-disease-prioritisation)
 :::
 ::: {.tl-item}
 [Next · UAE / Gulf or the Netherlands]{.when}
@@ -89,7 +109,7 @@ Listed honestly: only tools I have actually used.
 ### Working knowledge
 
 ::: {.chips}
-[Python]{.chip} [Bash]{.chip} [Git]{.chip} [Galaxy]{.chip} [BLAST]{.chip} [MEGA]{.chip} [MetaboAnalyst]{.chip} [limma]{.chip} [clusterProfiler]{.chip} [biomaRt]{.chip} [ape]{.chip} [ggplot2]{.chip} [R Markdown]{.chip}
+[Python]{.chip} [SQL]{.chip} [Bash]{.chip} [Git]{.chip} [Galaxy]{.chip} [BLAST]{.chip} [MEGA]{.chip} [MetaboAnalyst]{.chip} [limma]{.chip} [clusterProfiler]{.chip} [biomaRt]{.chip} [ape]{.chip} [ggplot2]{.chip} [R Markdown]{.chip}
 :::
 :::
 ::: {.level}
@@ -136,6 +156,15 @@ Disease, defence and the root microbiome.
 Hydroponics, vertical farming and biofortification.
 :::
 :::
+
+## Code
+
+All public code is on [github.com/halireena](https://github.com/halireena):
+
+- [potato-late-blight-uav](https://github.com/halireena/potato-late-blight-uav): MSc research project
+- [E-MTAB-2990-Potato-Phosphate-Transcriptomics](https://github.com/halireena/E-MTAB-2990-Potato-Phosphate-Transcriptomics): internship project
+- [abiomix-rare-disease-prioritisation](https://github.com/halireena/abiomix-rare-disease-prioritisation): BioConnect 2026 sprint
+- [rushtools](https://github.com/halireena/rushtools): personal R and Python helper packages with tests
 
 ## Languages
 

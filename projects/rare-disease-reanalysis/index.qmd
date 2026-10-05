@@ -1,0 +1,84 @@
+---
+title: "Prioritising unsolved rare-disease cases for genomic re-analysis"
+description: "BioConnect 2026 Consultancy Sprint (Abiomix challenge). A team-built, explainable pipeline that ranks historical rare-disease cases for re-analysis, on synthetic data."
+date: 2026-07-05
+order: 3             # position on the Projects page (1 = first)
+categories: [Team project, clinical genomics, variant interpretation, Python, SQL]
+image: fig-funnel.png
+resources: [make_figures.py]
+---
+
+[← All projects](../../projects.qmd){.back-link}
+
+::: {.question-box}
+When a laboratory holds hundreds of unsolved rare-disease cases, which ones are most worth re-analysing first?
+:::
+
+::: {.stats}
+::: {.stat}
+[138]{.num}
+[cases from 119 families processed end to end]{.lbl}
+:::
+::: {.stat}
+[430,284]{.num}
+[unique variants, from 7.7 million rows]{.lbl}
+:::
+::: {.stat}
+[96.3%]{.num}
+[ACMG-kernel concordance with ClinVar]{.lbl}
+:::
+::: {.stat}
+[4 / 5]{.num}
+[probands with top-five gene agreement with Exomiser]{.lbl}
+:::
+:::
+
+## The question
+
+Around half of rare-disease patients stay undiagnosed after their first genomic analysis, yet new
+gene–disease links and better databases mean many of those cases could now be solved. The
+bottleneck is expert time. This was the challenge set by Abiomix at the **BioConnect 2026
+Consultancy Sprint** (University of Birmingham Dubai, 2–5 July 2026), tackled by a team of three.
+
+## The data
+
+A **synthetic** dataset provided by Abiomix: 138 de-identified cases across 119 families, with
+clinical notes and 7.7 million variant rows. No real patient data were used. The cohort is mostly
+of Middle-Eastern ancestry, where reference resources such as gnomAD are less complete, and 43
+cases involved consanguinity; both were treated as first-class considerations.
+
+## Methods
+
+![The seven-stage pipeline, from raw case data to an explainable, tiered decision per case.](pipeline.svg){fig-alt="Seven stages: ingest, HPO, annotate, ACMG, rerank, decide, literature"}
+
+- **Phenotypes:** HPO terms extracted from clinical notes, with negation and family-history
+  filtering so that relatives' symptoms are not attributed to the patient.
+- **Classification:** a transparent, rule-based ACMG/AMP kernel written in SQL that records every
+  criterion it fires and abstains when evidence is insufficient.
+- **Ranking:** candidates scored by phenotype match, then each case assigned a Reportable, Review
+  or Insufficient tier with a written rationale.
+
+## Results
+
+![Cleaning reduced 7.7 million variant rows to 430,284 unique variants, and the classification kernel agreed with ClinVar on 96.3% of more than 84,000 variants.](fig-funnel.png){fig-alt="Log-scale bar chart: 7.7 million rows, 430,284 unique variants, 84,000+ variants checked against ClinVar"}
+
+- Independent cross-check against **Exomiser**: a direct top-ranked match on *KMT2D*, and top-five
+  candidate-gene agreement in four of five phenotyped probands.
+- Six probands examined in depth, for example a textbook autosomal-recessive segregation of *CCNO*
+  (Reportable), and one case correctly declined because its "phenotype" described relatives.
+
+## Limitations
+
+- Synthetic data: the pipeline is a proof of concept, not a validated clinical tool.
+- Any language-model output is treated as decision support only, never as a diagnosis.
+- Population frequencies are less reliable for under-represented ancestries.
+
+## What I learned
+
+- How clinical variant interpretation works in practice, from ACMG criteria to segregation.
+- Why traceability matters more than raw accuracy when results inform patient care.
+- How to deliver a working, documented prototype as a team in four days.
+
+## Code
+
+[View the repository on GitHub](https://github.com/halireena/abiomix-rare-disease-prioritisation){.btn-cute .solid}

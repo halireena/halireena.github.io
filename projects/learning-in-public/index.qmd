@@ -2,7 +2,7 @@
 title: "Independent bioinformatics: a 33-week programme"
 description: "A structured 33-week programme to move from using bioinformatics tools to writing analyses independently, with all work on GitHub."
 date: 2026-10-03
-order: 5             # position on the Projects page (1 = first)
+order: 6             # position on the Projects page (1 = first)
 categories: [learning, Python, R, Git]
 image: plan.svg
 ---
@@ -39,9 +39,10 @@ A command-line tool that summarises real plant FASTA files.
 Dosage-aware GWAS in potato with GWASpoly, written by me.
 :::
 ::: {.cute-card}
-### Rush Hub
+### rushtools
 
-My own study website, where I plan and track all of this.
+My personal R and Python helper packages, with tests run automatically on GitHub.
+[Code](https://github.com/halireena/rushtools)
 :::
 :::
 

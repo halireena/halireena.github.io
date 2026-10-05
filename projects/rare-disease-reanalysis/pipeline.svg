@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 240" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-label="Seven-stage rare-disease re-analysis pipeline">
+<rect width="1100" height="240" fill="#FFFFFF"/>
+<rect x="20" y="45" width="132" height="115" rx="6" fill="#F3F5F8" stroke="#DDE3EA" stroke-width="1.5"/><rect x="20" y="45" width="132" height="6" rx="3" fill="#1F3A5F"/>
+<text x="86" y="88" text-anchor="middle" font-size="14" font-weight="600" fill="#1E2A26">1 · Ingest</text>
+<text x="86" y="112" text-anchor="middle" font-size="12" fill="#5B6B64">parse, QC,</text>
+<text x="86" y="130" text-anchor="middle" font-size="12" fill="#5B6B64">deduplicate</text>
+<path d="M155 102 H 172" stroke="#1F3A5F" stroke-width="2"/><path d="M166 97 L 172 102 L 166 107" fill="none" stroke="#1F3A5F" stroke-width="2"/>
+<rect x="175" y="45" width="132" height="115" rx="6" fill="#F3F5F8" stroke="#DDE3EA" stroke-width="1.5"/><rect x="175" y="45" width="132" height="6" rx="3" fill="#1F3A5F"/>
+<text x="241" y="88" text-anchor="middle" font-size="14" font-weight="600" fill="#1E2A26">2 · HPO</text>
+<text x="241" y="112" text-anchor="middle" font-size="12" fill="#5B6B64">phenotypes from</text>
+<text x="241" y="130" text-anchor="middle" font-size="12" fill="#5B6B64">clinical notes</text>
+<path d="M310 102 H 326" stroke="#1F3A5F" stroke-width="2"/><path d="M320 97 L 326 102 L 320 107" fill="none" stroke="#1F3A5F" stroke-width="2"/>
+<rect x="329" y="45" width="132" height="115" rx="6" fill="#F3F5F8" stroke="#DDE3EA" stroke-width="1.5"/><rect x="329" y="45" width="132" height="6" rx="3" fill="#1F3A5F"/>
+<text x="395" y="88" text-anchor="middle" font-size="14" font-weight="600" fill="#1E2A26">3 · Annotate</text>
+<text x="395" y="112" text-anchor="middle" font-size="12" fill="#5B6B64">gnomAD, ClinVar,</text>
+<text x="395" y="130" text-anchor="middle" font-size="12" fill="#5B6B64">REVEL, SpliceAI</text>
+<path d="M464 102 H 481" stroke="#1F3A5F" stroke-width="2"/><path d="M475 97 L 481 102 L 475 107" fill="none" stroke="#1F3A5F" stroke-width="2"/>
+<rect x="484" y="45" width="132" height="115" rx="6" fill="#F3F5F8" stroke="#DDE3EA" stroke-width="1.5"/><rect x="484" y="45" width="132" height="6" rx="3" fill="#1F3A5F"/>
+<text x="550" y="88" text-anchor="middle" font-size="14" font-weight="600" fill="#1E2A26">4 · ACMG</text>
+<text x="550" y="112" text-anchor="middle" font-size="12" fill="#5B6B64">rule-based</text>
+<text x="550" y="130" text-anchor="middle" font-size="12" fill="#5B6B64">SQL kernel</text>
+<path d="M619 102 H 636" stroke="#1F3A5F" stroke-width="2"/><path d="M630 97 L 636 102 L 630 107" fill="none" stroke="#1F3A5F" stroke-width="2"/>
+<rect x="639" y="45" width="132" height="115" rx="6" fill="#F3F5F8" stroke="#DDE3EA" stroke-width="1.5"/><rect x="639" y="45" width="132" height="6" rx="3" fill="#1F3A5F"/>
+<text x="705" y="88" text-anchor="middle" font-size="14" font-weight="600" fill="#1E2A26">5 · Rerank</text>
+<text x="705" y="112" text-anchor="middle" font-size="12" fill="#5B6B64">phenotype ×</text>
+<text x="705" y="130" text-anchor="middle" font-size="12" fill="#5B6B64">genotype score</text>
+<path d="M774 102 H 790" stroke="#1F3A5F" stroke-width="2"/><path d="M784 97 L 790 102 L 784 107" fill="none" stroke="#1F3A5F" stroke-width="2"/>
+<rect x="793" y="45" width="132" height="115" rx="6" fill="#F3F5F8" stroke="#DDE3EA" stroke-width="1.5"/><rect x="793" y="45" width="132" height="6" rx="3" fill="#1F3A5F"/>
+<text x="859" y="88" text-anchor="middle" font-size="14" font-weight="600" fill="#1E2A26">6 · Decide</text>
+<text x="859" y="112" text-anchor="middle" font-size="12" fill="#5B6B64">Reportable /</text>
+<text x="859" y="130" text-anchor="middle" font-size="12" fill="#5B6B64">Review / Insufficient</text>
+<path d="M928 102 H 945" stroke="#1F3A5F" stroke-width="2"/><path d="M939 97 L 945 102 L 939 107" fill="none" stroke="#1F3A5F" stroke-width="2"/>
+<rect x="948" y="45" width="132" height="115" rx="6" fill="#F3F5F8" stroke="#DDE3EA" stroke-width="1.5"/><rect x="948" y="45" width="132" height="6" rx="3" fill="#1F3A5F"/>
+<text x="1014" y="88" text-anchor="middle" font-size="14" font-weight="600" fill="#1E2A26">7 · Literature</text>
+<text x="1014" y="112" text-anchor="middle" font-size="12" fill="#5B6B64">evidence for</text>
+<text x="1014" y="130" text-anchor="middle" font-size="12" fill="#5B6B64">lead candidate</text>
+<text x="550" y="205" text-anchor="middle" font-size="13" fill="#5B6B64">Synthetic dataset provided by Abiomix · 138 cases, 119 families · no real patient data</text></svg>
