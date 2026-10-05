@@ -97,27 +97,28 @@ Dissertation submitted: 84%. [The project](../projects/iron-biofortification/)
 :::
 
 ::: {.beat}
-[November 2024]{.beat-when}
+[21 November 2024]{.beat-when}
 
-ICIET 2024: oral presentation and published abstract. Then graduation day, with the Best Student Award.
+ICIET 2024: oral presentation and published abstract.
 :::
 
 ::: {.photo-grid}
-![At iciet 2024 University of sri jayewardenepura](photos/1-colombo/2024-11-at-iciet-2024-university-of-sri-jayewardenepura.jpg){group="1-colombo"}
+![At iciet 2024 University of sri jayewardenepura](photos/1-colombo/2024-11-21-at-iciet-2024-university-of-sri-jayewardenepura.jpg){group="1-colombo"}
 
-![Bms best student award 2024 and deans list](photos/1-colombo/2024-11-bms-best-student-award-2024-and-deans-list.jpg){group="1-colombo"}
+![Presenters of the agricultural technologies session](photos/1-colombo/2024-11-21-presenters-of-the-agricultural-technologies-session.jpg){group="1-colombo"}
 
-![Graduation day BSc hons biotechnology first class](photos/1-colombo/2024-11-graduation-day-bsc-hons-biotechnology-first-class.jpg){group="1-colombo"}
+:::
 
-![Graduation day](photos/1-colombo/2024-11-graduation-day.jpg){group="1-colombo"}
+::: {.beat}
+[27 November 2024]{.beat-when}
 
-![In the session before presenting at iciet 2024](photos/1-colombo/2024-11-in-the-session-before-presenting-at-iciet-2024.jpg){group="1-colombo"}
+Graduation day: First Class Honours and the BMS Best Student Award.
+:::
 
-![Presenters of the agricultural technologies session iciet 2024](photos/1-colombo/2024-11-presenters-of-the-agricultural-technologies-session-iciet-2024.jpg){group="1-colombo"}
+::: {.photo-grid}
+![Bms best student award 2024](photos/1-colombo/2024-11-27-bms-best-student-award-2024.jpg){group="1-colombo"}
 
-![With fellow presenters at iciet 2024](photos/1-colombo/2024-11-with-fellow-presenters-at-iciet-2024.jpg){group="1-colombo"}
-
-![With friends at graduation](photos/1-colombo/2024-11-with-friends-at-graduation.jpg){group="1-colombo"}
+![Graduation day](photos/1-colombo/2024-11-27-graduation-day.jpg){group="1-colombo"}
 
 :::
 
@@ -186,26 +187,29 @@ First place at BioConnect 2026. [The project](../projects/rare-disease-reanalysi
 
 ![Receiving first place at BioConnect 2026](photos/2-dubai/2026-07-receiving-first-place-at-bioconnect-2026.jpg){group="2-dubai"}
 
-![With participants and the people who made BioConnect happen](photos/2-dubai/2026-07-with-participants-and-the-people-who-made-bioconnect-happen.jpg){group="2-dubai"}
+:::
+
+::: {.beat}
+[18 September 2026]{.beat-when}
+
+Thesis presented. [The thesis](../projects/potato-late-blight/)
+:::
+
+::: {.photo-grid}
+![Presenting my MSc thesis](photos/2-dubai/2026-09-18-presenting-my-msc-thesis.jpg){group="2-dubai"}
 
 :::
 
 ::: {.beat}
-[September 2026]{.beat-when}
+[20 September 2026]{.beat-when}
 
-Thesis presented on 18 September; our congress poster two days later. [The thesis](../projects/potato-late-blight/)
+Our poster at the UAE Rare Disease Society Congress.
 :::
 
 ::: {.photo-grid}
-![After the thesis presentation](photos/2-dubai/2026-09-after-the-thesis-presentation.jpg){group="2-dubai"}
+![At the uae rare disease society congress](photos/2-dubai/2026-09-20-at-the-uae-rare-disease-society-congress.jpg){group="2-dubai"}
 
-![At the 4th international uae rare disease society congress Dubai](photos/2-dubai/2026-09-at-the-4th-international-uae-rare-disease-society-congress-dubai.jpg){group="2-dubai"}
-
-![Presenting my MSc thesis 18 september 2026](photos/2-dubai/2026-09-presenting-my-msc-thesis-18-september-2026.jpg){group="2-dubai"}
-
-![With my co authors at the congress poster](photos/2-dubai/2026-09-with-my-co-authors-at-the-congress-poster.jpg){group="2-dubai"}
-
-![With our poster no 72 at the congress](photos/2-dubai/2026-09-with-our-poster-no-72-at-the-congress.jpg){group="2-dubai"}
+![With our poster no 72](photos/2-dubai/2026-09-20-with-our-poster-no-72.jpg){group="2-dubai"}
 
 :::
 

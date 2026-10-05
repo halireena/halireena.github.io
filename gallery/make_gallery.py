@@ -17,12 +17,15 @@ here = Path(__file__).resolve().parent
 FIX = {"nft": "NFT", "msc": "MSc", "bsc": "BSc", "birmingham": "Birmingham", "dubai": "Dubai", "bioconnect": "BioConnect",
        "university": "University", "jenway": "Jenway", "colombo": "Colombo", "sharjah": "Sharjah"}
 
-def month_label(ym):
-    y, m = ym.split("-")
+def month_label(key):
+    parts = key.split("-")
+    y, m = parts[0], parts[1]
+    if len(parts) == 3:
+        return f"{int(parts[2])} {calendar.month_name[int(m)]} {y}"
     return f"{calendar.month_name[int(m)]} {y}"
 
 def caption(p):
-    m = re.match(r"^(\d{4}-\d{2})(?:-\d{2})?[-_ ]*(.*)$", p.stem)
+    m = re.match(r"^(\d{4}-\d{2}(?:-\d{2})?)[-_ ]*(.*)$", p.stem)
     text = (m.group(2) if m else p.stem).replace("-", " ").replace("_", " ").strip()
     for a, b in FIX.items():
         text = re.sub(rf"\b{a}\b", b, text, flags=re.I)
@@ -40,7 +43,8 @@ for chapter in sorted(d for d in (here / "photos").iterdir() if d.is_dir()):
     photos = {}
     for p in sorted(chapter.iterdir()):
         if p.suffix.lower() in {".jpg", ".jpeg", ".png", ".webp"}:
-            photos.setdefault(p.stem[:7] if re.match(r"\d{4}-\d{2}", p.stem) else "9999-99", []).append(p)
+            mm = re.match(r"^(\d{4}-\d{2}(?:-\d{2})?)", p.stem)
+            photos.setdefault(mm.group(1) if mm else "9999-99", []).append(p)
     lines += [f"## {title}", ""]
     for ym in sorted(set(beats) | set(photos)):
         if ym in beats:
