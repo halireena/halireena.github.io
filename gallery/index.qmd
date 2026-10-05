@@ -99,7 +99,26 @@ Dissertation submitted: 84%. [The project](../projects/iron-biofortification/)
 ::: {.beat}
 [November 2024]{.beat-when}
 
-Oral presentation and published abstract at ICIET 2024.
+ICIET 2024: oral presentation and published abstract. Then graduation day, with the Best Student Award.
+:::
+
+::: {.photo-grid}
+![At iciet 2024 University of sri jayewardenepura](photos/1-colombo/2024-11-at-iciet-2024-university-of-sri-jayewardenepura.jpg){group="1-colombo"}
+
+![Bms best student award 2024 and deans list](photos/1-colombo/2024-11-bms-best-student-award-2024-and-deans-list.jpg){group="1-colombo"}
+
+![Graduation day BSc hons biotechnology first class](photos/1-colombo/2024-11-graduation-day-bsc-hons-biotechnology-first-class.jpg){group="1-colombo"}
+
+![Graduation day](photos/1-colombo/2024-11-graduation-day.jpg){group="1-colombo"}
+
+![In the session before presenting at iciet 2024](photos/1-colombo/2024-11-in-the-session-before-presenting-at-iciet-2024.jpg){group="1-colombo"}
+
+![Presenters of the agricultural technologies session iciet 2024](photos/1-colombo/2024-11-presenters-of-the-agricultural-technologies-session-iciet-2024.jpg){group="1-colombo"}
+
+![With fellow presenters at iciet 2024](photos/1-colombo/2024-11-with-fellow-presenters-at-iciet-2024.jpg){group="1-colombo"}
+
+![With friends at graduation](photos/1-colombo/2024-11-with-friends-at-graduation.jpg){group="1-colombo"}
+
 :::
 
 ## Dubai, 2025–2026
@@ -174,11 +193,19 @@ First place at BioConnect 2026. [The project](../projects/rare-disease-reanalysi
 ::: {.beat}
 [September 2026]{.beat-when}
 
-Thesis defended; congress poster the next day. [The thesis](../projects/potato-late-blight/)
+Thesis presented on 18 September; our congress poster two days later. [The thesis](../projects/potato-late-blight/)
 :::
 
 ::: {.photo-grid}
-![Presenting my MSc research project at the University of Birmingham Dubai](photos/2-dubai/2026-09-presenting-my-msc-research-project-at-the-university-of-birmingham-dubai.jpg){group="2-dubai"}
+![After the thesis presentation](photos/2-dubai/2026-09-after-the-thesis-presentation.jpg){group="2-dubai"}
+
+![At the 4th international uae rare disease society congress Dubai](photos/2-dubai/2026-09-at-the-4th-international-uae-rare-disease-society-congress-dubai.jpg){group="2-dubai"}
+
+![Presenting my MSc thesis 18 september 2026](photos/2-dubai/2026-09-presenting-my-msc-thesis-18-september-2026.jpg){group="2-dubai"}
+
+![With my co authors at the congress poster](photos/2-dubai/2026-09-with-my-co-authors-at-the-congress-poster.jpg){group="2-dubai"}
+
+![With our poster no 72 at the congress](photos/2-dubai/2026-09-with-our-poster-no-72-at-the-congress.jpg){group="2-dubai"}
 
 :::
 

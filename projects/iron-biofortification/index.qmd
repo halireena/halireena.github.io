@@ -140,6 +140,14 @@ International Conference on Innovation and Emerging Technologies (ICIET) 2024, F
 Technology, University of Sri Jayewardenepura, Colombo, 21–22 November 2024. Abstract ID 058.
 ISSN 2815-0317. **Oral presentation.**
 
+[Read the proceedings (PDF, p. 23)](https://iciet.sjp.ac.lk/wp-content/uploads/2024/12/ICIET-2024-e-Proceedings_2024Nov28-1.pdf){.btn-cute .solid}
+
+::: {layout-ncol=2}
+![At ICIET 2024, University of Sri Jayewardenepura, November 2024.](photos/iciet.jpg){fig-alt="Halireena in front of the ICIET 2024 conference banner"}
+
+![Graduation day, 27 November 2024: BSc (Hons) Biotechnology with First Class Honours.](photos/graduation.jpg){fig-alt="Halireena in graduation gown and cap"}
+:::
+
 ## Limitations and next steps
 
 - Iron was measured on pooled samples in duplicate, so the experiment needs repeating with more

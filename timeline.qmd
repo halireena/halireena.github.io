@@ -79,7 +79,7 @@ First Class Honours.
 ### Published abstract and oral presentation
 
 Presented my dissertation research at the International Conference on Innovation and Emerging
-Technologies; abstract published in the proceedings (p. 23, ISSN 2815-0317). Also attended the
+Technologies; abstract published in the [proceedings](https://iciet.sjp.ac.lk/wp-content/uploads/2024/12/ICIET-2024-e-Proceedings_2024Nov28-1.pdf) (p. 23, ISSN 2815-0317). Also attended the
 pre-conference workshop on wearable biosystems for healthcare. [Publication](publications.qmd)
 :::
 :::
@@ -201,11 +201,12 @@ selected for the BioConnect Accelerator (showcase 30 July 2026).
 [Project](projects/rare-disease-reanalysis/)
 :::
 ::: {.tl-item}
-[19 Sep 2026 · University of Birmingham Dubai]{.when} [Research]{.kind .k-res}
+[18 Sep 2026 · University of Birmingham Dubai]{.when} [Research]{.kind .k-res}
 
-### MSc thesis defended
+### MSc thesis presented
 
-Presented the late-blight project to the panel, who suggested testing a CNN on the raw imagery.
+*Potato late blight severity detection using UAV RGB and multispectral imagery: a comparative
+machine-learning evaluation.* The panel suggested testing a CNN on the raw imagery.
 :::
 ::: {.tl-item}
 [20 Sep 2026 · 4th International UAE Rare Disease Society Congress, Dubai]{.when} [Conference]{.kind .k-conf}

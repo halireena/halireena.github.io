@@ -1,7 +1,7 @@
 ---
 title: "Detection of potato late blight from UAV multispectral imagery"
 description: "MSc thesis. Machine-learning detection of late blight across 250+ potato varieties, evaluated with variety-grouped validation and permutation tests."
-date: 2026-09-19
+date: 2026-09-18
 date-modified: 2026-10-05
 order: 1             # position on the Projects page (1 = first)
 categories: [MSc thesis, machine learning, remote sensing, Python]
@@ -113,11 +113,13 @@ records exactly those bands.
 
 ## Presenting the work
 
-I presented this project at the University of Birmingham Dubai in September 2026. The panel
-suggested testing a CNN on the raw imagery, which is now part of the follow-up work. More photos
+I presented this project at the University of Birmingham Dubai on 18 September 2026 under the title
+*Potato Late Blight Severity Detection Using UAV RGB and Multispectral Imagery: A Comparative
+Machine-Learning Evaluation*. The panel suggested testing a CNN on the raw imagery, which is now
+part of the follow-up work. More photos
 are in the [Gallery](../../gallery/).
 
-![Presenting my MSc research project, September 2026.](../../gallery/photos/2-dubai/2026-09-presenting-my-msc-research-project-at-the-university-of-birmingham-dubai.jpg){fig-alt="Halireena presenting at the front of a lecture room"}
+![Presenting my MSc thesis, 18 September 2026.](../../gallery/photos/2-dubai/2026-09-presenting-my-msc-thesis-18-september-2026.jpg){fig-alt="Halireena presenting at the front of a lecture room"}
 
 ## Code
 

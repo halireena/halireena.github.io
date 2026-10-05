@@ -16,7 +16,7 @@ toc: true
 (ICIET) 2024*, Faculty of Technology, University of Sri Jayewardenepura, Colombo, 21–22 November
 2024. Track: Agricultural Technologies for Sustainability. Abstract ID 058. Page 23. ISSN 2815-0317. Peer-reviewed abstract.
 
-[Project page](projects/iron-biofortification/){.btn-cute}
+[Read the proceedings (PDF, p. 23)](https://iciet.sjp.ac.lk/wp-content/uploads/2024/12/ICIET-2024-e-Proceedings_2024Nov28-1.pdf){.btn-cute .solid} [Project page](projects/iron-biofortification/){.btn-cute}
 :::
 :::
 
@@ -49,9 +49,10 @@ preparation with the research group at the University of Birmingham.
 ::: {.tl-item}
 [September 2026 · University of Birmingham Dubai]{.when}
 
-### MSc research project presentation
+### MSc thesis presentation, 18 September 2026
 
-Early detection of potato late blight from UAV multispectral imagery with machine learning.
+*Potato late blight severity detection using UAV RGB and multispectral imagery: a comparative
+machine-learning evaluation.*
 [Project page](projects/potato-late-blight/)
 :::
 ::: {.tl-item}
@@ -75,12 +76,14 @@ University of Sri Jayewardenepura. [Project page](projects/iron-biofortification
 Baroudi, R., Latheef, F.N., **Mohomed, H.R.**, Waasia, F.Z., Toure, S.M. and El-Hadidi, M. (2026).
 Poster No. 72, 4th International UAE Rare Disease Society Congress, Le Méridien Dubai, 19–20
 September 2026. Based on our first-place BioConnect 2026 sprint project; I wrote the background
-section. [View the poster](projects/rare-disease-reanalysis/#the-congress-poster)
+section.
+
+[View the poster](projects/rare-disease-reanalysis/#the-congress-poster){.btn-cute .solid}
 :::
 :::
 
 ## Dissertations
 
-- **MSc Bioinformatics research project** (2026), University of Birmingham Dubai: early detection of potato late blight from UAV multispectral imagery with machine learning.
+- **MSc Bioinformatics thesis** (2026), University of Birmingham Dubai: potato late blight severity detection using UAV RGB and multispectral imagery: a comparative machine-learning evaluation.
 - **BSc (Hons) Biotechnology dissertation** (2024), Northumbria University: iron biofortification of *Alternanthera sessilis* and *Ipomoea aquatica* to help alleviate iron deficiency in Sri Lanka: a comparative study of hydroponics techniques.
 - **Higher Diploma in Biotechnology dissertation** (2024), BMS School of Science: amplification of the *rbcL* gene region in Sri Lankan pumpkin varieties.
