@@ -62,7 +62,7 @@ phosphate levels, but had never been systematically analysed.
 4. **Cross-cultivar comparison:** an eight-group limma model (4 cultivars × 2 conditions),
    heatmaps and Venn diagrams to separate shared from cultivar-specific responses.
 5. **Evolutionary analysis:** the top gene was BLASTed against plant RefSeq and a gene tree of
-   21 Solanaceae species built with **ape**.
+   21 Solanaceae species was built.
 
 ## Results
 
