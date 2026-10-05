@@ -24,7 +24,7 @@ image: images/share-card.jpg
       </p>
       <div class="btn-row">
         <a class="btn-cute accent" href="projects.html">Selected work</a>
-        <a class="btn-cute light" href="timeline.html">My timeline</a>
+        <a class="btn-cute light" href="about.html#timeline">My timeline</a>
         <a class="btn-cute light" href="cv.html">Download CV</a>
         <a class="btn-cute light" href="contact.html">Contact</a>
       </div>
@@ -81,17 +81,6 @@ image: images/share-card.jpg
       <a href="projects/potato-phosphate/"><div><h3>Transcriptomic response of potato to phosphate starvation</h3><p>Five-stage R pipeline (limma, clusterProfiler, biomaRt, ape) on public microarray data from four cultivars. Bioinformatics Research Intern, University of Sharjah.</p></div><div class="meta">Internship · Feb–May 2026</div></a>
       <a href="projects/rare-disease-reanalysis/"><div><h3>Prioritising unsolved rare-disease cases for genomic re-analysis</h3><p>First-place team pipeline for the Abiomix challenge at the BioConnect 2026 Consultancy Sprint, later a congress poster: phenotype extraction, a rule-based ACMG kernel (96.3% concordance with ClinVar) and explainable case ranking.</p></div><div class="meta">1st place · Jul 2026</div></a>
       <a href="projects/pumpkin-rbcl/"><div><h3>Amplification of the <em>rbcL</em> gene region in Sri Lankan pumpkin varieties</h3><p>DNA extraction, PCR and gel electrophoresis. Higher Diploma dissertation, Distinction.</p></div><div class="meta">Higher Diploma · 2024</div></a>
-    </div>
-  </div>
-</section>
-
-<section class="band sand">
-  <div class="band-inner">
-    <h2>Areas of expertise</h2>
-    <div class="info-grid">
-      <div class="info"><h3>Bioinformatics and data analysis</h3><p>R-based analysis of biological data, from microarray transcriptomics to machine learning on crop imagery, with Galaxy, BLAST and MEGA for sequence work.</p></div>
-      <div class="info"><h3>Plant biology and laboratory methods</h3><p>DNA extraction, PCR, gel electrophoresis, spectrophotometry and hydroponic cultivation, providing biological context for the data.</p></div>
-      <div class="info"><h3>Scientific communication</h3><p>Scientific reports, a published abstract and clinical documentation experience.</p></div>
     </div>
   </div>
 </section>

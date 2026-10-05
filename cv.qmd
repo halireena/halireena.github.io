@@ -25,9 +25,4 @@ My full CV is available as a PDF.
 ```
 <p id="cv-note" class="form-note"></p>
 
-**Summary:** MSc Bioinformatics candidate (University of Birmingham Dubai, expected 2026) with a
-First Class BSc (Hons) in Biotechnology (University of Northumbria, 2024). Research in
-machine-learning detection of crop disease from UAV imagery; laboratory experience in DNA
-extraction, PCR and hydroponic cultivation; clinical documentation experience.
-
-A summary of my education, experience and skills is on the [About](about.qmd) page.
+My education, experience, module marks and awards are on the [About](about.qmd) page.

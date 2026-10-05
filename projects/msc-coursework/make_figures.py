@@ -18,8 +18,8 @@ for k, (vals, lab, c) in enumerate([(rnaseq, "RNA-seq", NAVY), (array, "Microarr
     for x, v in zip(xs, vals):
         ax.text(x, v + 0.01, f"{v:.3f}", ha="center", fontsize=10)
 ax.axhline(0.5, color="#A8483B", linestyle=(0, (4, 4)), linewidth=1.5)
-ax.text(2.55, 0.51, "chance", color="#A8483B", ha="right", fontsize=10)
-ax.set_xticks(range(3)); ax.set_xticklabels(outcomes); ax.set_ylim(0.4, 1.05)
-ax.set_ylabel("Test-set AUC"); ax.legend(frameon=False, loc="lower left")
-ax.set_title("Random Forest predictions for 498 neuroblastoma patients", fontsize=12)
+ax.text(2.6, 0.515, "chance", color="#A8483B", ha="right", fontsize=10)
+ax.set_xticks(range(3)); ax.set_xticklabels(outcomes); ax.set_ylim(0.4, 1.12)
+ax.set_ylabel("Test-set AUC"); ax.legend(frameon=False, loc="upper center", ncol=2, bbox_to_anchor=(0.5, 1.02))
+ax.set_title("Random Forest predictions for 498 neuroblastoma patients", fontsize=12, pad=12)
 fig.tight_layout(); fig.savefig("fig-auc.png", dpi=180, facecolor="white")

@@ -79,8 +79,8 @@ section. [View the poster](projects/rare-disease-reanalysis/#the-congress-poster
 :::
 :::
 
-## Theses and dissertations
+## Dissertations
 
-- **MSc Bioinformatics thesis** (2026), University of Birmingham Dubai: early detection of potato late blight from UAV multispectral imagery with machine learning.
+- **MSc Bioinformatics research project** (2026), University of Birmingham Dubai: early detection of potato late blight from UAV multispectral imagery with machine learning.
 - **BSc (Hons) Biotechnology dissertation** (2024), Northumbria University: iron biofortification of *Alternanthera sessilis* and *Ipomoea aquatica* to help alleviate iron deficiency in Sri Lanka: a comparative study of hydroponics techniques.
 - **Higher Diploma in Biotechnology dissertation** (2024), BMS School of Science: amplification of the *rbcL* gene region in Sri Lankan pumpkin varieties.

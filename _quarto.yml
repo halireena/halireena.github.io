@@ -19,8 +19,6 @@ website:
         text: Home
       - href: about.qmd
         text: About
-      - href: timeline.qmd
-        text: Timeline
       - href: projects.qmd
         text: Projects
       - href: publications.qmd
@@ -29,8 +27,6 @@ website:
         text: Blog
       - href: gallery/index.qmd
         text: Gallery
-      - href: cv.qmd
-        text: CV
     right:
       - text: LinkedIn
         href: https://www.linkedin.com/in/halireena
