@@ -1,7 +1,8 @@
-2025-09 | In September 2025 I began an MSc in Bioinformatics at the University of Birmingham Dubai, on a 50% 125th Anniversary Scholarship. The goal: take the plant science I knew from the bench and learn to answer it with data.
-2025-11 | In November I went to the 3rd Healthy Longevity Symposium at Khalifa University in Abu Dhabi.
-2025-12 | December brought the Genomics and NGS module, where the team project was to reproduce, or improve on, a published analysis. My work rebuilt a barley RNA-seq study on the university’s BlueBEAR supercomputer.
-2026-02 | From February to May 2026 I was a research intern at the University of Sharjah, analysing a public potato microarray dataset to see how roots respond to phosphate starvation. That month I also visited WHX Labs Dubai. [The internship project](../projects/potato-phosphate/).
-2026-05 | By May I had finished the taught modules with an 81% average and was deep into my MSc research: could drone images of more than 250 potato varieties reveal late blight?
-2026-07 | In July my team of three took first place in the Abiomix rare-disease challenge at the BioConnect 2026 sprint, and the project went on to the BioConnect Accelerator. [The project](../projects/rare-disease-reanalysis/).
-2026-09 | In September I defended my thesis, and the next day our rare-disease work was shown as a poster at the UAE Rare Disease Society Congress. [The thesis](../projects/potato-late-blight/).
+# One short line per month:  YYYY-MM | text
+2025-09 | Started the MSc Bioinformatics, on a 50% scholarship.
+2025-11 | 3rd Healthy Longevity Symposium, Abu Dhabi.
+2025-12 | Genomics and NGS: reproducing a published RNA-seq study.
+2026-02 | Research internship at the University of Sharjah begins.
+2026-05 | Taught modules done (81% average); thesis research underway.
+2026-07 | First place at BioConnect 2026. [The project](../projects/rare-disease-reanalysis/)
+2026-09 | Thesis defended; congress poster the next day. [The thesis](../projects/potato-late-blight/)
