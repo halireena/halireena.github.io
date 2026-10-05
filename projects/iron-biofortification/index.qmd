@@ -93,6 +93,14 @@ Each group received one of three nutrient solutions: a standard control (162.5 p
 of two iron-enriched solutions (200 ppm and 250 ppm). Height and leaf number were recorded every
 week, and the plants were harvested at week five.
 
+## How the plants grew
+
+![Kangkung in the NFT system at 250 ppm iron, photographed each week from week 1 to week 4.](photos/growth-kangkung-nft-250.jpg){fig-alt="Four photos of the same kangkung plants in NFT channels, growing larger from week 1 to week 4"}
+
+![Week-5 mukunuwenna from coconut coir at each iron level. The control plant is visibly paler, while the iron-treated plants are greener; these were also the groups with the highest iron content.](photos/harvest-coir-mukunuwenna.jpg){fig-alt="Three harvested mukunuwenna plants held against a wall: control, 200 ppm and 250 ppm iron"}
+
+![Week-5 mukunuwenna from the NFT system at each iron level. NFT gave the bushiest plants, but the lowest iron uptake at higher iron levels.](photos/harvest-nft-mukunuwenna.jpg){fig-alt="Three harvested mukunuwenna plants from the NFT system: control, 200 ppm and 250 ppm iron"}
+
 ## Methods
 
 - **Iron content:** atomic absorption spectrophotometry (AAS), carried out by an external laboratory.

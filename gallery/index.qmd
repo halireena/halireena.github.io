@@ -21,9 +21,19 @@ BSc (Hons) Biotechnology at BMS School of Science, Colombo, for a Northumbria Un
 ::: {.photo-grid}
 ![Tannin test on a mukunuwenna extract. *July 2024*](photos/2-bsc-journey/2024-07-tannin-test-on-a-mukunuwenna-extract.jpg){group="2-bsc-journey"}
 
+![Screening an extract for steroids. *July 2024*](photos/2-bsc-journey/2024-07-screening-an-extract-for-steroids.jpg){group="2-bsc-journey"}
+
 ![Mukunuwenna in coconut coir bags. *July 2024*](photos/2-bsc-journey/2024-07-mukunuwenna-in-coconut-coir-bags.jpg){group="2-bsc-journey"}
 
+![Weighing samples on the analytical balance. *June 2024*](photos/2-bsc-journey/2024-06-weighing-samples-on-the-analytical-balance.jpg){group="2-bsc-journey"}
+
+![The jenway spectrophotometer used for the colorimetric assays. *June 2024*](photos/2-bsc-journey/2024-06-the-jenway-spectrophotometer-used-for-the-colorimetric-assays.jpg){group="2-bsc-journey"}
+
+![Building a standard curve for an assay. *June 2024*](photos/2-bsc-journey/2024-06-building-a-standard-curve-for-an-assay.jpg){group="2-bsc-journey"}
+
 ![Harvested plants laid out in the lab. *May 2024*](photos/2-bsc-journey/2024-05-harvested-plants-laid-out-in-the-lab.jpg){group="2-bsc-journey"}
+
+![Harvested leaves packed in foil for drying. *May 2024*](photos/2-bsc-journey/2024-05-harvested-leaves-packed-in-foil-for-drying.jpg){group="2-bsc-journey"}
 
 ![Extracts ready for the assays. *May 2024*](photos/2-bsc-journey/2024-05-extracts-ready-for-the-assays.jpg){group="2-bsc-journey"}
 
@@ -33,11 +43,17 @@ BSc (Hons) Biotechnology at BMS School of Science, Colombo, for a Northumbria Un
 
 ![Mukunuwenna and kangkung in full growth. *April 2024*](photos/2-bsc-journey/2024-04-mukunuwenna-and-kangkung-in-full-growth.jpg){group="2-bsc-journey"}
 
+![The full NFT rig. *March 2024*](photos/2-bsc-journey/2024-03-the-full-nft-rig.jpg){group="2-bsc-journey"}
+
 ![Seedlings before transfer. *March 2024*](photos/2-bsc-journey/2024-03-seedlings-before-transfer.jpg){group="2-bsc-journey"}
 
 ![Kangkung transplanted into the NFT channels. *March 2024*](photos/2-bsc-journey/2024-03-kangkung-transplanted-into-the-nft-channels.jpg){group="2-bsc-journey"}
 
 ![Fresh leaves before drying. *March 2024*](photos/2-bsc-journey/2024-03-fresh-leaves-before-drying.jpg){group="2-bsc-journey"}
+
+![Aqueous plant extracts ready for testing. *March 2024*](photos/2-bsc-journey/2024-03-aqueous-plant-extracts-ready-for-testing.jpg){group="2-bsc-journey"}
+
+![Planning the project timeline in my research logbook. *February 2024*](photos/2-bsc-journey/2024-02-planning-the-project-timeline-in-my-research-logbook.jpg){group="2-bsc-journey"}
 
 ![Coconut coir plugs ready for sowing. *February 2024*](photos/2-bsc-journey/2024-02-coconut-coir-plugs-ready-for-sowing.jpg){group="2-bsc-journey"}
 
