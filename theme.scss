@@ -252,3 +252,16 @@ figcaption { color: $muted; text-align: center; font-size: .92rem; }
 .story .quarto-figure, .story figure { margin: 0; }
 .story img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; border-radius: 8px; border: 1px solid $line; }
 .story figcaption { text-align: left; font-size: .86rem; margin-top: .4rem; }
+
+/* ---------- Timeline page tags ---------- */
+.legend { display: flex; flex-wrap: wrap; gap: .4rem; margin: .5rem 0 1rem; }
+.kind { display: inline-block; font-size: .72rem; font-weight: 600; letter-spacing: .04em; padding: .1rem .5rem; border-radius: 3px; margin-left: .35rem; vertical-align: middle; }
+.legend .kind { margin-left: 0; }
+.k-edu { background: #E4EAF3; color: #1F3A5F; }
+.k-res { background: #E3EFE8; color: #1F5C46; }
+.k-work { background: #F1E9DD; color: #7A5521; }
+.k-course { background: #ECE6F3; color: #4F3A78; }
+.k-conf { background: #E2EEF2; color: #1E5A6B; }
+.k-award { background: #F7E7D8; color: #9A4A12; }
+.tl-item table { font-size: .9rem; margin: .6rem 0 .2rem; max-width: 520px; }
+.tl-item table td:last-child, .tl-item table th:last-child { text-align: right; }

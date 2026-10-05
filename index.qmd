@@ -23,6 +23,7 @@ page-layout: full
       </p>
       <div class="btn-row">
         <a class="btn-cute accent" href="projects.html">Selected work</a>
+        <a class="btn-cute light" href="timeline.html">My timeline</a>
         <a class="btn-cute light" href="cv.html">Download CV</a>
         <a class="btn-cute light" href="contact.html">Contact</a>
       </div>

@@ -15,96 +15,10 @@ helps nobody.
 
 ## Timeline
 
-::: {.timeline}
-::: {.tl-item}
-[Feb 2023 · Industrial Technology Institute, Sri Lanka]{.when}
+From a laboratory internship in Sri Lanka to a first-place rare-disease sprint in Dubai: every
+degree, module mark, project, conference and award is on the [Timeline](timeline.qmd) page.
 
-### Laboratory Intern
-
-DNA extraction, PCR, gel electrophoresis and spectrophotometry. Awarded Best Performance.
-:::
-::: {.tl-item}
-[Completed Jan 2024 · BMS School of Science, Sri Lanka]{.when}
-
-### Higher Diploma in Biotechnology, Distinction
-
-Dissertation on amplification of the *rbcL* gene region in pumpkin varieties.
-[Project page](projects/pumpkin-rbcl/)
-:::
-::: {.tl-item}
-[Jan 2024 – Nov 2024 · BMS School of Science, Colombo (Northumbria University degree)]{.when}
-
-### BSc (Hons) Biotechnology, First Class
-
-GPA 4.0, Dean's List Award and BMS Best Student Award. Dissertation on iron biofortification of
-leafy greens using hydroponics, published in the ICIET 2024 proceedings.
-[Project page](projects/iron-biofortification/)
-:::
-::: {.tl-item}
-[Nov 2024 · ICIET 2024, University of Sri Jayewardenepura, Colombo]{.when}
-
-### Conference oral presentation
-
-Presented my dissertation research at the International Conference on Innovation and Emerging
-Technologies.
-:::
-::: {.tl-item}
-[Oct 2024 – Dec 2024 · Hemas Hospitals, Wattala, Sri Lanka]{.when}
-
-### Medical Transcriptionist Trainee
-
-Transcribed dermatology and ophthalmology consultations for 40+ patients a day; supported the
-move to electronic health records.
-:::
-::: {.tl-item}
-[Sep 2025 – present · University of Birmingham Dubai, UAE]{.when}
-
-### MSc Bioinformatics
-
-Taught-module average **81%** (Distinction level), with 98% in Introduction to Biology and
-Programming and 86% in Genomics & Next Generation Sequencing. Awarded a 50% University of
-Birmingham 125th Anniversary Scholarship for academic merit. [Coursework highlights](projects/msc-coursework/)
-:::
-::: {.tl-item}
-[Feb 2026 – May 2026 · University of Sharjah, UAE (hybrid)]{.when}
-
-### Bioinformatics Research Intern
-
-First systematic analysis of a public potato phosphate-starvation microarray dataset
-(E-MTAB-2990) with a five-stage R pipeline. Also delivered a machine-learning teaching session to
-fellow interns.
-[Project page](projects/potato-phosphate/) ·
-[Code](https://github.com/halireena/E-MTAB-2990-Potato-Phosphate-Transcriptomics)
-:::
-::: {.tl-item}
-[Apr 2026 – present · University of Birmingham Dubai, UAE]{.when}
-
-### MSc Research Project
-
-Machine-learning detection of potato late blight from UAV imagery across 250+ varieties.
-Defended on 19 September 2026; conference abstract and paper in preparation.
-[Project page](projects/potato-late-blight/) ·
-[Code](https://github.com/halireena/potato-late-blight-uav)
-:::
-::: {.tl-item}
-[Jul 2026 · BioConnect 2026, University of Birmingham Dubai]{.when}
-
-### Consultancy Sprint, Abiomix challenge: first place (team of three)
-
-Built an explainable pipeline for prioritising unsolved rare-disease cases for re-analysis.
-Selected for the BioConnect Accelerator, and presented as a poster at the 4th International UAE
-Rare Disease Society Congress in September 2026.
-[Project page](projects/rare-disease-reanalysis/) ·
-[Code](https://github.com/halireena/abiomix-rare-disease-prioritisation)
-:::
-::: {.tl-item}
-[Next · UAE / Gulf or the Netherlands]{.when}
-
-### Plant genomics and agritech
-
-Internships and entry-level roles in bioinformatics, crop genomics and agritech.
-:::
-:::
+[See the full timeline](timeline.qmd){.btn-cute .solid}
 
 ## Skills
 
