@@ -77,14 +77,6 @@ Poster No. 72, 4th International UAE Rare Disease Society Congress, Le Méridien
 September 2026. Based on our first-place BioConnect 2026 sprint project; I wrote the background
 section. [View the poster](projects/rare-disease-reanalysis/#the-congress-poster)
 :::
-::: {.tl-item}
-[2026 · Scientific Communication module, University of Birmingham Dubai]{.when}
-
-### Rett syndrome: a rare genetic neurological disorder affecting girls
-
-Science communication poster on how transcriptomics and proteomics illuminate Rett syndrome.
-[View the poster](projects/rett-syndrome-poster/)
-:::
 :::
 
 ## Theses and dissertations
