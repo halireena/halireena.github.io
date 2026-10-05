@@ -14,7 +14,7 @@ import calendar, re
 from pathlib import Path
 
 here = Path(__file__).resolve().parent
-FIX = {"nft": "NFT", "msc": "MSc", "bsc": "BSc", "birmingham": "Birmingham", "dubai": "Dubai",
+FIX = {"nft": "NFT", "msc": "MSc", "bsc": "BSc", "birmingham": "Birmingham", "dubai": "Dubai", "bioconnect": "BioConnect",
        "university": "University", "jenway": "Jenway", "colombo": "Colombo", "sharjah": "Sharjah"}
 
 def month_label(ym):

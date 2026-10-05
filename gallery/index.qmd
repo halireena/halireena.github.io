@@ -6,7 +6,7 @@ toc-depth: 2
 lightbox: true
 ---
 
-## Colombo, 2024 · Growing iron into leafy greens
+## Colombo, 2024
 
 ::: {.beat}
 [February 2024]{.beat-when}
@@ -102,7 +102,7 @@ Dissertation submitted: 84%. [The project](../projects/iron-biofortification/)
 Oral presentation and published abstract at ICIET 2024.
 :::
 
-## Dubai, 2025–2026 · From plants to pixels
+## Dubai, 2025–2026
 
 ::: {.beat}
 [September 2025]{.beat-when}
@@ -163,11 +163,11 @@ First place at BioConnect 2026. [The project](../projects/rare-disease-reanalysi
 :::
 
 ::: {.photo-grid}
-![Our team presenting re analysing the unsolved at bioconnect 2026](photos/2-dubai/2026-07-our-team-presenting-re-analysing-the-unsolved-at-bioconnect-2026.jpg){group="2-dubai"}
+![Our team presenting re analysing the unsolved at BioConnect 2026](photos/2-dubai/2026-07-our-team-presenting-re-analysing-the-unsolved-at-bioconnect-2026.jpg){group="2-dubai"}
 
-![Receiving first place at bioconnect 2026](photos/2-dubai/2026-07-receiving-first-place-at-bioconnect-2026.jpg){group="2-dubai"}
+![Receiving first place at BioConnect 2026](photos/2-dubai/2026-07-receiving-first-place-at-bioconnect-2026.jpg){group="2-dubai"}
 
-![With fellow participants and mentors at bioconnect 2026](photos/2-dubai/2026-07-with-fellow-participants-and-mentors-at-bioconnect-2026.jpg){group="2-dubai"}
+![With participants and the people who made BioConnect happen](photos/2-dubai/2026-07-with-participants-and-the-people-who-made-bioconnect-happen.jpg){group="2-dubai"}
 
 :::
 
