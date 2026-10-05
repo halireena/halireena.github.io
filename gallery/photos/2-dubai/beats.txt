@@ -1,7 +1,7 @@
 # One short line per month:  YYYY-MM | text
-2025-09 | Started the MSc Bioinformatics, on a 50% scholarship.
+2025-09-29 | First day of the MSc Bioinformatics, on a 50% scholarship.
 2025-11 | 3rd Healthy Longevity Symposium, Abu Dhabi.
-2025-12 | Genomics and NGS: reproducing a published RNA-seq study.
+2025-12 | Genomics and NGS team presentation, and the end of the first semester.
 2026-02 | Research internship at the University of Sharjah begins.
 2026-05 | Taught modules done (81% average); thesis research underway.
 2026-07 | First place at BioConnect 2026. [The project](../projects/rare-disease-reanalysis/)

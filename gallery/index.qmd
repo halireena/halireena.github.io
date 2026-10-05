@@ -9,6 +9,17 @@ lightbox: true
 ## Colombo, 2024
 
 ::: {.beat}
+[January 2024]{.beat-when}
+
+Higher Diploma in Biotechnology completed with Distinction.
+:::
+
+::: {.photo-grid}
+![Receiving my higher diploma at the bms hnd award ceremony](photos/1-colombo/2024-01-receiving-my-higher-diploma-at-the-bms-hnd-award-ceremony.jpg){group="1-colombo"}
+
+:::
+
+::: {.beat}
 [February 2024]{.beat-when}
 
 Propagating seeds and cuttings for four weeks.
@@ -120,14 +131,21 @@ Graduation day: First Class Honours and the BMS Best Student Award.
 
 ![Graduation day](photos/1-colombo/2024-11-27-graduation-day.jpg){group="1-colombo"}
 
+![Receiving my degree at the bms convocation](photos/1-colombo/2024-11-27-receiving-my-degree-at-the-bms-convocation.jpg){group="1-colombo"}
+
 :::
 
 ## Dubai, 2025–2026
 
 ::: {.beat}
-[September 2025]{.beat-when}
+[29 September 2025]{.beat-when}
 
-Started the MSc Bioinformatics, on a 50% scholarship.
+First day of the MSc Bioinformatics, on a 50% scholarship.
+:::
+
+::: {.photo-grid}
+![First day of the MSc with my cohort](photos/2-dubai/2025-09-29-first-day-of-the-msc-with-my-cohort.jpg){group="2-dubai"}
+
 :::
 
 ::: {.beat}
@@ -144,13 +162,13 @@ Started the MSc Bioinformatics, on a 50% scholarship.
 ::: {.beat}
 [December 2025]{.beat-when}
 
-Genomics and NGS: reproducing a published RNA-seq study.
+Genomics and NGS team presentation, and the end of the first semester.
 :::
 
 ::: {.photo-grid}
-![Genomics and ngs team project brief reproduce or improve a published analysis](photos/2-dubai/2025-12-genomics-and-ngs-team-project-brief-reproduce-or-improve-a-published-analysis.jpg){group="2-dubai"}
+![Last day of the first semester](photos/2-dubai/2025-12-last-day-of-the-first-semester.jpg){group="2-dubai"}
 
-![With my MSc cohort at the University of Birmingham Dubai](photos/2-dubai/2025-12-with-my-msc-cohort-at-the-university-of-birmingham-dubai.jpg){group="2-dubai"}
+![Presenting our genomics and ngs team project](photos/2-dubai/2025-12-presenting-our-genomics-and-ngs-team-project.jpg){group="2-dubai"}
 
 :::
 
