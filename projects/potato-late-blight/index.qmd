@@ -53,6 +53,20 @@ I wanted to know: **how well does it really work across hundreds of varieties, w
 
 The data belongs to my research group, so it isn't public. Everything below is summary results.
 
+## What the drone sees
+
+Late blight changes how leaves reflect light before it is obvious to the eye: diseased canopy
+reflects less near-infrared, and the shift is sharpest at the **red edge**. A multispectral camera
+records exactly those bands.
+
+![Why multispectral imagery can reveal disease: healthy canopy reflects far more near-infrared light than diseased canopy, with the change concentrated at the red edge (schematic).](reflectance.jpg){fig-alt="Reflectance curves for healthy and diseased canopy from 450 to 900 nm, diverging at the red edge"}
+
+::: {layout-ncol=2}
+![A close-up of the potato canopy from the drone imagery.](canopy-rgb.jpg){fig-alt="Aerial close-up of potato plants in rows with bare soil between"}
+
+![The same view after separating canopy (green) from soil, so that only plant pixels feed into each plot's features.](canopy-mask.jpg){fig-alt="Vegetation mask of the same area, with canopy in green and soil removed"}
+:::
+
 ## Methods
 
 ![The pipeline: from drone flights to per-plot features to models, tested with folds grouped by variety.](pipeline.svg){fig-alt="Five-step workflow: UAV flights, orthomosaics, plot features, models, honest testing"}
@@ -67,6 +81,8 @@ The data belongs to my research group, so it isn't public. Everything below is s
 ## Results
 
 ![On the test flight the final model beats the "always healthy" baseline. Dropping three texture features that were chosen with the test labels in view barely changes the score.](fig-scores.png){fig-alt="Bar chart: always-healthy baseline 0.308, final model 0.394, leak-free model 0.392 macro-F1"}
+
+![Confusion matrices for the final model. Within the training flight it identifies many diseased plots; on the independent test flight it rarely does, and it never predicts the moderate class, which is why the honest score is modest.](confusion.jpg){fig-alt="Two confusion matrices: within flight (n = 527) and test flight (n = 565) for diseased, moderate and healthy classes"}
 
 ![Replicate plots of the same variety often get different scores, which limits how well any model can do.](fig-replicates.png){fig-alt="Donut chart: 35.8% of replicate pairs disagree" width=60%}
 
@@ -94,6 +110,14 @@ The data belongs to my research group, so it isn't public. Everything below is s
 - **A careful negative result is still a result.** With my supervisor's support I'm now preparing a conference abstract and a paper, and testing whether a CNN on the raw images does better.
 - **Reproducibility saves you.** One script rebuilds every number, which made it easy to catch mistakes before they reached the write-up.
 :::
+
+## Presenting the work
+
+I presented this project at the University of Birmingham Dubai in September 2026. The panel
+suggested testing a CNN on the raw imagery, which is now part of the follow-up work. More photos
+are in the [Gallery](../../gallery/).
+
+![Presenting my MSc research project, September 2026.](../../gallery/photos/1-msc-journey/2026-09-presenting-my-msc-research-project-at-the-university-of-birmingham-dubai.jpg){fig-alt="Halireena presenting at the front of a lecture room"}
 
 ## Code
 

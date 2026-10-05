@@ -1,8 +1,45 @@
 ---
 title: "Gallery"
-subtitle: "Moments from the lab, the field and the classroom"
-toc: false
+subtitle: "Moments from the lab, the field and the lecture theatre"
+toc: true
 lightbox: true
 ---
 
-Photos coming soon.
+## MSc journey
+
+MSc Bioinformatics at the University of Birmingham Dubai, 2025–2026: a research internship at the University of Sharjah, a four-day consultancy sprint, and a thesis on detecting potato late blight from drone imagery. [Read about the thesis](../projects/potato-late-blight/).
+
+::: {.photo-grid}
+![Presenting my MSc research project at the University of Birmingham Dubai. *September 2026*](photos/1-msc-journey/2026-09-presenting-my-msc-research-project-at-the-university-of-birmingham-dubai.jpg){group="1-msc-journey"}
+
+:::
+
+## BSc journey
+
+BSc (Hons) Biotechnology at BMS School of Science, Colombo, for a Northumbria University degree, 2024: five weeks growing mukunuwenna and kangkung hydroponically, then the lab work that followed. The research was published in the ICIET 2024 proceedings. [Read about the project](../projects/iron-biofortification/).
+
+::: {.photo-grid}
+![Tannin test on a mukunuwenna extract. *July 2024*](photos/2-bsc-journey/2024-07-tannin-test-on-a-mukunuwenna-extract.jpg){group="2-bsc-journey"}
+
+![Mukunuwenna in coconut coir bags. *July 2024*](photos/2-bsc-journey/2024-07-mukunuwenna-in-coconut-coir-bags.jpg){group="2-bsc-journey"}
+
+![Harvested plants laid out in the lab. *May 2024*](photos/2-bsc-journey/2024-05-harvested-plants-laid-out-in-the-lab.jpg){group="2-bsc-journey"}
+
+![Extracts ready for the assays. *May 2024*](photos/2-bsc-journey/2024-05-extracts-ready-for-the-assays.jpg){group="2-bsc-journey"}
+
+![Week four in the NFT system. *April 2024*](photos/2-bsc-journey/2024-04-week-four-in-the-nft-system.jpg){group="2-bsc-journey"}
+
+![The NFT system on the rooftop. *April 2024*](photos/2-bsc-journey/2024-04-the-nft-system-on-the-rooftop.jpg){group="2-bsc-journey"}
+
+![Mukunuwenna and kangkung in full growth. *April 2024*](photos/2-bsc-journey/2024-04-mukunuwenna-and-kangkung-in-full-growth.jpg){group="2-bsc-journey"}
+
+![Seedlings before transfer. *March 2024*](photos/2-bsc-journey/2024-03-seedlings-before-transfer.jpg){group="2-bsc-journey"}
+
+![Kangkung transplanted into the NFT channels. *March 2024*](photos/2-bsc-journey/2024-03-kangkung-transplanted-into-the-nft-channels.jpg){group="2-bsc-journey"}
+
+![Fresh leaves before drying. *March 2024*](photos/2-bsc-journey/2024-03-fresh-leaves-before-drying.jpg){group="2-bsc-journey"}
+
+![Coconut coir plugs ready for sowing. *February 2024*](photos/2-bsc-journey/2024-02-coconut-coir-plugs-ready-for-sowing.jpg){group="2-bsc-journey"}
+
+:::
+
