@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 250" font-family="Inter, Helvetica, Arial, sans-serif" role="img" aria-label="Five-stage R pipeline">
+<rect width="960" height="250" fill="#FFFFFF"/>
+<rect x="20" y="50" width="160" height="120" rx="6" fill="#F3F5F8" stroke="#DDE3EA" stroke-width="1.5"/>
+<rect x="20" y="50" width="160" height="6" rx="3" fill="#1F3A5F"/>
+<text x="100" y="95" text-anchor="middle" font-size="15" font-weight="600" fill="#1E2A26">1 · QC</text>
+<text x="100" y="120" text-anchor="middle" font-size="13" fill="#5B6B64">load, normalise,</text>
+<text x="100" y="139" text-anchor="middle" font-size="13" fill="#5B6B64">filter probes</text>
+<path d="M186 110 H 204" stroke="#1F3A5F" stroke-width="2"/><path d="M196 104 L 204 110 L 196 116" fill="none" stroke="#1F3A5F" stroke-width="2"/>
+<rect x="210" y="50" width="160" height="120" rx="6" fill="#F3F5F8" stroke="#DDE3EA" stroke-width="1.5"/>
+<rect x="210" y="50" width="160" height="6" rx="3" fill="#1F3A5F"/>
+<text x="290" y="95" text-anchor="middle" font-size="15" font-weight="600" fill="#1E2A26">2 · limma</text>
+<text x="290" y="120" text-anchor="middle" font-size="13" fill="#5B6B64">differential</text>
+<text x="290" y="139" text-anchor="middle" font-size="13" fill="#5B6B64">expression</text>
+<path d="M376 110 H 394" stroke="#1F3A5F" stroke-width="2"/><path d="M386 104 L 394 110 L 386 116" fill="none" stroke="#1F3A5F" stroke-width="2"/>
+<rect x="400" y="50" width="160" height="120" rx="6" fill="#F3F5F8" stroke="#DDE3EA" stroke-width="1.5"/>
+<rect x="400" y="50" width="160" height="6" rx="3" fill="#1F3A5F"/>
+<text x="480" y="95" text-anchor="middle" font-size="15" font-weight="600" fill="#1E2A26">3 · Enrichment</text>
+<text x="480" y="120" text-anchor="middle" font-size="13" fill="#5B6B64">GO via biomaRt +</text>
+<text x="480" y="139" text-anchor="middle" font-size="13" fill="#5B6B64">clusterProfiler</text>
+<path d="M566 110 H 584" stroke="#1F3A5F" stroke-width="2"/><path d="M576 104 L 584 110 L 576 116" fill="none" stroke="#1F3A5F" stroke-width="2"/>
+<rect x="590" y="50" width="160" height="120" rx="6" fill="#F3F5F8" stroke="#DDE3EA" stroke-width="1.5"/>
+<rect x="590" y="50" width="160" height="6" rx="3" fill="#1F3A5F"/>
+<text x="670" y="95" text-anchor="middle" font-size="15" font-weight="600" fill="#1E2A26">4 · Cross-cultivar</text>
+<text x="670" y="120" text-anchor="middle" font-size="13" fill="#5B6B64">8-group model,</text>
+<text x="670" y="139" text-anchor="middle" font-size="13" fill="#5B6B64">heatmaps</text>
+<path d="M756 110 H 774" stroke="#1F3A5F" stroke-width="2"/><path d="M766 104 L 774 110 L 766 116" fill="none" stroke="#1F3A5F" stroke-width="2"/>
+<rect x="780" y="50" width="160" height="120" rx="6" fill="#F3F5F8" stroke="#DDE3EA" stroke-width="1.5"/>
+<rect x="780" y="50" width="160" height="6" rx="3" fill="#1F3A5F"/>
+<text x="860" y="95" text-anchor="middle" font-size="15" font-weight="600" fill="#1E2A26">5 · Evolution</text>
+<text x="860" y="120" text-anchor="middle" font-size="13" fill="#5B6B64">ABCB gene tree,</text>
+<text x="860" y="139" text-anchor="middle" font-size="13" fill="#5B6B64">21 Solanaceae</text>
+<text x="480" y="220" text-anchor="middle" font-size="13" fill="#5B6B64">E-MTAB-2990 · Agilent potato 60K array · 4 cultivars × 2 phosphate conditions × 3 replicates = 24 root samples</text></svg>

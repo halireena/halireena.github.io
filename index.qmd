@@ -61,8 +61,8 @@ page-layout: full
       </a>
     </div>
     <div class="work-list">
+      <a href="projects/potato-phosphate/"><div><h3>Transcriptomic response of potato to phosphate starvation</h3><p>Five-stage R pipeline (limma, clusterProfiler, biomaRt, ape) on public microarray data from four cultivars. MSc internship, University of Sharjah.</p></div><div class="meta">Internship · 2026</div></a>
       <a href="projects/iron-biofortification/"><div><h3>Iron biofortification of <em>Alternanthera sessilis</em> and <em>Ipomoea aquatica</em></h3><p>Comparative study of hydroponic techniques. BSc dissertation; published abstract.</p></div><div class="meta">BSc · 2024</div></a>
-      <a href="projects/msc-analyses/"><div><h3>Transcriptomics and metagenomics analyses</h3><p>Potato phosphate-stress microarray analysis (limma, clusterProfiler) and a metagenomics project.</p></div><div class="meta">MSc · 2026</div></a>
       <a href="projects/pumpkin-rbcl/"><div><h3>Amplification of the <em>rbcL</em> gene region in Sri Lankan pumpkin varieties</h3><p>DNA extraction, PCR and gel electrophoresis. Higher Diploma dissertation, Distinction.</p></div><div class="meta">Higher Diploma · 2024</div></a>
     </div>
   </div>
