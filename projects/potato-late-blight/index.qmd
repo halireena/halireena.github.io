@@ -1,7 +1,7 @@
 ---
 title: "Detection of potato late blight from UAV multispectral imagery"
 description: "MSc thesis. Machine-learning detection of late blight across 250+ potato varieties, evaluated with variety-grouped validation and permutation tests."
-date: 2026-09-18
+date: 2026-09-19
 date-modified: 2026-10-05
 order: 1             # position on the Projects page (1 = first)
 categories: [MSc thesis, machine learning, remote sensing, Python]

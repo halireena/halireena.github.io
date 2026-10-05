@@ -1,11 +1,14 @@
 ---
 title: "Projects"
-subtitle: "Strongest work first. Each page follows the same structure: question, data, methods, results, what I learned."
+subtitle: "Newest first. Each page follows the same structure: question, data, methods, results, what I learned."
 toc: false
 listing:
   contents: projects
   type: default
-  sort: "order"
+  sort: "date desc"
+  date-format: "MMMM YYYY"
+  exclude:
+    title: "Independent bioinformatics: a 33-week programme"
   categories: false
   image-align: right
   fields: [image, title, description, categories, date]

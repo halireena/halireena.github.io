@@ -1,0 +1,223 @@
+---
+title: "Timeline"
+subtitle: "Everything I have studied, built, presented and won, in order"
+toc: true
+toc-depth: 2
+---
+
+::: {.legend}
+[Education]{.kind .k-edu} [Research]{.kind .k-res} [Work]{.kind .k-work} [Coursework]{.kind .k-course} [Conference]{.kind .k-conf} [Award]{.kind .k-award}
+:::
+
+## 2023
+
+::: {.timeline}
+::: {.tl-item}
+[Feb 2023 · Industrial Technology Institute, Sri Lanka]{.when} [Work]{.kind .k-work} [Award]{.kind .k-award}
+
+### Laboratory Intern
+
+Two-week placement: DNA extraction, PCR, gel electrophoresis and spectrophotometry, checking
+results for inconsistencies. **Awarded Best Performance.**
+:::
+:::
+
+## 2024
+
+::: {.timeline}
+::: {.tl-item}
+[Jan 2024 · BMS School of Science, Colombo]{.when} [Education]{.kind .k-edu}
+
+### Higher Diploma in Biotechnology, Distinction
+
+Dissertation: amplification of the *rbcL* gene region in Sri Lankan pumpkin varieties.
+Accredited pathway into the final year of the BSc (Hons). [Project](projects/pumpkin-rbcl/)
+:::
+::: {.tl-item}
+[Jan 2024 – Nov 2024 · BMS School of Science, Colombo · Northumbria University degree]{.when} [Education]{.kind .k-edu}
+
+### BSc (Hons) Biotechnology, First Class Honours
+
+**Award mark 79%.** Dean's List Award and BMS Best Student Award.
+
+| Module | Mark |
+|---|---|
+| Biomedical and Biological Sciences Research Project (40 credits) | **84%** |
+| The Impact of Science on Society | **80%** |
+| Applied Bioinformatics and Post-Genomics | 75% |
+| Molecular Cell Interactions | 74% |
+| Advanced Analytical Techniques | 73% |
+:::
+::: {.tl-item}
+[Feb 2024 – Aug 2024]{.when} [Research]{.kind .k-res}
+
+### Final-year research: iron biofortification with hydroponics
+
+Grew mukunuwenna and kangkung in NFT and coconut-coir systems at three iron levels and ran the
+biochemical assays. Project mark **84%** (supervisor's report 88%, report 85%, oral 79%).
+Coconut coir raised iron in mukunuwenna 3.7-fold. [Project](projects/iron-biofortification/)
+:::
+::: {.tl-item}
+[Oct 2024 – Dec 2024 · Hemas Hospitals, Wattala, Sri Lanka]{.when} [Work]{.kind .k-work}
+
+### Medical Transcriptionist Trainee
+
+Transcribed dermatology and ophthalmology consultations for 40+ patients a day and supported the
+hospital's move to electronic health records.
+:::
+::: {.tl-item}
+[5 Nov 2024]{.when} [Award]{.kind .k-award}
+
+### First Class Honours confirmed
+
+Northumbria University examination board confirmed the award of BSc (Hons) Biotechnology with
+First Class Honours.
+:::
+::: {.tl-item}
+[20–22 Nov 2024 · ICIET 2024, University of Sri Jayewardenepura, Colombo]{.when} [Conference]{.kind .k-conf}
+
+### Published abstract and oral presentation
+
+Presented my dissertation research at the International Conference on Innovation and Emerging
+Technologies; abstract published in the proceedings (p. 23, ISSN 2815-0317). Also attended the
+pre-conference workshop on wearable biosystems for healthcare. [Publication](publications.qmd)
+:::
+:::
+
+## 2025
+
+::: {.timeline}
+::: {.tl-item}
+[Sep 2025 · University of Birmingham Dubai]{.when} [Education]{.kind .k-edu} [Award]{.kind .k-award}
+
+### Started the MSc Bioinformatics
+
+Awarded a **50% University of Birmingham 125th Anniversary Scholarship** for academic merit.
+:::
+::: {.tl-item}
+[13–14 Nov 2025 · Khalifa University, Abu Dhabi]{.when} [Conference]{.kind .k-conf}
+
+### 3rd Healthy Longevity Symposium
+
+Attended the symposium on healthy ageing, hosted with the Institute for Healthier Living Abu Dhabi.
+:::
+::: {.tl-item}
+[2025 – 2026 · University of Birmingham]{.when} [Coursework]{.kind .k-course}
+
+### Professional development courses
+
+Introduction to Genomic Medicine and the NHS Scientist Training Programme, Introduction to
+Leadership, Responsible Business and Sustainability Leadership, and Coding without Coding.
+:::
+:::
+
+## 2026
+
+::: {.timeline}
+::: {.tl-item}
+[Early 2026 · Genomics & NGS module]{.when} [Coursework]{.kind .k-course}
+
+### Replicated a barley RNA-seq study on the BlueBEAR supercomputer
+
+HISAT2 and STAR alignment, featureCounts and DESeq2. [Coursework](projects/msc-coursework/)
+:::
+::: {.tl-item}
+[Feb 2026 – May 2026 · University of Sharjah, UAE (hybrid)]{.when} [Work]{.kind .k-work} [Research]{.kind .k-res}
+
+### Bioinformatics Research Intern
+
+First systematic analysis of a public potato phosphate-starvation dataset (E-MTAB-2990) with a
+five-stage R pipeline, and delivered a machine-learning teaching session to fellow interns.
+[Project](projects/potato-phosphate/)
+:::
+::: {.tl-item}
+[Feb 2026 · Dubai]{.when} [Conference]{.kind .k-conf}
+
+### WHX Labs Dubai
+
+Visited the laboratory and diagnostics exhibition of the World Health Expo.
+:::
+::: {.tl-item}
+[Mar 2026 · Metabolomics and Advanced Omics module]{.when} [Coursework]{.kind .k-course}
+
+### Metabolomics group presentation and proteomics essay
+
+Optimised DIMS preprocessing in Galaxy and MetaboAnalyst; individual essay on reproducibility
+in proteomics. [Coursework](projects/msc-coursework/)
+:::
+::: {.tl-item}
+[Apr 2026 – Sep 2026 · University of Birmingham Dubai]{.when} [Research]{.kind .k-res}
+
+### MSc research project: potato late blight from drone imagery
+
+Machine learning on UAV multispectral imagery of 250+ potato varieties, tested with
+variety-grouped validation. [Project](projects/potato-late-blight/)
+:::
+::: {.tl-item}
+[Apr 2026 – May 2026 · Computational Biology module]{.when} [Coursework]{.kind .k-course}
+
+### Data jamboree: Danube water and *Daphnia magna*
+
+Group of five. My parts were the positive-mode metabolomics and the ecotoxicological risk assessment.
+[Coursework](projects/msc-coursework/)
+:::
+::: {.tl-item}
+[May 2026 · Data Analytics & Statistical Machine Learning module]{.when} [Coursework]{.kind .k-course}
+
+### Predicting neuroblastoma outcomes with machine learning
+
+Group report on 498 patients; Random Forest models reached a test AUC of 0.97 for high-risk
+status. [Coursework](projects/msc-coursework/)
+:::
+::: {.tl-item}
+[May 2026 · University of Birmingham Dubai]{.when} [Award]{.kind .k-award}
+
+### Taught modules completed with an 81% average (Distinction level)
+
+| Module | Mark |
+|---|---|
+| Introduction to Biology and Programming | **98%** |
+| Genomics & Next Generation Sequencing | **86%** |
+| Mathematics & Statistics | **84%** |
+| Metabolomics & Advanced Omics Technologies | **81%** |
+| Data Analytics & Statistical Machine Learning | 78% |
+| **Taught-module average** | **81%** |
+:::
+::: {.tl-item}
+[Jun 2026 – Jul 2026]{.when} [Research]{.kind .k-res}
+
+### GrassBio: sorghum transcriptomics for biomaterials (independent project)
+
+An R pipeline linking *Sorghum bicolor* expression data (GSE49879) to lignin and cell-wall
+pathway scores, with an independent replication and an interactive HTML app.
+:::
+::: {.tl-item}
+[2–5 Jul 2026 · BioConnect 2026, University of Birmingham Dubai]{.when} [Research]{.kind .k-res} [Award]{.kind .k-award}
+
+### First place at BioConnect 2026 (Abiomix challenge)
+
+Team of three. Built an explainable pipeline to prioritise unsolved rare-disease cases;
+selected for the BioConnect Accelerator (showcase 30 July 2026).
+[Project](projects/rare-disease-reanalysis/)
+:::
+::: {.tl-item}
+[19 Sep 2026 · University of Birmingham Dubai]{.when} [Research]{.kind .k-res}
+
+### MSc thesis defended
+
+Presented the late-blight project to the panel, who suggested testing a CNN on the raw imagery.
+:::
+::: {.tl-item}
+[20 Sep 2026 · 4th International UAE Rare Disease Society Congress, Dubai]{.when} [Conference]{.kind .k-conf}
+
+### Congress poster (No. 72)
+
+*Transparent phenotype-driven variant re-analysis for unsolved rare disease cases in a Middle
+Eastern cohort*, based on the BioConnect project. [Publications](publications.qmd)
+:::
+::: {.tl-item}
+[November 2026 · University of Birmingham Dubai]{.when} [Education]{.kind .k-edu}
+
+### MSc Bioinformatics graduation
+:::
+:::
