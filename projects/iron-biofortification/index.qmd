@@ -59,15 +59,15 @@ and ran the biochemical assays myself. Iron content was measured by AAS at an ex
 analytical laboratory.
 
 ::: {.story}
-![**Week 0.** Germinating seeds in coconut-coir plugs.](photos/01-coir-plugs.jpg){group="story"}
+![**Propagation.** Coconut-coir pellets for seeds and cuttings.](photos/01-coir-plugs.jpg){group="story"}
 
-![**Propagation.** A kangkung seedling ready for transfer.](photos/02-seedling.jpg){group="story"}
+![**Week 4 of propagation.** A kangkung seedling ready for transfer.](photos/02-seedling.jpg){group="story"}
 
 ![**Nutrient film technique (NFT).** Plants set into the channels of the recirculating rig.](photos/03-nft-system.jpg){group="story"}
 
 ![**Coconut-coir cultivation.** The lower-cost alternative, grown in coir-filled bags.](photos/04-coir-cultivation.jpg){group="story"}
 
-![**Week 4.** Kangkung and mukunuwenna established in the NFT system.](photos/05-nft-week4.jpg){group="story"}
+![**Growth phase.** Kangkung and mukunuwenna established in the NFT system.](photos/05-nft-week4.jpg){group="story"}
 
 ![**Week 5 harvest.** Mukunuwenna from the NFT system at 250 ppm iron.](photos/06-harvest-nft-250.jpg){group="story"}
 
@@ -76,12 +76,13 @@ analytical laboratory.
 ![**Drying.** Harvested leaves packed in foil to dry before grinding and extraction.](photos/08-drying.jpg){group="story"}
 
 
-![**Assays.** Total phenolic content by the Folin–Ciocalteu method.](photos/10-phenolics-assay.jpg){group="story"}
+![**Screening.** The qualitative polyphenol test on the plant extracts.](photos/10-phenolics-assay.jpg){group="story"}
 :::
 
 ## Study design
 
-Both species were grown in both systems, with ten plants per group:
+Seeds and stem cuttings were first propagated for four weeks in 40 cocopeat bags and 30
+coconut-coir pellets. The plants were then moved into the two systems, with ten plants per group:
 
 | | Kangkung | Mukunuwenna |
 |---|---|---|
@@ -102,11 +103,14 @@ week, and the plants were harvested at week five.
 
 ## Methods
 
+- **Extraction:** leaves dried at 40 °C for 48 hours, ground, and extracted in hot water (90 °C),
+  then filtered.
 - **Iron content:** atomic absorption spectrophotometry (AAS), carried out by an external laboratory.
 - **Nutrition:** total protein (Lowry assay) and total carbohydrate (phenol–sulfuric acid assay).
 - **Antioxidant profile:** DPPH radical scavenging, total phenolic content (Folin–Ciocalteu) and
   total flavonoid content (aluminium chloride assay).
-- **Phytochemical screening:** qualitative tests for bioactive compounds such as tannins.
+- **Phytochemical screening:** qualitative tests for tannins, polyphenols, terpenoids, steroids
+  and anthraquinones.
 - **Statistics:** one-way ANOVA with LSD post-hoc comparisons in SPSS, and Pearson correlation.
 
 ## Results

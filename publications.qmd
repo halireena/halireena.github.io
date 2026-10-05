@@ -78,7 +78,7 @@ September 2026. Based on our first-place BioConnect 2026 sprint project; I wrote
 section. [View the poster](projects/rare-disease-reanalysis/#the-congress-poster)
 :::
 ::: {.tl-item}
-[2026 · University of Birmingham Dubai]{.when}
+[2026 · Scientific Communication module, University of Birmingham Dubai]{.when}
 
 ### Rett syndrome: a rare genetic neurological disorder affecting girls
 

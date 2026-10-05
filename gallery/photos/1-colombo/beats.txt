@@ -1,10 +1,10 @@
 # One line per story beat:  YYYY-MM | text   (shown before that month's photos)
 2024-01 | It started with a number: iron deficiency affects around two billion people, and it is rising in Sri Lanka. For my final-year research at BMS School of Science, studying for a Northumbria University degree, I asked whether two greens that Sri Lankan families already cook every week, mukunuwenna and kangkung, could be grown hydroponically to carry more iron.
-2024-02 | February was preparation: planning the experiment, sourcing seed and cuttings, and setting up coconut-coir plugs for propagation.
-2024-03 | In March the plants went in. Kangkung and mukunuwenna were transplanted into the channels of a nutrient film technique (NFT) rig, with a second set grown in coconut coir, the low-cost alternative.
-2024-04 | April was growth: five weeks of measuring height and counting leaves every week, across three iron levels in each system.
-2024-05 | In May came the harvest. Leaves were dried, ground and extracted, ready for the laboratory.
-2024-06 | June was spent at the bench: standard curves, colorimetric assays on the spectrophotometer, and careful weighing for protein, carbohydrate, phenolic, flavonoid and antioxidant measurements.
-2024-07 | In July I screened the extracts for bioactive compounds such as tannins and steroids, and pulled the results together.
+2024-02 | Stage one was propagation. I planted seeds and stem cuttings in 40 cocopeat-filled bags and 30 coconut-coir pellets, and watered them daily for four weeks.
+2024-03 | After four weeks the plants moved into the two systems: the channels of a nutrient film technique (NFT) rig, and coconut-coir cultivation. Each system received three nutrient solutions, a control at 162.5 ppm iron and two enriched solutions at 200 and 250 ppm, with ten plants per group.
+2024-04 | For five weeks I recorded the height and leaf count of every plant each week, changed the NFT solutions weekly and watered the coir system daily.
+2024-05 | At week five the plants were harvested and weighed. Samples went to an external laboratory for iron analysis by atomic absorption spectrophotometry, and the rest were dried at 40 °C for 48 hours, ground, and extracted in hot water. The first qualitative screens on the extracts followed.
+2024-06 | June was spent at the spectrophotometer: building standard curves and running five colorimetric assays for protein (Lowry), carbohydrate (phenol–sulfuric acid), phenolics (Folin–Ciocalteu), flavonoids (aluminium chloride) and antioxidant activity (DPPH).
+2024-07 | In July I completed the qualitative screening for tannins, polyphenols, terpenoids, steroids and anthraquinones, and analysed the results in SPSS with one-way ANOVA and post-hoc tests.
 2024-08 | On 6 August 2024 I submitted the dissertation. It earned 84% and contributed to a First Class Honours degree, confirmed in November.
 2024-11 | In November I presented the work orally at ICIET 2024 at the University of Sri Jayewardenepura, and the abstract was published in the proceedings. [Read the full project](../projects/iron-biofortification/).

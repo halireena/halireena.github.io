@@ -1,13 +1,15 @@
 ---
 title: "Rett syndrome through the lens of omics: a science communication poster"
-description: "MSc poster, University of Birmingham Dubai. How transcriptomics and proteomics help explain a rare genetic neurological disorder, written for a non-specialist audience."
+description: "MSc Scientific Communication module poster, University of Birmingham Dubai. How transcriptomics and proteomics help explain a rare genetic neurological disorder, written for a non-specialist audience."
 date: 2026-06-01
 order: 7             # position on the Projects page (1 = first)
-categories: [MSc, poster, science communication, transcriptomics, proteomics]
+categories: [MSc, Scientific Communication module, poster, transcriptomics, proteomics]
 image: poster-thumb.jpg
 ---
 
 [← All projects](../../projects.qmd){.back-link}
+
+**Scientific Communication module · MSc Bioinformatics, University of Birmingham Dubai**
 
 ::: {.question-box}
 How can transcriptomics and proteomics help us understand a rare genetic brain disorder, and how do you explain that to someone outside the field?
