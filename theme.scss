@@ -265,3 +265,9 @@ figcaption { color: $muted; text-align: center; font-size: .92rem; }
 .k-award { background: #F7E7D8; color: #9A4A12; }
 .tl-item table { font-size: .9rem; margin: .6rem 0 .2rem; max-width: 520px; }
 .tl-item table td:last-child, .tl-item table th:last-child { text-align: right; }
+
+/* ---------- Gallery story ---------- */
+.beat { border-left: 3px solid $primary; padding: .2rem 0 .2rem 1.1rem; margin: 1.8rem 0 1rem; max-width: 720px; }
+.beat p { margin: 0 0 .3rem; font-size: 1.02rem; }
+.beat-when { display: block; font-size: .75rem; font-weight: 600; text-transform: uppercase; letter-spacing: .1em; color: $muted; margin-bottom: .3rem; }
+.photo-grid { column-count: 3; }

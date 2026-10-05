@@ -117,7 +117,7 @@ I presented this project at the University of Birmingham Dubai in September 2026
 suggested testing a CNN on the raw imagery, which is now part of the follow-up work. More photos
 are in the [Gallery](../../gallery/).
 
-![Presenting my MSc research project, September 2026.](../../gallery/photos/1-msc-journey/2026-09-presenting-my-msc-research-project-at-the-university-of-birmingham-dubai.jpg){fig-alt="Halireena presenting at the front of a lecture room"}
+![Presenting my MSc research project, September 2026.](../../gallery/photos/2-dubai/2026-09-presenting-my-msc-research-project-at-the-university-of-birmingham-dubai.jpg){fig-alt="Halireena presenting at the front of a lecture room"}
 
 ## Code
 

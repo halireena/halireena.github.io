@@ -1,57 +1,158 @@
 ---
 title: "Gallery"
-subtitle: "Moments from the lab, the field and the lecture theatre"
+subtitle: "Two chapters, two countries: from growing plants to analysing them with data"
 toc: true
+toc-depth: 2
 lightbox: true
 ---
 
-## MSc journey
+## Colombo, 2024 · Growing iron into leafy greens
 
-MSc Bioinformatics at the University of Birmingham Dubai, 2025–2026: a research internship at the University of Sharjah, a four-day consultancy sprint, and a thesis on detecting potato late blight from drone imagery. [Read about the thesis](../projects/potato-late-blight/).
+::: {.beat}
+[January 2024]{.beat-when}
+
+It started with a number: iron deficiency affects around two billion people, and it is rising in Sri Lanka. For my final-year research at BMS School of Science, studying for a Northumbria University degree, I asked whether two greens that Sri Lankan families already cook every week, mukunuwenna and kangkung, could be grown hydroponically to carry more iron.
+:::
+
+::: {.beat}
+[February 2024]{.beat-when}
+
+February was preparation: planning the experiment, sourcing seed and cuttings, and setting up coconut-coir plugs for propagation.
+:::
 
 ::: {.photo-grid}
-![Presenting my MSc research project at the University of Birmingham Dubai. *September 2026*](photos/1-msc-journey/2026-09-presenting-my-msc-research-project-at-the-university-of-birmingham-dubai.jpg){group="1-msc-journey"}
+![Coconut coir plugs ready for sowing](photos/1-colombo/2024-02-coconut-coir-plugs-ready-for-sowing.jpg){group="1-colombo"}
 
 :::
 
-## BSc journey
+::: {.beat}
+[March 2024]{.beat-when}
 
-BSc (Hons) Biotechnology at BMS School of Science, Colombo, for a Northumbria University degree, 2024: five weeks growing mukunuwenna and kangkung hydroponically, then the lab work that followed. The research was published in the ICIET 2024 proceedings. [Read about the project](../projects/iron-biofortification/).
+In March the plants went in. Kangkung and mukunuwenna were transplanted into the channels of a nutrient film technique (NFT) rig, with a second set grown in coconut coir, the low-cost alternative. Alongside, I prepared leaves and tested the extraction method I would use later.
+:::
 
 ::: {.photo-grid}
-![Tannin test on a mukunuwenna extract. *July 2024*](photos/2-bsc-journey/2024-07-tannin-test-on-a-mukunuwenna-extract.jpg){group="2-bsc-journey"}
+![Aqueous plant extracts ready for testing](photos/1-colombo/2024-03-aqueous-plant-extracts-ready-for-testing.jpg){group="1-colombo"}
 
-![Screening an extract for steroids. *July 2024*](photos/2-bsc-journey/2024-07-screening-an-extract-for-steroids.jpg){group="2-bsc-journey"}
+![Fresh leaves before drying](photos/1-colombo/2024-03-fresh-leaves-before-drying.jpg){group="1-colombo"}
 
-![Mukunuwenna in coconut coir bags. *July 2024*](photos/2-bsc-journey/2024-07-mukunuwenna-in-coconut-coir-bags.jpg){group="2-bsc-journey"}
+![Kangkung transplanted into the NFT channels](photos/1-colombo/2024-03-kangkung-transplanted-into-the-nft-channels.jpg){group="1-colombo"}
 
-![Weighing samples on the analytical balance. *June 2024*](photos/2-bsc-journey/2024-06-weighing-samples-on-the-analytical-balance.jpg){group="2-bsc-journey"}
+![Seedlings before transfer](photos/1-colombo/2024-03-seedlings-before-transfer.jpg){group="1-colombo"}
 
-![The jenway spectrophotometer used for the colorimetric assays. *June 2024*](photos/2-bsc-journey/2024-06-the-jenway-spectrophotometer-used-for-the-colorimetric-assays.jpg){group="2-bsc-journey"}
+![The full NFT rig](photos/1-colombo/2024-03-the-full-nft-rig.jpg){group="1-colombo"}
 
-![Building a standard curve for an assay. *June 2024*](photos/2-bsc-journey/2024-06-building-a-standard-curve-for-an-assay.jpg){group="2-bsc-journey"}
+:::
 
-![Harvested leaves packed in foil for drying. *May 2024*](photos/2-bsc-journey/2024-05-harvested-leaves-packed-in-foil-for-drying.jpg){group="2-bsc-journey"}
+::: {.beat}
+[April 2024]{.beat-when}
 
-![Extracts ready for the assays. *May 2024*](photos/2-bsc-journey/2024-05-extracts-ready-for-the-assays.jpg){group="2-bsc-journey"}
+April was growth: five weeks of measuring height and counting leaves every week, across three iron levels in each system.
+:::
 
-![Week four in the NFT system. *April 2024*](photos/2-bsc-journey/2024-04-week-four-in-the-nft-system.jpg){group="2-bsc-journey"}
+::: {.photo-grid}
+![Mukunuwenna and kangkung in full growth](photos/1-colombo/2024-04-mukunuwenna-and-kangkung-in-full-growth.jpg){group="1-colombo"}
 
-![The NFT system on the rooftop. *April 2024*](photos/2-bsc-journey/2024-04-the-nft-system-on-the-rooftop.jpg){group="2-bsc-journey"}
+![The NFT system on the rooftop](photos/1-colombo/2024-04-the-nft-system-on-the-rooftop.jpg){group="1-colombo"}
 
-![Mukunuwenna and kangkung in full growth. *April 2024*](photos/2-bsc-journey/2024-04-mukunuwenna-and-kangkung-in-full-growth.jpg){group="2-bsc-journey"}
+![Week four in the NFT system](photos/1-colombo/2024-04-week-four-in-the-nft-system.jpg){group="1-colombo"}
 
-![The full NFT rig. *March 2024*](photos/2-bsc-journey/2024-03-the-full-nft-rig.jpg){group="2-bsc-journey"}
+:::
 
-![Seedlings before transfer. *March 2024*](photos/2-bsc-journey/2024-03-seedlings-before-transfer.jpg){group="2-bsc-journey"}
+::: {.beat}
+[May 2024]{.beat-when}
 
-![Kangkung transplanted into the NFT channels. *March 2024*](photos/2-bsc-journey/2024-03-kangkung-transplanted-into-the-nft-channels.jpg){group="2-bsc-journey"}
+In May came the harvest. Leaves were dried, ground and extracted, ready for the laboratory.
+:::
 
-![Fresh leaves before drying. *March 2024*](photos/2-bsc-journey/2024-03-fresh-leaves-before-drying.jpg){group="2-bsc-journey"}
+::: {.photo-grid}
+![Extracts ready for the assays](photos/1-colombo/2024-05-extracts-ready-for-the-assays.jpg){group="1-colombo"}
 
-![Aqueous plant extracts ready for testing. *March 2024*](photos/2-bsc-journey/2024-03-aqueous-plant-extracts-ready-for-testing.jpg){group="2-bsc-journey"}
+![Harvested leaves packed in foil for drying](photos/1-colombo/2024-05-harvested-leaves-packed-in-foil-for-drying.jpg){group="1-colombo"}
 
-![Coconut coir plugs ready for sowing. *February 2024*](photos/2-bsc-journey/2024-02-coconut-coir-plugs-ready-for-sowing.jpg){group="2-bsc-journey"}
+:::
+
+::: {.beat}
+[June 2024]{.beat-when}
+
+June was spent at the bench: standard curves, colorimetric assays on the spectrophotometer, and careful weighing for protein, carbohydrate, phenolic, flavonoid and antioxidant measurements.
+:::
+
+::: {.photo-grid}
+![Building a standard curve for an assay](photos/1-colombo/2024-06-building-a-standard-curve-for-an-assay.jpg){group="1-colombo"}
+
+![The Jenway spectrophotometer used for the colorimetric assays](photos/1-colombo/2024-06-the-jenway-spectrophotometer-used-for-the-colorimetric-assays.jpg){group="1-colombo"}
+
+![Weighing samples on the analytical balance](photos/1-colombo/2024-06-weighing-samples-on-the-analytical-balance.jpg){group="1-colombo"}
+
+:::
+
+::: {.beat}
+[July 2024]{.beat-when}
+
+In July I screened the extracts for bioactive compounds such as tannins and steroids, and pulled the results together.
+:::
+
+::: {.photo-grid}
+![Mukunuwenna in coconut coir bags](photos/1-colombo/2024-07-mukunuwenna-in-coconut-coir-bags.jpg){group="1-colombo"}
+
+![Screening an extract for steroids](photos/1-colombo/2024-07-screening-an-extract-for-steroids.jpg){group="1-colombo"}
+
+![Tannin test on a mukunuwenna extract](photos/1-colombo/2024-07-tannin-test-on-a-mukunuwenna-extract.jpg){group="1-colombo"}
+
+:::
+
+::: {.beat}
+[August 2024]{.beat-when}
+
+On 6 August 2024 I submitted the dissertation. It earned 84% and contributed to a First Class Honours degree, confirmed in November.
+:::
+
+::: {.beat}
+[November 2024]{.beat-when}
+
+In November I presented the work orally at ICIET 2024 at the University of Sri Jayewardenepura, and the abstract was published in the proceedings. [Read the full project](../projects/iron-biofortification/).
+:::
+
+## Dubai, 2025–2026 · From plants to pixels
+
+::: {.beat}
+[September 2025]{.beat-when}
+
+In September 2025 I began an MSc in Bioinformatics at the University of Birmingham Dubai, on a 50% 125th Anniversary Scholarship. The goal: take the plant science I knew from the bench and learn to answer it with data.
+:::
+
+::: {.beat}
+[February 2026]{.beat-when}
+
+From February to May 2026 I was a research intern at the University of Sharjah, analysing a public potato microarray dataset to see how roots respond to phosphate starvation. [The project](../projects/potato-phosphate/).
+:::
+
+::: {.beat}
+[May 2026]{.beat-when}
+
+By May I had finished the taught modules with an 81% average and was deep into my MSc research: could drone images of more than 250 potato varieties reveal late blight?
+:::
+
+::: {.photo-grid}
+![What the drone saw potato canopy from above](photos/2-dubai/2026-05-what-the-drone-saw-potato-canopy-from-above.jpg){group="2-dubai"}
+
+:::
+
+::: {.beat}
+[July 2026]{.beat-when}
+
+In July my team took first place in the Abiomix rare-disease challenge at the BioConnect 2026 sprint, and the project went on to the BioConnect Accelerator. [The project](../projects/rare-disease-reanalysis/).
+:::
+
+::: {.beat}
+[September 2026]{.beat-when}
+
+In September I defended my thesis, and the next day our rare-disease work was shown as a poster at the UAE Rare Disease Society Congress. [The thesis](../projects/potato-late-blight/).
+:::
+
+::: {.photo-grid}
+![Presenting my MSc research project at the University of Birmingham Dubai](photos/2-dubai/2026-09-presenting-my-msc-research-project-at-the-university-of-birmingham-dubai.jpg){group="2-dubai"}
 
 :::
 

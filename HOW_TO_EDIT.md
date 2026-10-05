@@ -194,20 +194,22 @@ keep photos under ~1 MB.
 
 ## 5b. Add photos to the Gallery
 
-1. Copy your photos into the `gallery/photos/` folder (jpg, png or webp).
-2. Name each file as the caption you want, with hyphens instead of spaces, and
-   start with a date so they sort newest first:
-   `2024-06-hydroponics-setup-at-northumbria.jpg`
-3. In a terminal in the website folder, run:
+The Gallery tells your story in chapters. Each chapter is a folder in `gallery/photos/`
+(`1-colombo`, `2-dubai`, ...). To start a new one, make a folder like `3-netherlands`.
+
+1. **Heading:** the chapter's title goes in `title.txt` inside the folder.
+2. **Photos:** name each photo as its caption, starting with the year and month:
+   `2026-07-bioconnect-sprint-team.jpg`. Keep them under about 1 MB.
+3. **Story:** add a line to `beats.txt` for that month, like
+   `2026-07 | In July my team took first place...`. It appears just above that month's photos.
+4. In a terminal in the website folder, run:
 
    ```bash
    python3 gallery/make_gallery.py
    ```
 
-   This rewrites `gallery/index.qmd` with every photo in the folder. Clicking a
-   photo on the site opens it full size.
-4. Keep photos under about 1 MB each (export at ~1600 px wide). Only add photos
-   you have permission to publish, especially ones with other people in them.
+Only add photos you have permission to publish, especially ones with other people in them, and
+remove location data from phone photos first (or ask Claude to).
 
 ## 5c. Add a publication
 

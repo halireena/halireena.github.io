@@ -1,55 +1,54 @@
-"""Builds gallery/index.qmd from the photo albums in gallery/photos/.
+"""Builds gallery/index.qmd as a story, one chapter per folder in gallery/photos/.
 
 How to use
-1. Each album is a folder inside gallery/photos/, named with a number for its order and its
-   title, e.g.  1-msc-journey   2-bsc-journey   3-conferences
-2. Put photos (jpg, jpeg, png, webp) in the album folder. Name each file as its caption, with
-   hyphens for spaces, starting with the date, e.g.  2024-06-hydroponics-setup.jpg
-   The date is used for ordering and shown as "June 2024".
-3. Optional: an album can have an intro.txt with one or two sentences shown under its title.
+1. Each chapter is a folder in gallery/photos/, numbered for order (1-colombo, 2-dubai, ...).
+   Put its heading in title.txt, e.g.  Dubai, 2025–2026 · From plants to pixels
+2. Add photos named as their captions, starting with the date, e.g.
+       2026-07-bioconnect-sprint-team.jpg   ->  "Bioconnect sprint team. July 2026"
+3. Story text goes in beats.txt, one line per beat:   2026-07 | what happened that month
+   Each beat appears just before that month's photos.
 4. Run from the website folder:   python3 gallery/make_gallery.py
-5. Remove location data from phone photos before adding them (the site guide explains how).
+5. Remove location data from phone photos before adding them (see HOW_TO_EDIT.md).
 """
 import calendar, re
 from pathlib import Path
 
 here = Path(__file__).resolve().parent
-ALBUM_TITLES = {"msc": "MSc", "bsc": "BSc"}
+FIX = {"nft": "NFT", "msc": "MSc", "bsc": "BSc", "birmingham": "Birmingham", "dubai": "Dubai",
+       "university": "University", "jenway": "Jenway", "colombo": "Colombo", "sharjah": "Sharjah"}
 
-def album_title(folder):
-    words = re.sub(r"^\d+[-_ ]*", "", folder.name).split("-")
-    return " ".join(ALBUM_TITLES.get(w, w) for w in words).capitalize().replace("Msc", "MSc").replace("Bsc", "BSc")
+def month_label(ym):
+    y, m = ym.split("-")
+    return f"{calendar.month_name[int(m)]} {y}"
 
 def caption(p):
-    m = re.match(r"^(\d{4})(?:-(\d{2}))?(?:-\d{2})?[-_ ]*(.*)$", p.stem)
-    when, text = "", p.stem
-    if m:
-        year, month, text = m.groups()
-        when = f"{calendar.month_name[int(month)]} {year}" if month else year
-    text = text.replace("-", " ").replace("_", " ").strip()
-    text = text[:1].upper() + text[1:]
-    for a, b in {"nft": "NFT", "msc": "MSc", "bsc": "BSc", "Msc": "MSc", "Bsc": "BSc", "birmingham": "Birmingham", "dubai": "Dubai", "university": "University"}.items():
-        text = re.sub(rf"\b{a}\b", b, text)
-    return f"{text}. *{when}*" if when else text
+    m = re.match(r"^(\d{4}-\d{2})(?:-\d{2})?[-_ ]*(.*)$", p.stem)
+    text = (m.group(2) if m else p.stem).replace("-", " ").replace("_", " ").strip()
+    for a, b in FIX.items():
+        text = re.sub(rf"\b{a}\b", b, text, flags=re.I)
+    return text[:1].upper() + text[1:]
 
-lines = ["---", 'title: "Gallery"', 'subtitle: "Moments from the lab, the field and the lecture theatre"',
-         "toc: true", "lightbox: true", "---", ""]
-albums = sorted(d for d in (here / "photos").iterdir() if d.is_dir())
-total = 0
-for album in albums:
-    photos = sorted((p for p in album.iterdir() if p.suffix.lower() in {".jpg", ".jpeg", ".png", ".webp"}), reverse=True)
-    if not photos:
-        continue
-    total += len(photos)
-    lines += [f"## {album_title(album)}", ""]
-    intro = album / "intro.txt"
-    if intro.exists():
-        lines += [intro.read_text().strip(), ""]
-    lines.append("::: {.photo-grid}")
-    for p in photos:
-        lines += [f'![{caption(p)}](photos/{album.name}/{p.name}){{group="{album.name}"}}', ""]
-    lines += [":::", ""]
-if total == 0:
-    lines.append("Photos coming soon.")
+lines = ["---", 'title: "Gallery"', 'subtitle: "Two chapters, two countries: from growing plants to analysing them with data"',
+         "toc: true", "toc-depth: 2", "lightbox: true", "---", ""]
+for chapter in sorted(d for d in (here / "photos").iterdir() if d.is_dir()):
+    title = (chapter / "title.txt").read_text().strip() if (chapter / "title.txt").exists() else chapter.name
+    beats = {}
+    if (chapter / "beats.txt").exists():
+        for raw in (chapter / "beats.txt").read_text().splitlines():
+            if "|" in raw and not raw.lstrip().startswith("#"):
+                ym, text = raw.split("|", 1); beats[ym.strip()] = text.strip()
+    photos = {}
+    for p in sorted(chapter.iterdir()):
+        if p.suffix.lower() in {".jpg", ".jpeg", ".png", ".webp"}:
+            photos.setdefault(p.stem[:7] if re.match(r"\d{4}-\d{2}", p.stem) else "9999-99", []).append(p)
+    lines += [f"## {title}", ""]
+    for ym in sorted(set(beats) | set(photos)):
+        if ym in beats:
+            lines += ["::: {.beat}", f"[{month_label(ym)}]{{.beat-when}}", "", beats[ym], ":::", ""]
+        if ym in photos:
+            lines.append("::: {.photo-grid}")
+            for p in photos[ym]:
+                lines += [f'![{caption(p)}](photos/{chapter.name}/{p.name}){{group="{chapter.name}"}}', ""]
+            lines += [":::", ""]
 (here / "index.qmd").write_text("\n".join(lines) + "\n")
-print(f"Gallery written: {len(albums)} album(s), {total} photo(s).")
+print("Gallery story written.")
