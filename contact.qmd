@@ -4,7 +4,7 @@ toc: false
 ---
 
 I am seeking internships and entry-level roles in bioinformatics, plant science and agritech in
-the UAE / Gulf region and the Netherlands. Use the form to get in touch or to request my CV.
+the UAE and internationally. Use the form to get in touch or to request my CV.
 
 ```{=html}
 <div class="contact-grid">

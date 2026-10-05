@@ -36,7 +36,7 @@ image: images/share-card.jpg
 <section class="band facts-band">
   <div class="band-inner facts">
     <div><span class="k">Education</span><span class="v">MSc Bioinformatics, University of Birmingham Dubai (Sep 2025 – present)</span><span class="v">BSc (Hons) Biotechnology, First Class, Northumbria University at BMS Colombo (2024)</span></div>
-    <div><span class="k">Based in</span><span class="v">Dubai, United Arab Emirates</span><span class="v">Open to roles in the UAE / Gulf and the Netherlands</span></div>
+    <div><span class="k">Based in</span><span class="v">Dubai, United Arab Emirates</span><span class="v">Open to roles in the UAE and internationally</span></div>
     <div><span class="k">Contact</span><span class="v">halireenarush@gmail.com</span><span class="v"><a href="contact.html">Contact form and CV request</a> · <a href="https://www.linkedin.com/in/halireena">LinkedIn</a></span></div>
   </div>
 </section>
@@ -101,7 +101,7 @@ image: images/share-card.jpg
     <div>
       <h2>Contact</h2>
       <p>I am seeking internships and entry-level roles in bioinformatics, plant science and agritech
-        in the UAE / Gulf region and the Netherlands.</p>
+        in the UAE and internationally.</p>
     </div>
     <div class="contact-links">
       <a href="contact.html">Contact form and CV request</a>
