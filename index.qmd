@@ -33,7 +33,7 @@ page-layout: full
 
 <section class="band facts-band">
   <div class="band-inner facts">
-    <div><span class="k">Education</span><span class="v">MSc Bioinformatics, University of Birmingham Dubai (Sep 2025 – present)</span><span class="v">BSc (Hons) Biotechnology, First Class, University of Northumbria (2024)</span></div>
+    <div><span class="k">Education</span><span class="v">MSc Bioinformatics, University of Birmingham Dubai (Sep 2025 – present)</span><span class="v">BSc (Hons) Biotechnology, First Class, Northumbria University (2024)</span></div>
     <div><span class="k">Based in</span><span class="v">Dubai, United Arab Emirates</span><span class="v">Open to roles in the UAE / Gulf and the Netherlands</span></div>
     <div><span class="k">Contact</span><span class="v">halireenarush@gmail.com</span><span class="v"><a href="contact.html">Contact form and CV request</a> · <a href="https://www.linkedin.com/in/halireena">LinkedIn</a></span></div>
   </div>
@@ -59,11 +59,25 @@ page-layout: full
           </div>
         </div>
       </a>
+      <a class="proj-card wide" href="projects/iron-biofortification/">
+        <div class="img"><img src="projects/iron-biofortification/fig-iron.png" alt="Iron content of each hydroponic study group"></div>
+        <div class="body">
+          <div class="tag">BSc dissertation, 2024 · Published · Oral presentation at ICIET 2024</div>
+          <h3>Iron biofortification of leafy greens using hydroponics</h3>
+          <p>I grew mukunuwenna and kangkung in nutrient-film and coconut-coir systems at three iron
+            levels, then measured iron, nutrition and antioxidant content. Coconut coir raised iron in
+            mukunuwenna about 3.7-fold, pointing to a low-cost biofortification route for Sri Lanka.</p>
+          <div class="result">
+            <span><strong>3.7×</strong>iron uptake, coconut coir</span>
+            <span><strong>20.3 ppm</strong>highest iron content</span>
+            <span><strong>ICIET 2024</strong>published abstract</span>
+          </div>
+        </div>
+      </a>
     </div>
     <div class="work-list">
       <a href="projects/potato-phosphate/"><div><h3>Transcriptomic response of potato to phosphate starvation</h3><p>Five-stage R pipeline (limma, clusterProfiler, biomaRt, ape) on public microarray data from four cultivars. Bioinformatics Research Intern, University of Sharjah.</p></div><div class="meta">Internship · Feb–May 2026</div></a>
       <a href="projects/rare-disease-reanalysis/"><div><h3>Prioritising unsolved rare-disease cases for genomic re-analysis</h3><p>Team pipeline for the Abiomix challenge at the BioConnect 2026 Consultancy Sprint: phenotype extraction, a rule-based ACMG kernel (96.3% concordance with ClinVar) and explainable case ranking.</p></div><div class="meta">Team sprint · Jul 2026</div></a>
-      <a href="projects/iron-biofortification/"><div><h3>Iron biofortification of <em>Alternanthera sessilis</em> and <em>Ipomoea aquatica</em></h3><p>Comparative study of hydroponic techniques. BSc dissertation; published abstract.</p></div><div class="meta">BSc · 2024</div></a>
       <a href="projects/pumpkin-rbcl/"><div><h3>Amplification of the <em>rbcL</em> gene region in Sri Lankan pumpkin varieties</h3><p>DNA extraction, PCR and gel electrophoresis. Higher Diploma dissertation, Distinction.</p></div><div class="meta">Higher Diploma · 2024</div></a>
     </div>
   </div>
