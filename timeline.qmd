@@ -17,7 +17,7 @@ toc-depth: 2
 
 ### Laboratory Intern
 
-Two-week placement: DNA extraction, PCR, gel electrophoresis and spectrophotometry, checking
+Two-week placement (13–24 February): DNA extraction, PCR, gel electrophoresis and spectrophotometry, checking
 results for inconsistencies. **Awarded Best Performance.**
 :::
 :::
@@ -26,7 +26,7 @@ results for inconsistencies. **Awarded Best Performance.**
 
 ::: {.timeline}
 ::: {.tl-item}
-[Jan 2024 · BMS School of Science, Colombo]{.when} [Education]{.kind .k-edu}
+[Mar 2022 – Jan 2024 · BMS School of Science, Colombo]{.when} [Education]{.kind .k-edu}
 
 ### Higher Diploma in Biotechnology, Distinction
 

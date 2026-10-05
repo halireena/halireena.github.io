@@ -51,7 +51,7 @@ Listed honestly: only tools I have actually used.
 ## Languages
 
 ::: {.chips}
-[English: fluent]{.chip} [Sinhala: native]{.chip} [Tamil: understanding]{.chip} [Hindi: understanding]{.chip}
+[English: fluent]{.chip} [Sinhala: native]{.chip} [Tamil: understanding]{.chip} [Hindi: understanding]{.chip} [Sri Lankan Malay: understanding]{.chip}
 :::
 
 ## Get in touch
