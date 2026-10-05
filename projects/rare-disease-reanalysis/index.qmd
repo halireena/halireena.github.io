@@ -68,8 +68,8 @@ cases involved consanguinity; both were treated as first-class considerations.
 
 ![Cleaning reduced 7.7 million variant rows to 430,284 unique variants, and the classification kernel agreed with ClinVar on 96.3% of more than 84,000 variants.](fig-funnel.png){fig-alt="Log-scale bar chart: 7.7 million rows, 430,284 unique variants, 84,000+ variants checked against ClinVar"}
 
-- Independent cross-check against **Exomiser**: a direct top-ranked match on *KMT2D*, and top-five
-  candidate-gene agreement in four of five phenotyped probands.
+- Independent cross-check against **Exomiser** (sprint version): a direct top-ranked match on
+  *KMT2D*, and top-five candidate-gene agreement in four of five phenotyped probands.
 - Six probands examined in depth, for example a textbook autosomal-recessive segregation of *CCNO*
   (Reportable), and one case correctly declined because its "phenotype" described relatives.
 
@@ -111,7 +111,8 @@ Headline results in the congress version:
 :::
 :::
 
-- *KMT2D* ranked first in agreement with Exomiser, with top-five agreement in 2 of 4 cases.
+- *KMT2D* ranked first in agreement with Exomiser, with top-five agreement in 2 of 4 cases under
+  the stricter congress analysis.
 - In an independent comparison with the one available clinical report, the top-ranked candidate
   matched.
 - A lesson the poster highlights: a variant missing from gnomAD is not evidence that it is rare,

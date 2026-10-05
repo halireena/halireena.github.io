@@ -1,6 +1,6 @@
 ---
 title: "Why a lower score was the better result"
-description: "What 280 potato varieties taught me about honest validation."
+description: "What 250+ potato varieties taught me about honest validation."
 date: 2026-10-02
 categories: [machine learning, thesis, lessons]
 image: ../../projects/potato-late-blight/validation.svg

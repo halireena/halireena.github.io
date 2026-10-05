@@ -7,7 +7,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 FOREST, SAGE, ROSE, BLUSH, LAV, BUTTER, CREAM = (
-    "#1E2A26", "#1F5C46", "#A8483B", "#C9D3CE", "#7FA894", "#F2F6F4", "#FFFFFF")
+    "#1E2A26", "#1F3A5F", "#A8483B", "#C9D1DB", "#8FA9C8", "#F3F5F8", "#FFFFFF")
 plt.rcParams.update({"font.family": "sans-serif", "axes.spines.top": False, "font.size": 13,
                      "axes.edgecolor": FOREST, "text.color": FOREST,
                      "axes.labelcolor": FOREST, "xtick.color": FOREST, "ytick.color": FOREST})

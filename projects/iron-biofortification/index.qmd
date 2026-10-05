@@ -73,9 +73,8 @@ analytical laboratory.
 
 ![**Week 5 harvest.** Mukunuwenna from coconut coir at 250 ppm iron.](photos/07-harvest-coir-250.jpg){group="story"}
 
-![**Drying.** Leaves dried and ground for extraction.](photos/08-dried-leaves.jpg){group="story"}
+![**Drying.** Harvested leaves packed in foil to dry before grinding and extraction.](photos/08-drying.jpg){group="story"}
 
-![**Extraction.** Filtering the aqueous plant extracts.](photos/09-extraction.jpg){group="story"}
 
 ![**Assays.** Total phenolic content by the Folin–Ciocalteu method.](photos/10-phenolics-assay.jpg){group="story"}
 :::

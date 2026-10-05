@@ -4,7 +4,7 @@ subtitle: "Plant scientist moving into bioinformatics"
 toc: true
 ---
 
-I grew up in Sri Lanka and started in the lab: extracting DNA, running PCRs and growing
+I studied and began my career in Sri Lanka, starting in the lab: extracting DNA, running PCRs and growing
 vegetables hydroponically. Along the way I noticed that the most interesting questions were in the
 data, so I moved into bioinformatics. I hold a First Class BSc (Hons) in Biotechnology and am
 completing an MSc in Bioinformatics at the University of Birmingham Dubai.

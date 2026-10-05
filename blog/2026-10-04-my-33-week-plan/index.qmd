@@ -8,9 +8,9 @@ image: ../../projects/learning-in-public/plan.svg
 
 [← All posts](../../blog.qmd){.back-link}
 
-Here's something I don't think people say enough: you can get through a bioinformatics MSc
-mostly by **running tools** (Galaxy, BLAST, PLINK, GAPIT3) without being able to write the code
-yourself. That was me. So I've made a plan to change it. 
+My MSc taught me to run established bioinformatics tools well, from Galaxy and BLAST to limma
+and DESeq2. The next step is being able to **write every analysis from scratch** and adapt it to
+new problems. So I've made a plan for exactly that.
 
 ![The five phases of my plan.](../../projects/learning-in-public/plan.svg){fig-alt="Timeline of five learning phases from October 2026 to May 2027"}
 

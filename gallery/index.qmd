@@ -28,14 +28,10 @@ February was preparation: planning the experiment, sourcing seed and cuttings, a
 ::: {.beat}
 [March 2024]{.beat-when}
 
-In March the plants went in. Kangkung and mukunuwenna were transplanted into the channels of a nutrient film technique (NFT) rig, with a second set grown in coconut coir, the low-cost alternative. Alongside, I prepared leaves and tested the extraction method I would use later.
+In March the plants went in. Kangkung and mukunuwenna were transplanted into the channels of a nutrient film technique (NFT) rig, with a second set grown in coconut coir, the low-cost alternative.
 :::
 
 ::: {.photo-grid}
-![Aqueous plant extracts ready for testing](photos/1-colombo/2024-03-aqueous-plant-extracts-ready-for-testing.jpg){group="1-colombo"}
-
-![Fresh leaves before drying](photos/1-colombo/2024-03-fresh-leaves-before-drying.jpg){group="1-colombo"}
-
 ![Kangkung transplanted into the NFT channels](photos/1-colombo/2024-03-kangkung-transplanted-into-the-nft-channels.jpg){group="1-colombo"}
 
 ![Seedlings before transfer](photos/1-colombo/2024-03-seedlings-before-transfer.jpg){group="1-colombo"}
@@ -94,8 +90,6 @@ In July I screened the extracts for bioactive compounds such as tannins and ster
 :::
 
 ::: {.photo-grid}
-![Mukunuwenna in coconut coir bags](photos/1-colombo/2024-07-mukunuwenna-in-coconut-coir-bags.jpg){group="1-colombo"}
-
 ![Screening an extract for steroids](photos/1-colombo/2024-07-screening-an-extract-for-steroids.jpg){group="1-colombo"}
 
 ![Tannin test on a mukunuwenna extract](photos/1-colombo/2024-07-tannin-test-on-a-mukunuwenna-extract.jpg){group="1-colombo"}
@@ -179,7 +173,7 @@ In July my team of three took first place in the Abiomix rare-disease challenge 
 
 ![Our team presenting re analysing the unsolved at bioconnect 2026](photos/2-dubai/2026-07-our-team-presenting-re-analysing-the-unsolved-at-bioconnect-2026.jpg){group="2-dubai"}
 
-![The team at bioconnect 2026](photos/2-dubai/2026-07-the-team-at-bioconnect-2026.jpg){group="2-dubai"}
+![With fellow participants and mentors at bioconnect 2026](photos/2-dubai/2026-07-with-fellow-participants-and-mentors-at-bioconnect-2026.jpg){group="2-dubai"}
 
 :::
 
