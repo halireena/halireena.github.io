@@ -1,6 +1,6 @@
 ---
 title: "Prioritising unsolved rare-disease cases for genomic re-analysis"
-description: "BioConnect 2026 Consultancy Sprint (Abiomix challenge). A team-built, explainable pipeline that ranks historical rare-disease cases for re-analysis, on synthetic data."
+description: "First place, BioConnect 2026 Consultancy Sprint (Abiomix challenge). A team-built, explainable pipeline that ranks unsolved rare-disease cases for re-analysis; later presented as a poster at the 4th International UAE Rare Disease Society Congress."
 date: 2026-07-05
 order: 3             # position on the Projects page (1 = first)
 categories: [Team project, clinical genomics, variant interpretation, Python, SQL]
@@ -12,6 +12,12 @@ resources: [make_figures.py]
 
 ::: {.question-box}
 When a laboratory holds hundreds of unsolved rare-disease cases, which ones are most worth re-analysing first?
+:::
+
+::: {.badges}
+[First place, BioConnect 2026]{.badge-cute}
+[Selected for the BioConnect Accelerator]{.badge-cute}
+[Poster No. 72, UAE Rare Disease Society Congress 2026]{.badge-cute}
 :::
 
 ::: {.stats}
@@ -66,6 +72,22 @@ cases involved consanguinity; both were treated as first-class considerations.
   candidate-gene agreement in four of five phenotyped probands.
 - Six probands examined in depth, for example a textbook autosomal-recessive segregation of *CCNO*
   (Reportable), and one case correctly declined because its "phenotype" described relatives.
+
+## After the sprint
+
+- **First place:** our team won the Abiomix challenge.
+- **BioConnect Accelerator:** the project was selected for the accelerator programme, with an
+  online showcase on 30 July 2026.
+- **Congress poster:** *Transparent phenotype-driven variant re-analysis for unsolved rare disease
+  cases in a Middle Eastern cohort*, Poster No. 72, 4th International UAE Rare Disease Society
+  Congress, Le Méridien Dubai, 19–20 September 2026. I wrote the poster's background section.
+- A manuscript is in preparation.
+
+## My role
+
+This was a team of three. My contributions included looking after the GitHub repository,
+validating the pipeline (including the cross-check against Exomiser), the copy-number variant
+analysis, and coordinating the team's work.
 
 ## Limitations
 

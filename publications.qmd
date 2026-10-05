@@ -14,7 +14,7 @@ toc: true
 **Mohomed, H.R.**, Abhayarathne, H.U., Pamalka, K.D.C., Gunarathne, G.G.L.L. and Liyanage, G.S.G.
 (2024). *Proceedings of the International Conference on Innovation and Emerging Technologies
 (ICIET) 2024*, Faculty of Technology, University of Sri Jayewardenepura, Colombo, 21–22 November
-2024. Track: Agricultural Technologies for Sustainability. Abstract ID 058. ISSN 2815-0317.
+2024. Track: Agricultural Technologies for Sustainability. Abstract ID 058. Page 23. ISSN 2815-0317. Peer-reviewed abstract.
 
 [Project page](projects/iron-biofortification/){.btn-cute}
 :::
@@ -23,6 +23,14 @@ toc: true
 ## In preparation
 
 ::: {.timeline}
+::: {.tl-item}
+[2026]{.when}
+
+### Rare-disease case re-analysis pipeline (team manuscript)
+
+Manuscript based on the BioConnect 2026 project, in preparation.
+[Project page](projects/rare-disease-reanalysis/)
+:::
 ::: {.tl-item}
 [2026 – 2027]{.when}
 
@@ -59,6 +67,14 @@ University of Sri Jayewardenepura. [Project page](projects/iron-biofortification
 ## Posters
 
 ::: {.timeline}
+::: {.tl-item}
+[20 September 2026 · 4th International UAE Rare Disease Society Congress, Dubai]{.when}
+
+### Transparent phenotype-driven variant re-analysis for unsolved rare disease cases in a Middle Eastern cohort
+
+Team poster (Poster No. 72) based on our first-place BioConnect 2026 sprint project. I wrote the
+background section. [Project page](projects/rare-disease-reanalysis/)
+:::
 ::: {.tl-item}
 [2026 · University of Birmingham Dubai]{.when}
 

@@ -61,8 +61,9 @@ move to electronic health records.
 
 ### MSc Bioinformatics
 
-Key modules include Genomics & Next Generation Sequencing, Data Analytics & Statistical Machine
-Learning, and Metabolomics and advanced omics technologies.
+Taught-module average **81%** (Distinction level), with 98% in Introduction to Biology and
+Programming and 86% in Genomics & Next Generation Sequencing. Awarded a 50% University of
+Birmingham 125th Anniversary Scholarship for academic merit. [Coursework highlights](projects/msc-coursework/)
 :::
 ::: {.tl-item}
 [Feb 2026 – May 2026 · University of Sharjah, UAE (hybrid)]{.when}
@@ -70,7 +71,8 @@ Learning, and Metabolomics and advanced omics technologies.
 ### Bioinformatics Research Intern
 
 First systematic analysis of a public potato phosphate-starvation microarray dataset
-(E-MTAB-2990) with a five-stage R pipeline.
+(E-MTAB-2990) with a five-stage R pipeline. Also delivered a machine-learning teaching session to
+fellow interns.
 [Project page](projects/potato-phosphate/) ·
 [Code](https://github.com/halireena/E-MTAB-2990-Potato-Phosphate-Transcriptomics)
 :::
@@ -80,16 +82,18 @@ First systematic analysis of a public potato phosphate-starvation microarray dat
 ### MSc Research Project
 
 Machine-learning detection of potato late blight from UAV imagery across 250+ varieties.
-Presented September 2026; conference abstract and paper in preparation.
+Defended on 19 September 2026; conference abstract and paper in preparation.
 [Project page](projects/potato-late-blight/) ·
 [Code](https://github.com/halireena/potato-late-blight-uav)
 :::
 ::: {.tl-item}
 [Jul 2026 · BioConnect 2026, University of Birmingham Dubai]{.when}
 
-### Consultancy Sprint, Abiomix challenge (team of three)
+### Consultancy Sprint, Abiomix challenge: first place (team of three)
 
 Built an explainable pipeline for prioritising unsolved rare-disease cases for re-analysis.
+Selected for the BioConnect Accelerator, and presented as a poster at the 4th International UAE
+Rare Disease Society Congress in September 2026.
 [Project page](projects/rare-disease-reanalysis/) ·
 [Code](https://github.com/halireena/abiomix-rare-disease-prioritisation)
 :::
@@ -133,6 +137,9 @@ Listed honestly: only tools I have actually used.
 ## Awards
 
 ::: {.badges}
+[First place, BioConnect 2026 sprint]{.badge-cute}
+[50% UoB 125th Anniversary Scholarship]{.badge-cute}
+[MSc taught-module average 81%]{.badge-cute}
 [First Class Honours, BSc]{.badge-cute}
 [Dean's List Award]{.badge-cute}
 [BMS Best Student Award]{.badge-cute}
@@ -140,6 +147,16 @@ Listed honestly: only tools I have actually used.
 [Best Performance, ITI internship]{.badge-cute}
 [Published abstract]{.badge-cute}
 :::
+
+## Courses and certificates
+
+- **University of Birmingham CPD:** Genomic Medicine (NHS Scientist Training Programme),
+  Introduction to Leadership, Responsible Business & Sustainability Leadership, Coding without
+  Coding.
+- **4th International UAE Rare Disease Society Congress**, Dubai, September 2026 (delegate and
+  poster author).
+- **ICIET 2024 pre-conference workshop** on wearable biosystems for healthcare, University of Sri
+  Jayewardenepura, 20 November 2024.
 
 ## Research interests
 

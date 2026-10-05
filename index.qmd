@@ -77,7 +77,7 @@ page-layout: full
     </div>
     <div class="work-list">
       <a href="projects/potato-phosphate/"><div><h3>Transcriptomic response of potato to phosphate starvation</h3><p>Five-stage R pipeline (limma, clusterProfiler, biomaRt, ape) on public microarray data from four cultivars. Bioinformatics Research Intern, University of Sharjah.</p></div><div class="meta">Internship · Feb–May 2026</div></a>
-      <a href="projects/rare-disease-reanalysis/"><div><h3>Prioritising unsolved rare-disease cases for genomic re-analysis</h3><p>Team pipeline for the Abiomix challenge at the BioConnect 2026 Consultancy Sprint: phenotype extraction, a rule-based ACMG kernel (96.3% concordance with ClinVar) and explainable case ranking.</p></div><div class="meta">Team sprint · Jul 2026</div></a>
+      <a href="projects/rare-disease-reanalysis/"><div><h3>Prioritising unsolved rare-disease cases for genomic re-analysis</h3><p>First-place team pipeline for the Abiomix challenge at the BioConnect 2026 Consultancy Sprint, later a congress poster: phenotype extraction, a rule-based ACMG kernel (96.3% concordance with ClinVar) and explainable case ranking.</p></div><div class="meta">1st place · Jul 2026</div></a>
       <a href="projects/pumpkin-rbcl/"><div><h3>Amplification of the <em>rbcL</em> gene region in Sri Lankan pumpkin varieties</h3><p>DNA extraction, PCR and gel electrophoresis. Higher Diploma dissertation, Distinction.</p></div><div class="meta">Higher Diploma · 2024</div></a>
     </div>
   </div>

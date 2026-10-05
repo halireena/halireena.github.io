@@ -2,7 +2,7 @@
 title: "Rett syndrome through the lens of omics: a science communication poster"
 description: "MSc poster, University of Birmingham Dubai. How transcriptomics and proteomics help explain a rare genetic neurological disorder, written for a non-specialist audience."
 date: 2026-06-01
-order: 6             # position on the Projects page (1 = first)
+order: 7             # position on the Projects page (1 = first)
 categories: [MSc, poster, science communication, transcriptomics, proteomics]
 image: poster-thumb.jpg
 ---
