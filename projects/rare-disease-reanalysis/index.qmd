@@ -3,7 +3,7 @@ title: "Prioritising unsolved rare-disease cases for genomic re-analysis"
 description: "First place, BioConnect 2026 Consultancy Sprint (Abiomix challenge). A team-built, explainable pipeline that ranks unsolved rare-disease cases for re-analysis; later presented as a poster at the 4th International UAE Rare Disease Society Congress."
 date: 2026-07-05
 order: 3             # position on the Projects page (1 = first)
-categories: [Team project, clinical genomics, variant interpretation, Python, SQL]
+categories: [Team project, clinical genomics, variant interpretation, Python]
 image: fig-funnel.png
 resources: [make_figures.py]
 ---
