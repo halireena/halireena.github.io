@@ -4,6 +4,7 @@ pagetitle: "Halireena Rushdiha · Bioinformatics & Plant Science"
 toc: false
 title-block-banner: false
 page-layout: full
+image: images/share-card.jpg
 ---
 
 ```{=html}
