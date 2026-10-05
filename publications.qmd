@@ -56,6 +56,19 @@ University of Sri Jayewardenepura. [Project page](projects/iron-biofortification
 :::
 :::
 
+## Posters
+
+::: {.timeline}
+::: {.tl-item}
+[2026 · University of Birmingham Dubai]{.when}
+
+### Rett syndrome: a rare genetic neurological disorder affecting girls
+
+Science communication poster on how transcriptomics and proteomics illuminate Rett syndrome.
+[View the poster](projects/rett-syndrome-poster/)
+:::
+:::
+
 ## Theses and dissertations
 
 - **MSc Bioinformatics thesis** (2026), University of Birmingham Dubai: early detection of potato late blight from UAV multispectral imagery with machine learning.
