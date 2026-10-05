@@ -95,6 +95,13 @@ pre-conference workshop on wearable biosystems for healthcare. [Publication](pub
 Awarded a **50% University of Birmingham 125th Anniversary Scholarship** for academic merit.
 :::
 ::: {.tl-item}
+[13–14 Nov 2025 · Khalifa University, Abu Dhabi]{.when} [Conference]{.kind .k-conf}
+
+### 3rd Healthy Longevity Symposium
+
+Attended the symposium on healthy ageing, hosted with the Institute for Healthier Living Abu Dhabi.
+:::
+::: {.tl-item}
 [2025 – 2026 · University of Birmingham]{.when} [Coursework]{.kind .k-course}
 
 ### Professional development courses
@@ -122,6 +129,13 @@ HISAT2 and STAR alignment, featureCounts and DESeq2. [Coursework](projects/msc-c
 First systematic analysis of a public potato phosphate-starvation dataset (E-MTAB-2990) with a
 five-stage R pipeline, and delivered a machine-learning teaching session to fellow interns.
 [Project](projects/potato-phosphate/)
+:::
+::: {.tl-item}
+[Feb 2026 · Dubai]{.when} [Conference]{.kind .k-conf}
+
+### WHX Labs Dubai
+
+Visited the laboratory and diagnostics exhibition of the World Health Expo.
 :::
 ::: {.tl-item}
 [Mar 2026 · Metabolomics and Advanced Omics module]{.when} [Coursework]{.kind .k-course}

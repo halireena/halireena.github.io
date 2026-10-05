@@ -123,9 +123,38 @@ In September 2025 I began an MSc in Bioinformatics at the University of Birmingh
 :::
 
 ::: {.beat}
+[November 2025]{.beat-when}
+
+In November I went to the 3rd Healthy Longevity Symposium at Khalifa University in Abu Dhabi.
+:::
+
+::: {.photo-grid}
+![At the 3rd healthy longevity symposium khalifa University abu dhabi](photos/2-dubai/2025-11-at-the-3rd-healthy-longevity-symposium-khalifa-university-abu-dhabi.jpg){group="2-dubai"}
+
+:::
+
+::: {.beat}
+[December 2025]{.beat-when}
+
+December brought the Genomics and NGS module, where the team project was to reproduce, or improve on, a published analysis. My work rebuilt a barley RNA-seq study on the university’s BlueBEAR supercomputer.
+:::
+
+::: {.photo-grid}
+![Genomics and ngs team project brief reproduce or improve a published analysis](photos/2-dubai/2025-12-genomics-and-ngs-team-project-brief-reproduce-or-improve-a-published-analysis.jpg){group="2-dubai"}
+
+![With my MSc cohort at the University of Birmingham Dubai](photos/2-dubai/2025-12-with-my-msc-cohort-at-the-university-of-birmingham-dubai.jpg){group="2-dubai"}
+
+:::
+
+::: {.beat}
 [February 2026]{.beat-when}
 
-From February to May 2026 I was a research intern at the University of Sharjah, analysing a public potato microarray dataset to see how roots respond to phosphate starvation. [The project](../projects/potato-phosphate/).
+From February to May 2026 I was a research intern at the University of Sharjah, analysing a public potato microarray dataset to see how roots respond to phosphate starvation. That month I also visited WHX Labs Dubai. [The internship project](../projects/potato-phosphate/).
+:::
+
+::: {.photo-grid}
+![Visiting whx labs Dubai](photos/2-dubai/2026-02-visiting-whx-labs-dubai.jpg){group="2-dubai"}
+
 :::
 
 ::: {.beat}
@@ -142,7 +171,16 @@ By May I had finished the taught modules with an 81% average and was deep into m
 ::: {.beat}
 [July 2026]{.beat-when}
 
-In July my team took first place in the Abiomix rare-disease challenge at the BioConnect 2026 sprint, and the project went on to the BioConnect Accelerator. [The project](../projects/rare-disease-reanalysis/).
+In July my team of three took first place in the Abiomix rare-disease challenge at the BioConnect 2026 sprint, and the project went on to the BioConnect Accelerator. [The project](../projects/rare-disease-reanalysis/).
+:::
+
+::: {.photo-grid}
+![Certificates at the bioconnect 2026 closing ceremony](photos/2-dubai/2026-07-certificates-at-the-bioconnect-2026-closing-ceremony.jpg){group="2-dubai"}
+
+![Our team presenting re analysing the unsolved at bioconnect 2026](photos/2-dubai/2026-07-our-team-presenting-re-analysing-the-unsolved-at-bioconnect-2026.jpg){group="2-dubai"}
+
+![The team at bioconnect 2026](photos/2-dubai/2026-07-the-team-at-bioconnect-2026.jpg){group="2-dubai"}
+
 :::
 
 ::: {.beat}
