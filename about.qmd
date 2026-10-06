@@ -36,7 +36,7 @@ Listed honestly: only tools I have actually used.
 ### Working knowledge
 
 ::: {.chips}
-[Python]{.chip} [Bash]{.chip} [Git]{.chip} [Galaxy]{.chip} [BLAST]{.chip} [MEGA]{.chip} [MetaboAnalyst]{.chip} [limma]{.chip} [clusterProfiler]{.chip} [biomaRt]{.chip} [ggplot2]{.chip} [R Markdown]{.chip}
+[Python]{.chip} [Bash]{.chip} [Git]{.chip} [SLURM / HPC]{.chip} [FastQC / MultiQC]{.chip} [cutadapt]{.chip} [Bowtie2]{.chip} [featureCounts]{.chip} [DESeq2]{.chip} [Galaxy]{.chip} [BLAST]{.chip} [MEGA]{.chip} [MetaboAnalyst]{.chip} [limma]{.chip} [clusterProfiler]{.chip} [biomaRt]{.chip} [ggplot2]{.chip} [R Markdown]{.chip}
 :::
 :::
 ::: {.level}

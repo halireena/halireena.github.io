@@ -48,11 +48,12 @@ k = 5).
 
 ## Replicating a barley RNA-seq study on a supercomputer
 
-**Assignment · Genomics & Next Generation Sequencing · early 2026**
+**Group project · Genomics & Next Generation Sequencing · autumn 2025**
 
-I rebuilt the RNA-seq pipeline of a published barley waterlogging study (Miricescu et al., 2023)
-on the University of Birmingham's BlueBEAR HPC cluster: alignment with HISAT2 and STAR, read
-counting with featureCounts, and differential expression with DESeq2.
+We rebuilt the RNA-seq pipeline of a published barley waterlogging study (Miricescu et al., 2023)
+on the University of Birmingham's BlueBEAR HPC cluster as SLURM job arrays: Bowtie2 alignment,
+StringTie and featureCounts, and DESeq2 for differential expression.
+[Full write-up](../barley-rnaseq/).
 
 ## Reproducibility in proteomics
 

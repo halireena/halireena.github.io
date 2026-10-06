@@ -102,6 +102,14 @@ Awarded a **50% University of Birmingham 125th Anniversary Scholarship** for aca
 Attended the symposium on healthy ageing, hosted with the Institute for Healthier Living Abu Dhabi.
 :::
 ::: {.tl-item}
+[Sep – Dec 2025 · Genomics & NGS module]{.when} [Coursework]{.kind .k-course}
+
+### Rebuilt a barley RNA-seq study on the BlueBEAR supercomputer
+
+Group project: 30 public runs, SLURM job arrays, Bowtie2, featureCounts and DESeq2; presented as a
+team in December. [Project](projects/barley-rnaseq/)
+:::
+::: {.tl-item}
 [2025 – 2026 · University of Birmingham]{.when} [Coursework]{.kind .k-course}
 
 ### Professional development courses
@@ -115,13 +123,6 @@ Programme.
 ## 2026
 
 ::: {.timeline}
-::: {.tl-item}
-[Early 2026 · Genomics & NGS module]{.when} [Coursework]{.kind .k-course}
-
-### Replicated a barley RNA-seq study on the BlueBEAR supercomputer
-
-HISAT2 and STAR alignment, featureCounts and DESeq2. [Coursework](projects/msc-coursework/)
-:::
 ::: {.tl-item}
 [Feb 2026 – May 2026 · University of Sharjah, UAE (hybrid)]{.when} [Work]{.kind .k-work} [Research]{.kind .k-res}
 
