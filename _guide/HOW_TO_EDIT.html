@@ -46,12 +46,20 @@ going on your own</p>
 helpers</a></li>
 <li><a href="#write-a-blog-post" id="toc-write-a-blog-post">Write a blog
 post</a></li>
-<li><a href="#add-pictures" id="toc-add-pictures">Add pictures</a></li>
+<li><a href="#add-pictures" id="toc-add-pictures">Add pictures</a>
+<ul>
+<li><a href="#to-the-gallery" id="toc-to-the-gallery">To the
+Gallery</a></li>
+<li><a href="#to-a-post-or-project" id="toc-to-a-post-or-project">To a
+post or project</a></li>
+<li><a href="#your-profile-photo" id="toc-your-profile-photo">Your
+profile photo</a></li>
+</ul></li>
 <li><a href="#add-a-project" id="toc-add-a-project">Add a
 project</a></li>
 <li><a href="#change-the-words-on-a-page" id="toc-change-the-words-on-a-page">Change the words on a page</a></li>
 <li><a href="#publish" id="toc-publish">Publish</a></li>
-<li><a href="#two-things-only-you-can-finish" id="toc-two-things-only-you-can-finish">Two things only you can
+<li><a href="#one-thing-only-you-can-finish" id="toc-one-thing-only-you-can-finish">One thing only you can
 finish</a></li>
 <li><a href="#if-something-goes-wrong" id="toc-if-something-goes-wrong">If something goes wrong</a></li>
 <li><a href="#where-everything-is" id="toc-where-everything-is">Where
@@ -277,15 +285,14 @@ line. Fix it, save, run it again.</p>
 looks old, press <strong>Cmd + Shift + R</strong>. If GitHub itself is
 slow (it happens), the Actions tab of your repository shows the job as
 <em>queued</em>; it will go through on its own.</p>
-<h2 id="two-things-only-you-can-finish">Two things only you can
+<h2 id="one-thing-only-you-can-finish">One thing only you can
 finish</h2>
 <ul>
-<li><strong>The contact form</strong> is switched off until it has a
-Formspree ID. Create a free form at https://formspree.io, copy its ID
-(it looks like <code>xabcdefg</code>), and paste it in
-<code>contact.qmd</code> on the line
-<code>const FORMSPREE_ID = &quot;&quot;;</code> between the quotes. Until then,
-visitors see your email address instead.</li>
+<li><strong>The contact form</strong> is connected to Formspree (form ID
+<code>mljgddvo</code>, account under your Gmail). Messages arrive in
+your inbox; the free plan allows 50 a month. If you ever make a new
+form, change the ID on the line <code>const FORMSPREE_ID = &quot;…&quot;;</code>
+in <code>contact.qmd</code>.</li>
 <li><strong>The CV download</strong> is hidden until a file called
 <code>cv/Halireena_Rushdiha_CV.pdf</code> exists. Save a PDF there and
 the button appears. Remember that anything in this folder becomes

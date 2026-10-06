@@ -20,6 +20,7 @@ the UAE and internationally. Use the form to get in touch or to request my CV.
       </select>
     </label>
     <label>Message <textarea name="message" rows="6" required></textarea></label>
+    <input type="hidden" name="_subject" id="fs-subject" value="Message from halireena.github.io">
     <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
     <button type="submit" class="btn-cute solid">Send message</button>
     <p class="form-note" id="form-note"></p>
@@ -36,11 +37,14 @@ the UAE and internationally. Use the form to get in touch or to request my CV.
 </div>
 <script>
   // Form delivery is handled by Formspree. Paste your form ID between the quotes below.
-  const FORMSPREE_ID = "";
+  const FORMSPREE_ID = "mljgddvo";
   const form = document.getElementById("contact-form");
   const note = document.getElementById("form-note");
   if (FORMSPREE_ID) {
     form.action = "https://formspree.io/f/" + FORMSPREE_ID;
+    form.querySelector("[name=subject]").addEventListener("change", (e) => {
+      document.getElementById("fs-subject").value = "halireena.github.io: " + e.target.value;
+    });
     form.addEventListener("submit", async (e) => {
       e.preventDefault();
       note.textContent = "Sending…";

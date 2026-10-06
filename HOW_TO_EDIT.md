@@ -109,9 +109,9 @@ Double-click **4 Publish**. If it says the site did not build, read the last lin
 
 After it says "Uploaded", GitHub needs 1–3 minutes. If the live site looks old, press **Cmd + Shift + R**. If GitHub itself is slow (it happens), the Actions tab of your repository shows the job as *queued*; it will go through on its own.
 
-## Two things only you can finish
+## One thing only you can finish
 
-- **The contact form** is switched off until it has a Formspree ID. Create a free form at https://formspree.io, copy its ID (it looks like `xabcdefg`), and paste it in `contact.qmd` on the line `const FORMSPREE_ID = "";` between the quotes. Until then, visitors see your email address instead.
+- **The contact form** is connected to Formspree (form ID `mljgddvo`, account under your Gmail). Messages arrive in your inbox; the free plan allows 50 a month. If you ever make a new form, change the ID on the line `const FORMSPREE_ID = "…";` in `contact.qmd`.
 - **The CV download** is hidden until a file called `cv/Halireena_Rushdiha_CV.pdf` exists. Save a PDF there and the button appears. Remember that anything in this folder becomes public.
 
 ## If something goes wrong
