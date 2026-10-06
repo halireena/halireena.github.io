@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" font-family="Inter, Helvetica, Arial, sans-serif"><defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#1F3A5F"/></marker></defs><rect width="960" height="560" fill="#fff"/>
+<text x="480" y="38" text-anchor="middle" font-size="20" font-weight="700" fill="#1E2A26">What is in the website folder</text>
+<rect x="30" y="70" width="900" height="40" rx="6" fill="#F3F5F8" stroke="#DDE3EA"/><rect x="30" y="70" width="6" height="40" rx="3" fill="#C8663F"/>
+<text x="48" y="95" font-size="13.5" font-weight="700" fill="#1E2A26" font-family="Menlo, monospace">1-5  ….command</text>
+<text x="440" y="95" font-size="13" fill="#5B6B64">Double-click helpers: preview, new post, add photos, publish, new project</text>
+<rect x="30" y="116" width="900" height="40" rx="6" fill="#F3F5F8" stroke="#DDE3EA"/><rect x="30" y="116" width="6" height="40" rx="3" fill="#1F3A5F"/>
+<text x="48" y="141" font-size="13.5" font-weight="700" fill="#1E2A26" font-family="Menlo, monospace">blog/</text>
+<text x="440" y="141" font-size="13" fill="#5B6B64">One folder per post:  blog/2026-10-04-my-post/index.qmd  (+ its pictures)</text>
+<rect x="30" y="162" width="900" height="40" rx="6" fill="#F3F5F8" stroke="#DDE3EA"/><rect x="30" y="162" width="6" height="40" rx="3" fill="#1F3A5F"/>
+<text x="48" y="187" font-size="13.5" font-weight="700" fill="#1E2A26" font-family="Menlo, monospace">projects/</text>
+<text x="440" y="187" font-size="13" fill="#5B6B64">One folder per project:  projects/my-project/index.qmd  (+ figures)</text>
+<rect x="30" y="208" width="900" height="40" rx="6" fill="#F3F5F8" stroke="#DDE3EA"/><rect x="30" y="208" width="6" height="40" rx="3" fill="#C8663F"/>
+<text x="48" y="233" font-size="13.5" font-weight="700" fill="#1E2A26" font-family="Menlo, monospace">gallery/inbox/</text>
+<text x="440" y="233" font-size="13" fill="#5B6B64">Drop new photos here, then run helper 3</text>
+<rect x="30" y="254" width="900" height="40" rx="6" fill="#F3F5F8" stroke="#DDE3EA"/><rect x="30" y="254" width="6" height="40" rx="3" fill="#1F3A5F"/>
+<text x="48" y="279" font-size="13.5" font-weight="700" fill="#1E2A26" font-family="Menlo, monospace">gallery/photos/</text>
+<text x="440" y="279" font-size="13" fill="#5B6B64">Chapters: 1-colombo, 2-dubai …  each with title.txt, beats.txt, photos</text>
+<rect x="30" y="300" width="900" height="40" rx="6" fill="#F3F5F8" stroke="#DDE3EA"/><rect x="30" y="300" width="6" height="40" rx="3" fill="#1F3A5F"/>
+<text x="48" y="325" font-size="13.5" font-weight="700" fill="#1E2A26" font-family="Menlo, monospace">index.qmd  about.qmd  timeline.qmd  …</text>
+<text x="440" y="325" font-size="13" fill="#5B6B64">The main pages (plus publications, cv, contact): edit the words directly</text>
+<rect x="30" y="346" width="900" height="40" rx="6" fill="#F3F5F8" stroke="#DDE3EA"/><rect x="30" y="346" width="6" height="40" rx="3" fill="#5B6B64"/>
+<text x="48" y="371" font-size="13.5" font-weight="700" fill="#1E2A26" font-family="Menlo, monospace">_templates/</text>
+<text x="440" y="371" font-size="13" fill="#5B6B64">Blank post and project templates (the helpers copy these)</text>
+<rect x="30" y="392" width="900" height="40" rx="6" fill="#F3F5F8" stroke="#DDE3EA"/><rect x="30" y="392" width="6" height="40" rx="3" fill="#5B6B64"/>
+<text x="48" y="417" font-size="13.5" font-weight="700" fill="#1E2A26" font-family="Menlo, monospace">_quarto.yml   theme.scss</text>
+<text x="440" y="417" font-size="13" fill="#5B6B64">Site settings and menu;  colours and fonts</text>
+<rect x="30" y="438" width="900" height="40" rx="6" fill="#F3F5F8" stroke="#DDE3EA"/><rect x="30" y="438" width="6" height="40" rx="3" fill="#5B6B64"/>
+<text x="48" y="463" font-size="13.5" font-weight="700" fill="#1E2A26" font-family="Menlo, monospace">_guide/   HOW_TO_EDIT.md</text>
+<text x="440" y="463" font-size="13" fill="#5B6B64">This guide</text>
+<rect x="30" y="484" width="900" height="40" rx="6" fill="#F3F5F8" stroke="#DDE3EA"/><rect x="30" y="484" width="6" height="40" rx="3" fill="#5B6B64"/>
+<text x="48" y="509" font-size="13.5" font-weight="700" fill="#1E2A26" font-family="Menlo, monospace">_site/  .quarto/  .github/</text>
+<text x="440" y="509" font-size="13" fill="#5B6B64">Built output and publishing machinery: never edit</text>
+</svg>

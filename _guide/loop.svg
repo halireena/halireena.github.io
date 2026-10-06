@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 330" font-family="Inter, Helvetica, Arial, sans-serif"><defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#1F3A5F"/></marker></defs><rect width="960" height="330" fill="#fff"/>
+<text x="480" y="40" text-anchor="middle" font-size="20" font-weight="700" fill="#1E2A26">The loop you repeat every time</text>
+<rect x="20" y="90" width="160" height="130" rx="8" fill="#F3F5F8" stroke="#DDE3EA" stroke-width="1.5"/>
+<rect x="20" y="90" width="160" height="6" rx="3" fill="#1F3A5F"/>
+<text x="100.0" y="124" text-anchor="middle" font-size="15" font-weight="700" fill="#1E2A26">1  Write</text>
+<text x="100.0" y="148" text-anchor="middle" font-size="12.5" fill="#5B6B64">edit a .qmd file</text>
+<text x="100.0" y="166" text-anchor="middle" font-size="12.5" fill="#5B6B64">or drop photos in</text>
+<text x="100.0" y="184" text-anchor="middle" font-size="12.5" fill="#5B6B64">gallery/inbox</text>
+<path d="M183 155 L 205 155" stroke="#1F3A5F" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="208" y="90" width="160" height="130" rx="8" fill="#F3F5F8" stroke="#DDE3EA" stroke-width="1.5"/>
+<rect x="208" y="90" width="160" height="6" rx="3" fill="#1F3A5F"/>
+<text x="288.0" y="124" text-anchor="middle" font-size="15" font-weight="700" fill="#1E2A26">2  Preview</text>
+<text x="288.0" y="148" text-anchor="middle" font-size="12.5" fill="#5B6B64">double-click</text>
+<text x="288.0" y="166" text-anchor="middle" font-size="12.5" fill="#5B6B64">&quot;1 Preview website&quot;</text>
+<text x="288.0" y="184" text-anchor="middle" font-size="12.5" fill="#5B6B64">browser opens</text>
+<path d="M371 155 L 393 155" stroke="#1F3A5F" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="396" y="90" width="160" height="130" rx="8" fill="#F3F5F8" stroke="#DDE3EA" stroke-width="1.5"/>
+<rect x="396" y="90" width="160" height="6" rx="3" fill="#1F3A5F"/>
+<text x="476.0" y="124" text-anchor="middle" font-size="15" font-weight="700" fill="#1E2A26">3  Check</text>
+<text x="476.0" y="148" text-anchor="middle" font-size="12.5" fill="#5B6B64">does it look right?</text>
+<text x="476.0" y="166" text-anchor="middle" font-size="12.5" fill="#5B6B64">fix typos, re-save,</text>
+<text x="476.0" y="184" text-anchor="middle" font-size="12.5" fill="#5B6B64">page refreshes itself</text>
+<path d="M559 155 L 581 155" stroke="#1F3A5F" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="584" y="90" width="160" height="130" rx="8" fill="#F3F5F8" stroke="#DDE3EA" stroke-width="1.5"/>
+<rect x="584" y="90" width="160" height="6" rx="3" fill="#1F3A5F"/>
+<text x="664.0" y="124" text-anchor="middle" font-size="15" font-weight="700" fill="#1E2A26">4  Publish</text>
+<text x="664.0" y="148" text-anchor="middle" font-size="12.5" fill="#5B6B64">double-click</text>
+<text x="664.0" y="166" text-anchor="middle" font-size="12.5" fill="#5B6B64">&quot;4 Publish&quot;</text>
+<text x="664.0" y="184" text-anchor="middle" font-size="12.5" fill="#5B6B64">type a short note</text>
+<path d="M747 155 L 769 155" stroke="#1F3A5F" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="772" y="90" width="160" height="130" rx="8" fill="#F3F5F8" stroke="#DDE3EA" stroke-width="1.5"/>
+<rect x="772" y="90" width="160" height="6" rx="3" fill="#1F3A5F"/>
+<text x="852.0" y="124" text-anchor="middle" font-size="15" font-weight="700" fill="#1E2A26">5  Live</text>
+<text x="852.0" y="148" text-anchor="middle" font-size="12.5" fill="#5B6B64">halireena.github.io</text>
+<text x="852.0" y="166" text-anchor="middle" font-size="12.5" fill="#5B6B64">updates in 1-3 min</text>
+<text x="852.0" y="184" text-anchor="middle" font-size="12.5" fill="#5B6B64">(Cmd+Shift+R)</text>
+<text x="480" y="290" text-anchor="middle" font-size="13" fill="#5B6B64">Steps 2 and 3 are optional for tiny fixes, but always preview a new page before publishing.</text>
+</svg>

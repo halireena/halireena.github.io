@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc 3.10" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>How to run your website</title>
+  <style>
+
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+  <style type="text/css">body { font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; max-width: 860px; margin: 2rem auto; padding: 0 1.2rem; line-height: 1.6; color: #1E2A26; }
+h1 { font-size: 2rem; margin-bottom: .2rem; } .subtitle { color: #5B6B64; font-size: 1.1rem; margin-top: 0; }
+h2 { margin-top: 2.2rem; border-bottom: 1px solid #DDE3EA; padding-bottom: .3rem; }
+img { max-width: 100%; display: block; margin: 1.2rem auto; border: 1px solid #DDE3EA; border-radius: 8px; }
+table { border-collapse: collapse; width: 100%; margin: 1rem 0; } th, td { border: 1px solid #DDE3EA; padding: .5rem .7rem; text-align: left; vertical-align: top; } th { background: #F3F5F8; }
+code { background: #F3F5F8; padding: .1rem .35rem; border-radius: 4px; font-size: .92em; } pre { background: #F3F5F8; padding: .8rem 1rem; border-radius: 8px; overflow-x: auto; }
+#TOC { background: #F3F5F8; border-radius: 8px; padding: 1rem 1.4rem; } #TOC ul { margin: .2rem 0; }
+</style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">How to run your website</h1>
+<p class="subtitle">Everything you need to keep halireena.github.io
+going on your own</p>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#the-five-helpers" id="toc-the-five-helpers">The five
+helpers</a></li>
+<li><a href="#write-a-blog-post" id="toc-write-a-blog-post">Write a blog
+post</a></li>
+<li><a href="#add-pictures" id="toc-add-pictures">Add pictures</a></li>
+<li><a href="#add-a-project" id="toc-add-a-project">Add a
+project</a></li>
+<li><a href="#change-the-words-on-a-page" id="toc-change-the-words-on-a-page">Change the words on a page</a></li>
+<li><a href="#publish" id="toc-publish">Publish</a></li>
+<li><a href="#two-things-only-you-can-finish" id="toc-two-things-only-you-can-finish">Two things only you can
+finish</a></li>
+<li><a href="#if-something-goes-wrong" id="toc-if-something-goes-wrong">If something goes wrong</a></li>
+<li><a href="#where-everything-is" id="toc-where-everything-is">Where
+everything is</a></li>
+</ul>
+</nav>
+<p>Your website is a folder of plain text files. You edit a file, look
+at the result, and press publish. That is the whole job. This guide
+shows the handful of things you will do again and again, with
+pictures.</p>
+<p><strong>The folder:</strong>
+<code>Desktop › 05 Life &amp; Planning › get my life together › halireena.github.io</code>
+<strong>The live site:</strong> https://halireena.github.io</p>
+<p><img role="img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5NjAgMzMwIiBmb250LWZhbWlseT0iSW50ZXIsIEhlbHZldGljYSwgQXJpYWwsIHNhbnMtc2VyaWYiPjxkZWZzPjxtYXJrZXIgaWQ9ImEiIG1hcmtlcldpZHRoPSIxMCIgbWFya2VySGVpZ2h0PSIxMCIgcmVmWD0iOCIgcmVmWT0iNSIgb3JpZW50PSJhdXRvIj48cGF0aCBkPSJNMCAwIEwxMCA1IEwwIDEwIHoiIGZpbGw9IiMxRjNBNUYiLz48L21hcmtlcj48L2RlZnM+PHJlY3Qgd2lkdGg9Ijk2MCIgaGVpZ2h0PSIzMzAiIGZpbGw9IiNmZmYiLz4KPHRleHQgeD0iNDgwIiB5PSI0MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyMCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzFFMkEyNiI+VGhlIGxvb3AgeW91IHJlcGVhdCBldmVyeSB0aW1lPC90ZXh0Pgo8cmVjdCB4PSIyMCIgeT0iOTAiIHdpZHRoPSIxNjAiIGhlaWdodD0iMTMwIiByeD0iOCIgZmlsbD0iI0YzRjVGOCIgc3Ryb2tlPSIjRERFM0VBIiBzdHJva2Utd2lkdGg9IjEuNSIvPgo8cmVjdCB4PSIyMCIgeT0iOTAiIHdpZHRoPSIxNjAiIGhlaWdodD0iNiIgcng9IjMiIGZpbGw9IiMxRjNBNUYiLz4KPHRleHQgeD0iMTAwLjAiIHk9IjEyNCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIxNSIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzFFMkEyNiI+MSAgV3JpdGU8L3RleHQ+Cjx0ZXh0IHg9IjEwMC4wIiB5PSIxNDgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMTIuNSIgZmlsbD0iIzVCNkI2NCI+ZWRpdCBhIC5xbWQgZmlsZTwvdGV4dD4KPHRleHQgeD0iMTAwLjAiIHk9IjE2NiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIxMi41IiBmaWxsPSIjNUI2QjY0Ij5vciBkcm9wIHBob3RvcyBpbjwvdGV4dD4KPHRleHQgeD0iMTAwLjAiIHk9IjE4NCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIxMi41IiBmaWxsPSIjNUI2QjY0Ij5nYWxsZXJ5L2luYm94PC90ZXh0Pgo8cGF0aCBkPSJNMTgzIDE1NSBMIDIwNSAxNTUiIHN0cm9rZT0iIzFGM0E1RiIgc3Ryb2tlLXdpZHRoPSIyLjUiIG1hcmtlci1lbmQ9InVybCgjYSkiLz4KPHJlY3QgeD0iMjA4IiB5PSI5MCIgd2lkdGg9IjE2MCIgaGVpZ2h0PSIxMzAiIHJ4PSI4IiBmaWxsPSIjRjNGNUY4IiBzdHJva2U9IiNEREUzRUEiIHN0cm9rZS13aWR0aD0iMS41Ii8+CjxyZWN0IHg9IjIwOCIgeT0iOTAiIHdpZHRoPSIxNjAiIGhlaWdodD0iNiIgcng9IjMiIGZpbGw9IiMxRjNBNUYiLz4KPHRleHQgeD0iMjg4LjAiIHk9IjEyNCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIxNSIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzFFMkEyNiI+MiAgUHJldmlldzwvdGV4dD4KPHRleHQgeD0iMjg4LjAiIHk9IjE0OCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIxMi41IiBmaWxsPSIjNUI2QjY0Ij5kb3VibGUtY2xpY2s8L3RleHQ+Cjx0ZXh0IHg9IjI4OC4wIiB5PSIxNjYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMTIuNSIgZmlsbD0iIzVCNkI2NCI+JnF1b3Q7MSBQcmV2aWV3IHdlYnNpdGUmcXVvdDs8L3RleHQ+Cjx0ZXh0IHg9IjI4OC4wIiB5PSIxODQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMTIuNSIgZmlsbD0iIzVCNkI2NCI+YnJvd3NlciBvcGVuczwvdGV4dD4KPHBhdGggZD0iTTM3MSAxNTUgTCAzOTMgMTU1IiBzdHJva2U9IiMxRjNBNUYiIHN0cm9rZS13aWR0aD0iMi41IiBtYXJrZXItZW5kPSJ1cmwoI2EpIi8+CjxyZWN0IHg9IjM5NiIgeT0iOTAiIHdpZHRoPSIxNjAiIGhlaWdodD0iMTMwIiByeD0iOCIgZmlsbD0iI0YzRjVGOCIgc3Ryb2tlPSIjRERFM0VBIiBzdHJva2Utd2lkdGg9IjEuNSIvPgo8cmVjdCB4PSIzOTYiIHk9IjkwIiB3aWR0aD0iMTYwIiBoZWlnaHQ9IjYiIHJ4PSIzIiBmaWxsPSIjMUYzQTVGIi8+Cjx0ZXh0IHg9IjQ3Ni4wIiB5PSIxMjQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMTUiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiMxRTJBMjYiPjMgIENoZWNrPC90ZXh0Pgo8dGV4dCB4PSI0NzYuMCIgeT0iMTQ4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjEyLjUiIGZpbGw9IiM1QjZCNjQiPmRvZXMgaXQgbG9vayByaWdodD88L3RleHQ+Cjx0ZXh0IHg9IjQ3Ni4wIiB5PSIxNjYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMTIuNSIgZmlsbD0iIzVCNkI2NCI+Zml4IHR5cG9zLCByZS1zYXZlLDwvdGV4dD4KPHRleHQgeD0iNDc2LjAiIHk9IjE4NCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIxMi41IiBmaWxsPSIjNUI2QjY0Ij5wYWdlIHJlZnJlc2hlcyBpdHNlbGY8L3RleHQ+CjxwYXRoIGQ9Ik01NTkgMTU1IEwgNTgxIDE1NSIgc3Ryb2tlPSIjMUYzQTVGIiBzdHJva2Utd2lkdGg9IjIuNSIgbWFya2VyLWVuZD0idXJsKCNhKSIvPgo8cmVjdCB4PSI1ODQiIHk9IjkwIiB3aWR0aD0iMTYwIiBoZWlnaHQ9IjEzMCIgcng9IjgiIGZpbGw9IiNGM0Y1RjgiIHN0cm9rZT0iI0RERTNFQSIgc3Ryb2tlLXdpZHRoPSIxLjUiLz4KPHJlY3QgeD0iNTg0IiB5PSI5MCIgd2lkdGg9IjE2MCIgaGVpZ2h0PSI2IiByeD0iMyIgZmlsbD0iIzFGM0E1RiIvPgo8dGV4dCB4PSI2NjQuMCIgeT0iMTI0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjE1IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjMUUyQTI2Ij40ICBQdWJsaXNoPC90ZXh0Pgo8dGV4dCB4PSI2NjQuMCIgeT0iMTQ4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjEyLjUiIGZpbGw9IiM1QjZCNjQiPmRvdWJsZS1jbGljazwvdGV4dD4KPHRleHQgeD0iNjY0LjAiIHk9IjE2NiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIxMi41IiBmaWxsPSIjNUI2QjY0Ij4mcXVvdDs0IFB1Ymxpc2gmcXVvdDs8L3RleHQ+Cjx0ZXh0IHg9IjY2NC4wIiB5PSIxODQiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMTIuNSIgZmlsbD0iIzVCNkI2NCI+dHlwZSBhIHNob3J0IG5vdGU8L3RleHQ+CjxwYXRoIGQ9Ik03NDcgMTU1IEwgNzY5IDE1NSIgc3Ryb2tlPSIjMUYzQTVGIiBzdHJva2Utd2lkdGg9IjIuNSIgbWFya2VyLWVuZD0idXJsKCNhKSIvPgo8cmVjdCB4PSI3NzIiIHk9IjkwIiB3aWR0aD0iMTYwIiBoZWlnaHQ9IjEzMCIgcng9IjgiIGZpbGw9IiNGM0Y1RjgiIHN0cm9rZT0iI0RERTNFQSIgc3Ryb2tlLXdpZHRoPSIxLjUiLz4KPHJlY3QgeD0iNzcyIiB5PSI5MCIgd2lkdGg9IjE2MCIgaGVpZ2h0PSI2IiByeD0iMyIgZmlsbD0iIzFGM0E1RiIvPgo8dGV4dCB4PSI4NTIuMCIgeT0iMTI0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjE1IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjMUUyQTI2Ij41ICBMaXZlPC90ZXh0Pgo8dGV4dCB4PSI4NTIuMCIgeT0iMTQ4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjEyLjUiIGZpbGw9IiM1QjZCNjQiPmhhbGlyZWVuYS5naXRodWIuaW88L3RleHQ+Cjx0ZXh0IHg9Ijg1Mi4wIiB5PSIxNjYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMTIuNSIgZmlsbD0iIzVCNkI2NCI+dXBkYXRlcyBpbiAxLTMgbWluPC90ZXh0Pgo8dGV4dCB4PSI4NTIuMCIgeT0iMTg0IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjEyLjUiIGZpbGw9IiM1QjZCNjQiPihDbWQrU2hpZnQrUik8L3RleHQ+Cjx0ZXh0IHg9IjQ4MCIgeT0iMjkwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjEzIiBmaWxsPSIjNUI2QjY0Ij5TdGVwcyAyIGFuZCAzIGFyZSBvcHRpb25hbCBmb3IgdGlueSBmaXhlcywgYnV0IGFsd2F5cyBwcmV2aWV3IGEgbmV3IHBhZ2UgYmVmb3JlIHB1Ymxpc2hpbmcuPC90ZXh0Pgo8L3N2Zz4=" /></p>
+<h2 id="the-five-helpers">The five helpers</h2>
+<p>At the top of the folder are five files you double-click. They open a
+small Terminal window, do the job, and tell you what happened. You never
+need to type commands.</p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Helper</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1 Preview website</strong></td>
+<td>Opens the site in your browser from your computer. Keep the window
+open while you edit: every time you save, the page refreshes. Press
+<code>Ctrl + C</code> in the window to stop.</td>
+</tr>
+<tr>
+<td><strong>2 New blog post</strong></td>
+<td>Asks for a title, creates the post folder with today’s date, and
+shows it in Finder.</td>
+</tr>
+<tr>
+<td><strong>3 Add gallery photos</strong></td>
+<td>Takes photos from <code>gallery/inbox</code>, removes hidden
+location data, shrinks them, asks you for a date and caption for each,
+and rebuilds the Gallery page.</td>
+</tr>
+<tr>
+<td><strong>4 Publish</strong></td>
+<td>Checks the site builds, asks for a one-line note, uploads, and
+GitHub puts it live in 1–3 minutes.</td>
+</tr>
+<tr>
+<td><strong>5 New project page</strong></td>
+<td>Like helper 2, but for a project.</td>
+</tr>
+</tbody>
+</table>
+<p>The first time, macOS may say the file “cannot be opened because it
+is from an unidentified developer”. Right-click the file →
+<strong>Open</strong> → <strong>Open</strong>. After that it works with
+a double-click.</p>
+<p><img role="img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5NjAgNTYwIiBmb250LWZhbWlseT0iSW50ZXIsIEhlbHZldGljYSwgQXJpYWwsIHNhbnMtc2VyaWYiPjxkZWZzPjxtYXJrZXIgaWQ9ImEiIG1hcmtlcldpZHRoPSIxMCIgbWFya2VySGVpZ2h0PSIxMCIgcmVmWD0iOCIgcmVmWT0iNSIgb3JpZW50PSJhdXRvIj48cGF0aCBkPSJNMCAwIEwxMCA1IEwwIDEwIHoiIGZpbGw9IiMxRjNBNUYiLz48L21hcmtlcj48L2RlZnM+PHJlY3Qgd2lkdGg9Ijk2MCIgaGVpZ2h0PSI1NjAiIGZpbGw9IiNmZmYiLz4KPHRleHQgeD0iNDgwIiB5PSIzOCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyMCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzFFMkEyNiI+V2hhdCBpcyBpbiB0aGUgd2Vic2l0ZSBmb2xkZXI8L3RleHQ+CjxyZWN0IHg9IjMwIiB5PSI3MCIgd2lkdGg9IjkwMCIgaGVpZ2h0PSI0MCIgcng9IjYiIGZpbGw9IiNGM0Y1RjgiIHN0cm9rZT0iI0RERTNFQSIvPjxyZWN0IHg9IjMwIiB5PSI3MCIgd2lkdGg9IjYiIGhlaWdodD0iNDAiIHJ4PSIzIiBmaWxsPSIjQzg2NjNGIi8+Cjx0ZXh0IHg9IjQ4IiB5PSI5NSIgZm9udC1zaXplPSIxMy41IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjMUUyQTI2IiBmb250LWZhbWlseT0iTWVubG8sIG1vbm9zcGFjZSI+MS01ICDigKYuY29tbWFuZDwvdGV4dD4KPHRleHQgeD0iNDQwIiB5PSI5NSIgZm9udC1zaXplPSIxMyIgZmlsbD0iIzVCNkI2NCI+RG91YmxlLWNsaWNrIGhlbHBlcnM6IHByZXZpZXcsIG5ldyBwb3N0LCBhZGQgcGhvdG9zLCBwdWJsaXNoLCBuZXcgcHJvamVjdDwvdGV4dD4KPHJlY3QgeD0iMzAiIHk9IjExNiIgd2lkdGg9IjkwMCIgaGVpZ2h0PSI0MCIgcng9IjYiIGZpbGw9IiNGM0Y1RjgiIHN0cm9rZT0iI0RERTNFQSIvPjxyZWN0IHg9IjMwIiB5PSIxMTYiIHdpZHRoPSI2IiBoZWlnaHQ9IjQwIiByeD0iMyIgZmlsbD0iIzFGM0E1RiIvPgo8dGV4dCB4PSI0OCIgeT0iMTQxIiBmb250LXNpemU9IjEzLjUiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiMxRTJBMjYiIGZvbnQtZmFtaWx5PSJNZW5sbywgbW9ub3NwYWNlIj5ibG9nLzwvdGV4dD4KPHRleHQgeD0iNDQwIiB5PSIxNDEiIGZvbnQtc2l6ZT0iMTMiIGZpbGw9IiM1QjZCNjQiPk9uZSBmb2xkZXIgcGVyIHBvc3Q6ICBibG9nLzIwMjYtMTAtMDQtbXktcG9zdC9pbmRleC5xbWQgICgrIGl0cyBwaWN0dXJlcyk8L3RleHQ+CjxyZWN0IHg9IjMwIiB5PSIxNjIiIHdpZHRoPSI5MDAiIGhlaWdodD0iNDAiIHJ4PSI2IiBmaWxsPSIjRjNGNUY4IiBzdHJva2U9IiNEREUzRUEiLz48cmVjdCB4PSIzMCIgeT0iMTYyIiB3aWR0aD0iNiIgaGVpZ2h0PSI0MCIgcng9IjMiIGZpbGw9IiMxRjNBNUYiLz4KPHRleHQgeD0iNDgiIHk9IjE4NyIgZm9udC1zaXplPSIxMy41IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjMUUyQTI2IiBmb250LWZhbWlseT0iTWVubG8sIG1vbm9zcGFjZSI+cHJvamVjdHMvPC90ZXh0Pgo8dGV4dCB4PSI0NDAiIHk9IjE4NyIgZm9udC1zaXplPSIxMyIgZmlsbD0iIzVCNkI2NCI+T25lIGZvbGRlciBwZXIgcHJvamVjdDogIHByb2plY3RzL215LXByb2plY3QvaW5kZXgucW1kICAoKyBmaWd1cmVzKTwvdGV4dD4KPHJlY3QgeD0iMzAiIHk9IjIwOCIgd2lkdGg9IjkwMCIgaGVpZ2h0PSI0MCIgcng9IjYiIGZpbGw9IiNGM0Y1RjgiIHN0cm9rZT0iI0RERTNFQSIvPjxyZWN0IHg9IjMwIiB5PSIyMDgiIHdpZHRoPSI2IiBoZWlnaHQ9IjQwIiByeD0iMyIgZmlsbD0iI0M4NjYzRiIvPgo8dGV4dCB4PSI0OCIgeT0iMjMzIiBmb250LXNpemU9IjEzLjUiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiMxRTJBMjYiIGZvbnQtZmFtaWx5PSJNZW5sbywgbW9ub3NwYWNlIj5nYWxsZXJ5L2luYm94LzwvdGV4dD4KPHRleHQgeD0iNDQwIiB5PSIyMzMiIGZvbnQtc2l6ZT0iMTMiIGZpbGw9IiM1QjZCNjQiPkRyb3AgbmV3IHBob3RvcyBoZXJlLCB0aGVuIHJ1biBoZWxwZXIgMzwvdGV4dD4KPHJlY3QgeD0iMzAiIHk9IjI1NCIgd2lkdGg9IjkwMCIgaGVpZ2h0PSI0MCIgcng9IjYiIGZpbGw9IiNGM0Y1RjgiIHN0cm9rZT0iI0RERTNFQSIvPjxyZWN0IHg9IjMwIiB5PSIyNTQiIHdpZHRoPSI2IiBoZWlnaHQ9IjQwIiByeD0iMyIgZmlsbD0iIzFGM0E1RiIvPgo8dGV4dCB4PSI0OCIgeT0iMjc5IiBmb250LXNpemU9IjEzLjUiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiMxRTJBMjYiIGZvbnQtZmFtaWx5PSJNZW5sbywgbW9ub3NwYWNlIj5nYWxsZXJ5L3Bob3Rvcy88L3RleHQ+Cjx0ZXh0IHg9IjQ0MCIgeT0iMjc5IiBmb250LXNpemU9IjEzIiBmaWxsPSIjNUI2QjY0Ij5DaGFwdGVyczogMS1jb2xvbWJvLCAyLWR1YmFpIOKApiAgZWFjaCB3aXRoIHRpdGxlLnR4dCwgYmVhdHMudHh0LCBwaG90b3M8L3RleHQ+CjxyZWN0IHg9IjMwIiB5PSIzMDAiIHdpZHRoPSI5MDAiIGhlaWdodD0iNDAiIHJ4PSI2IiBmaWxsPSIjRjNGNUY4IiBzdHJva2U9IiNEREUzRUEiLz48cmVjdCB4PSIzMCIgeT0iMzAwIiB3aWR0aD0iNiIgaGVpZ2h0PSI0MCIgcng9IjMiIGZpbGw9IiMxRjNBNUYiLz4KPHRleHQgeD0iNDgiIHk9IjMyNSIgZm9udC1zaXplPSIxMy41IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjMUUyQTI2IiBmb250LWZhbWlseT0iTWVubG8sIG1vbm9zcGFjZSI+aW5kZXgucW1kICBhYm91dC5xbWQgIHRpbWVsaW5lLnFtZCAg4oCmPC90ZXh0Pgo8dGV4dCB4PSI0NDAiIHk9IjMyNSIgZm9udC1zaXplPSIxMyIgZmlsbD0iIzVCNkI2NCI+VGhlIG1haW4gcGFnZXMgKHBsdXMgcHVibGljYXRpb25zLCBjdiwgY29udGFjdCk6IGVkaXQgdGhlIHdvcmRzIGRpcmVjdGx5PC90ZXh0Pgo8cmVjdCB4PSIzMCIgeT0iMzQ2IiB3aWR0aD0iOTAwIiBoZWlnaHQ9IjQwIiByeD0iNiIgZmlsbD0iI0YzRjVGOCIgc3Ryb2tlPSIjRERFM0VBIi8+PHJlY3QgeD0iMzAiIHk9IjM0NiIgd2lkdGg9IjYiIGhlaWdodD0iNDAiIHJ4PSIzIiBmaWxsPSIjNUI2QjY0Ii8+Cjx0ZXh0IHg9IjQ4IiB5PSIzNzEiIGZvbnQtc2l6ZT0iMTMuNSIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzFFMkEyNiIgZm9udC1mYW1pbHk9Ik1lbmxvLCBtb25vc3BhY2UiPl90ZW1wbGF0ZXMvPC90ZXh0Pgo8dGV4dCB4PSI0NDAiIHk9IjM3MSIgZm9udC1zaXplPSIxMyIgZmlsbD0iIzVCNkI2NCI+QmxhbmsgcG9zdCBhbmQgcHJvamVjdCB0ZW1wbGF0ZXMgKHRoZSBoZWxwZXJzIGNvcHkgdGhlc2UpPC90ZXh0Pgo8cmVjdCB4PSIzMCIgeT0iMzkyIiB3aWR0aD0iOTAwIiBoZWlnaHQ9IjQwIiByeD0iNiIgZmlsbD0iI0YzRjVGOCIgc3Ryb2tlPSIjRERFM0VBIi8+PHJlY3QgeD0iMzAiIHk9IjM5MiIgd2lkdGg9IjYiIGhlaWdodD0iNDAiIHJ4PSIzIiBmaWxsPSIjNUI2QjY0Ii8+Cjx0ZXh0IHg9IjQ4IiB5PSI0MTciIGZvbnQtc2l6ZT0iMTMuNSIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzFFMkEyNiIgZm9udC1mYW1pbHk9Ik1lbmxvLCBtb25vc3BhY2UiPl9xdWFydG8ueW1sICAgdGhlbWUuc2NzczwvdGV4dD4KPHRleHQgeD0iNDQwIiB5PSI0MTciIGZvbnQtc2l6ZT0iMTMiIGZpbGw9IiM1QjZCNjQiPlNpdGUgc2V0dGluZ3MgYW5kIG1lbnU7ICBjb2xvdXJzIGFuZCBmb250czwvdGV4dD4KPHJlY3QgeD0iMzAiIHk9IjQzOCIgd2lkdGg9IjkwMCIgaGVpZ2h0PSI0MCIgcng9IjYiIGZpbGw9IiNGM0Y1RjgiIHN0cm9rZT0iI0RERTNFQSIvPjxyZWN0IHg9IjMwIiB5PSI0MzgiIHdpZHRoPSI2IiBoZWlnaHQ9IjQwIiByeD0iMyIgZmlsbD0iIzVCNkI2NCIvPgo8dGV4dCB4PSI0OCIgeT0iNDYzIiBmb250LXNpemU9IjEzLjUiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiMxRTJBMjYiIGZvbnQtZmFtaWx5PSJNZW5sbywgbW9ub3NwYWNlIj5fZ3VpZGUvICAgSE9XX1RPX0VESVQubWQ8L3RleHQ+Cjx0ZXh0IHg9IjQ0MCIgeT0iNDYzIiBmb250LXNpemU9IjEzIiBmaWxsPSIjNUI2QjY0Ij5UaGlzIGd1aWRlPC90ZXh0Pgo8cmVjdCB4PSIzMCIgeT0iNDg0IiB3aWR0aD0iOTAwIiBoZWlnaHQ9IjQwIiByeD0iNiIgZmlsbD0iI0YzRjVGOCIgc3Ryb2tlPSIjRERFM0VBIi8+PHJlY3QgeD0iMzAiIHk9IjQ4NCIgd2lkdGg9IjYiIGhlaWdodD0iNDAiIHJ4PSIzIiBmaWxsPSIjNUI2QjY0Ii8+Cjx0ZXh0IHg9IjQ4IiB5PSI1MDkiIGZvbnQtc2l6ZT0iMTMuNSIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzFFMkEyNiIgZm9udC1mYW1pbHk9Ik1lbmxvLCBtb25vc3BhY2UiPl9zaXRlLyAgLnF1YXJ0by8gIC5naXRodWIvPC90ZXh0Pgo8dGV4dCB4PSI0NDAiIHk9IjUwOSIgZm9udC1zaXplPSIxMyIgZmlsbD0iIzVCNkI2NCI+QnVpbHQgb3V0cHV0IGFuZCBwdWJsaXNoaW5nIG1hY2hpbmVyeTogbmV2ZXIgZWRpdDwvdGV4dD4KPC9zdmc+" /></p>
+<h2 id="write-a-blog-post">Write a blog post</h2>
+<ol type="1">
+<li>Double-click <strong>2 New blog post</strong> and type a title. A
+folder like <code>blog/2026-11-02-my-title/</code> appears with an
+<code>index.qmd</code> inside.</li>
+<li>Open <code>index.qmd</code> in a text editor (TextEdit works:
+right-click → Open With → TextEdit. VS Code or Positron are nicer).</li>
+<li>Write. The picture below shows what each line does.</li>
+<li>Double-click <strong>1 Preview website</strong>, click
+<strong>Blog</strong>, read your post.</li>
+<li>Double-click <strong>4 Publish</strong>.</li>
+</ol>
+<p><img role="img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5NjAgNDcwIiBmb250LWZhbWlseT0iSW50ZXIsIEhlbHZldGljYSwgQXJpYWwsIHNhbnMtc2VyaWYiPjxkZWZzPjxtYXJrZXIgaWQ9ImEiIG1hcmtlcldpZHRoPSIxMCIgbWFya2VySGVpZ2h0PSIxMCIgcmVmWD0iOCIgcmVmWT0iNSIgb3JpZW50PSJhdXRvIj48cGF0aCBkPSJNMCAwIEwxMCA1IEwwIDEwIHoiIGZpbGw9IiMxRjNBNUYiLz48L21hcmtlcj48L2RlZnM+PHJlY3Qgd2lkdGg9Ijk2MCIgaGVpZ2h0PSI0NzAiIGZpbGw9IiNmZmYiLz4KPHRleHQgeD0iNDgwIiB5PSIzNiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyMCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzFFMkEyNiI+QW5hdG9teSBvZiBhIGJsb2cgcG9zdCAoaW5kZXgucW1kKTwvdGV4dD4KPHJlY3QgeD0iMzAiIHk9IjYwIiB3aWR0aD0iNTYwIiBoZWlnaHQ9IjM5MCIgcng9IjgiIGZpbGw9IiNGQUZCRkMiIHN0cm9rZT0iI0RERTNFQSIvPgo8dGV4dCB4PSI0NiIgeT0iODYiIGZvbnQtc2l6ZT0iMTIuNSIgZmlsbD0iIzFFMkEyNiIgZm9udC1mYW1pbHk9Ik1lbmxvLCBtb25vc3BhY2UiPi0tLTwvdGV4dD4KPHRleHQgeD0iNDYiIHk9IjEwNiIgZm9udC1zaXplPSIxMi41IiBmaWxsPSIjMUUyQTI2IiBmb250LWZhbWlseT0iTWVubG8sIG1vbm9zcGFjZSI+dGl0bGU6ICZxdW90O1doYXQgSSBsZWFybmVkIGZyb20gbXkgZmlyc3QgUk5BLXNlcSBydW4mcXVvdDs8L3RleHQ+Cjx0ZXh0IHg9IjQ2IiB5PSIxMjYiIGZvbnQtc2l6ZT0iMTIuNSIgZmlsbD0iIzFFMkEyNiIgZm9udC1mYW1pbHk9Ik1lbmxvLCBtb25vc3BhY2UiPmRlc2NyaXB0aW9uOiAmcXVvdDtPbmUgc2VudGVuY2Ugc2hvd24gb24gdGhlIEJsb2cgcGFnZS4mcXVvdDs8L3RleHQ+Cjx0ZXh0IHg9IjQ2IiB5PSIxNDYiIGZvbnQtc2l6ZT0iMTIuNSIgZmlsbD0iIzFFMkEyNiIgZm9udC1mYW1pbHk9Ik1lbmxvLCBtb25vc3BhY2UiPmRhdGU6IDIwMjYtMTEtMDI8L3RleHQ+Cjx0ZXh0IHg9IjQ2IiB5PSIxNjYiIGZvbnQtc2l6ZT0iMTIuNSIgZmlsbD0iIzFFMkEyNiIgZm9udC1mYW1pbHk9Ik1lbmxvLCBtb25vc3BhY2UiPmNhdGVnb3JpZXM6IFtsZWFybmluZywgUk5BLXNlcV08L3RleHQ+Cjx0ZXh0IHg9IjQ2IiB5PSIxODYiIGZvbnQtc2l6ZT0iMTIuNSIgZmlsbD0iIzFFMkEyNiIgZm9udC1mYW1pbHk9Ik1lbmxvLCBtb25vc3BhY2UiPmltYWdlOiBjb3Zlci5qcGc8L3RleHQ+Cjx0ZXh0IHg9IjQ2IiB5PSIyMDYiIGZvbnQtc2l6ZT0iMTIuNSIgZmlsbD0iIzFFMkEyNiIgZm9udC1mYW1pbHk9Ik1lbmxvLCBtb25vc3BhY2UiPi0tLTwvdGV4dD4KPHRleHQgeD0iNDYiIHk9IjIyNiIgZm9udC1zaXplPSIxMi41IiBmaWxsPSIjMUUyQTI2IiBmb250LWZhbWlseT0iTWVubG8sIG1vbm9zcGFjZSI+PC90ZXh0Pgo8dGV4dCB4PSI0NiIgeT0iMjQ2IiBmb250LXNpemU9IjEyLjUiIGZpbGw9IiMxRTJBMjYiIGZvbnQtZmFtaWx5PSJNZW5sbywgbW9ub3NwYWNlIj5b4oaQIEFsbCBwb3N0c10oLi4vLi4vYmxvZy5xbWQpey5iYWNrLWxpbmt9PC90ZXh0Pgo8dGV4dCB4PSI0NiIgeT0iMjY2IiBmb250LXNpemU9IjEyLjUiIGZpbGw9IiMxRTJBMjYiIGZvbnQtZmFtaWx5PSJNZW5sbywgbW9ub3NwYWNlIj48L3RleHQ+Cjx0ZXh0IHg9IjQ2IiB5PSIyODYiIGZvbnQtc2l6ZT0iMTIuNSIgZmlsbD0iIzFFMkEyNiIgZm9udC1mYW1pbHk9Ik1lbmxvLCBtb25vc3BhY2UiPkZpcnN0IHBhcmFncmFwaC4gSnVzdCB0eXBlLjwvdGV4dD4KPHRleHQgeD0iNDYiIHk9IjMwNiIgZm9udC1zaXplPSIxMi41IiBmaWxsPSIjMUUyQTI2IiBmb250LWZhbWlseT0iTWVubG8sIG1vbm9zcGFjZSI+PC90ZXh0Pgo8dGV4dCB4PSI0NiIgeT0iMzI2IiBmb250LXNpemU9IjEyLjUiIGZpbGw9IiMxRTJBMjYiIGZvbnQtZmFtaWx5PSJNZW5sbywgbW9ub3NwYWNlIj4jIyBBIGhlYWRpbmc8L3RleHQ+Cjx0ZXh0IHg9IjQ2IiB5PSIzNDYiIGZvbnQtc2l6ZT0iMTIuNSIgZmlsbD0iIzFFMkEyNiIgZm9udC1mYW1pbHk9Ik1lbmxvLCBtb25vc3BhY2UiPjwvdGV4dD4KPHRleHQgeD0iNDYiIHk9IjM2NiIgZm9udC1zaXplPSIxMi41IiBmaWxsPSIjMUUyQTI2IiBmb250LWZhbWlseT0iTWVubG8sIG1vbm9zcGFjZSI+LSBhIGJ1bGxldDwvdGV4dD4KPHRleHQgeD0iNDYiIHk9IjM4NiIgZm9udC1zaXplPSIxMi41IiBmaWxsPSIjMUUyQTI2IiBmb250LWZhbWlseT0iTWVubG8sIG1vbm9zcGFjZSI+LSBhbm90aGVyIGJ1bGxldDwvdGV4dD4KPHRleHQgeD0iNDYiIHk9IjQwNiIgZm9udC1zaXplPSIxMi41IiBmaWxsPSIjMUUyQTI2IiBmb250LWZhbWlseT0iTWVubG8sIG1vbm9zcGFjZSI+PC90ZXh0Pgo8dGV4dCB4PSI0NiIgeT0iNDI2IiBmb250LXNpemU9IjEyLjUiIGZpbGw9IiMxRTJBMjYiIGZvbnQtZmFtaWx5PSJNZW5sbywgbW9ub3NwYWNlIj4hW0NhcHRpb24gdW5kZXIgdGhlIHBpY3R1cmVdKG15LXBpY3R1cmUuanBnKTwvdGV4dD4KPHBhdGggZD0iTTU5NSA4MiBMIDYxNSA4MiIgc3Ryb2tlPSIjQzg2NjNGIiBzdHJva2Utd2lkdGg9IjIiLz48dGV4dCB4PSI2MjIiIHk9Ijg2IiBmb250LXNpemU9IjEyLjUiIGZpbGw9IiMxRTJBMjYiPlRoZSBibG9jayBiZXR3ZWVuIHRoZSB0d28gLS0tIGxpbmVzIGlzIHRoZSBzZXR0aW5ncy48L3RleHQ+CjxwYXRoIGQ9Ik01OTUgMTAyIEwgNjE1IDEwMiIgc3Ryb2tlPSIjQzg2NjNGIiBzdHJva2Utd2lkdGg9IjIiLz48dGV4dCB4PSI2MjIiIHk9IjEwNiIgZm9udC1zaXplPSIxMi41IiBmaWxsPSIjMUUyQTI2Ij50aXRsZTogc2hvd24gYXQgdGhlIHRvcCBhbmQgb24gdGhlIEJsb2cgcGFnZS48L3RleHQ+CjxwYXRoIGQ9Ik01OTUgMTQyIEwgNjE1IDE0MiIgc3Ryb2tlPSIjQzg2NjNGIiBzdHJva2Utd2lkdGg9IjIiLz48dGV4dCB4PSI2MjIiIHk9IjE0NiIgZm9udC1zaXplPSIxMi41IiBmaWxsPSIjMUUyQTI2Ij5kYXRlOiBZWVlZLU1NLURELiBOZXdlc3QgcG9zdHMgYXBwZWFyIGZpcnN0LjwvdGV4dD4KPHBhdGggZD0iTTU5NSAxNjIgTCA2MTUgMTYyIiBzdHJva2U9IiNDODY2M0YiIHN0cm9rZS13aWR0aD0iMiIvPjx0ZXh0IHg9IjYyMiIgeT0iMTY2IiBmb250LXNpemU9IjEyLjUiIGZpbGw9IiMxRTJBMjYiPmNhdGVnb3JpZXM6IGEgZmV3IHRhZ3MgaW4gc3F1YXJlIGJyYWNrZXRzLjwvdGV4dD4KPHBhdGggZD0iTTU5NSAxODIgTCA2MTUgMTgyIiBzdHJva2U9IiNDODY2M0YiIHN0cm9rZS13aWR0aD0iMiIvPjx0ZXh0IHg9IjYyMiIgeT0iMTg2IiBmb250LXNpemU9IjEyLjUiIGZpbGw9IiMxRTJBMjYiPmltYWdlOiBvcHRpb25hbCB0aHVtYm5haWw7IGZpbGUgbXVzdCBiZSBpbiB0aGlzIGZvbGRlci48L3RleHQ+CjxwYXRoIGQ9Ik01OTUgMjQyIEwgNjE1IDI0MiIgc3Ryb2tlPSIjQzg2NjNGIiBzdHJva2Utd2lkdGg9IjIiLz48dGV4dCB4PSI2MjIiIHk9IjI0NiIgZm9udC1zaXplPSIxMi41IiBmaWxsPSIjMUUyQTI2Ij5MZWF2ZSB0aGlzIGxpbmU6IGl0IGlzIHRoZSBiYWNrIGxpbmsuPC90ZXh0Pgo8cGF0aCBkPSJNNTk1IDMyMiBMIDYxNSAzMjIiIHN0cm9rZT0iI0M4NjYzRiIgc3Ryb2tlLXdpZHRoPSIyIi8+PHRleHQgeD0iNjIyIiB5PSIzMjYiIGZvbnQtc2l6ZT0iMTIuNSIgZmlsbD0iIzFFMkEyNiI+IyMgbWFrZXMgYSBoZWFkaW5nLiBPbmUgIyBpcyBvbmx5IGZvciB0aGUgcGFnZSB0aXRsZS48L3RleHQ+CjxwYXRoIGQ9Ik01OTUgNDIyIEwgNjE1IDQyMiIgc3Ryb2tlPSIjQzg2NjNGIiBzdHJva2Utd2lkdGg9IjIiLz48dGV4dCB4PSI2MjIiIHk9IjQyNiIgZm9udC1zaXplPSIxMi41IiBmaWxsPSIjMUUyQTI2Ij5QaWN0dXJlOiBwdXQgdGhlIGZpbGUgaW4gdGhlIHNhbWUgZm9sZGVyLCB0aGVuICFbY2FwdGlvbl0oZmlsZSkuPC90ZXh0Pgo8L3N2Zz4=" /></p>
+<p><strong>Formatting you will use:</strong></p>
+<table>
+<thead>
+<tr>
+<th>You type</th>
+<th>You get</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>## Heading</code></td>
+<td>a section heading</td>
+</tr>
+<tr>
+<td><code>**bold**</code> <code>*italic*</code></td>
+<td><strong>bold</strong> <em>italic</em></td>
+</tr>
+<tr>
+<td><code>[words](https://…)</code></td>
+<td>a link</td>
+</tr>
+<tr>
+<td><code>- item</code></td>
+<td>a bullet point</td>
+</tr>
+<tr>
+<td><code>1. item</code></td>
+<td>a numbered step</td>
+</tr>
+<tr>
+<td><code>&gt; text</code></td>
+<td>a quote</td>
+</tr>
+<tr>
+<td><code>![Caption](photo.jpg)</code></td>
+<td>a picture with a caption</td>
+</tr>
+</tbody>
+</table>
+<p><strong>A post that is not ready:</strong> add
+<code>draft: true</code> to the settings block and it stays invisible
+until you remove the line.</p>
+<p><strong>Linking to the site’s own pages:</strong>
+<code>[my thesis](../../projects/potato-late-blight/)</code> from a
+post; <code>[the gallery](gallery/index.qmd)</code> from a top-level
+page.</p>
+<h2 id="add-pictures">Add pictures</h2>
+<h3 id="to-the-gallery">To the Gallery</h3>
+<ol type="1">
+<li>Drop the photos into <code>gallery/inbox/</code>.</li>
+<li>Double-click <strong>3 Add gallery photos</strong>. It asks which
+chapter (Colombo, Dubai, or a new one), then for each photo a
+<strong>date</strong> (it suggests one from the photo) and a
+<strong>caption</strong> in plain words.</li>
+<li>Preview, then publish.</li>
+</ol>
+<p><img role="img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5NjAgMzAwIiBmb250LWZhbWlseT0iSW50ZXIsIEhlbHZldGljYSwgQXJpYWwsIHNhbnMtc2VyaWYiPjxkZWZzPjxtYXJrZXIgaWQ9ImEiIG1hcmtlcldpZHRoPSIxMCIgbWFya2VySGVpZ2h0PSIxMCIgcmVmWD0iOCIgcmVmWT0iNSIgb3JpZW50PSJhdXRvIj48cGF0aCBkPSJNMCAwIEwxMCA1IEwwIDEwIHoiIGZpbGw9IiMxRjNBNUYiLz48L21hcmtlcj48L2RlZnM+PHJlY3Qgd2lkdGg9Ijk2MCIgaGVpZ2h0PSIzMDAiIGZpbGw9IiNmZmYiLz4KPHRleHQgeD0iNDgwIiB5PSIzNiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIyMCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzFFMkEyNiI+SG93IGEgZ2FsbGVyeSBwaG90byBnZXRzIGl0cyBkYXRlIGFuZCBjYXB0aW9uPC90ZXh0Pgo8cmVjdCB4PSI2MCIgeT0iODAiIHdpZHRoPSI4NDAiIGhlaWdodD0iNTYiIHJ4PSI4IiBmaWxsPSIjRjNGNUY4IiBzdHJva2U9IiNEREUzRUEiLz4KPHRleHQgeD0iOTAiIHk9IjExNyIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iIzFGM0E1RiIgZm9udC1mYW1pbHk9Ik1lbmxvLCBtb25vc3BhY2UiPjIwMjYtMDctMDQ8L3RleHQ+Cjx0ZXh0IHg9IjIyMy4wIiB5PSIxMTciIGZvbnQtc2l6ZT0iMjIiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiM1QjZCNjQiIGZvbnQtZmFtaWx5PSJNZW5sbywgbW9ub3NwYWNlIj4tPC90ZXh0Pgo8dGV4dCB4PSIyMzYuMyIgeT0iMTE3IiBmb250LXNpemU9IjIyIiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjQzg2NjNGIiBmb250LWZhbWlseT0iTWVubG8sIG1vbm9zcGFjZSI+cmVjZWl2aW5nLWZpcnN0LXBsYWNlLWF0LWJpb2Nvbm5lY3Q8L3RleHQ+Cjx0ZXh0IHg9IjcwMS44IiB5PSIxMTciIGZvbnQtc2l6ZT0iMjIiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiM1QjZCNjQiIGZvbnQtZmFtaWx5PSJNZW5sbywgbW9ub3NwYWNlIj4uanBnPC90ZXh0Pgo8dGV4dCB4PSIxNjAiIHk9IjE3NSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIxMyIgZmlsbD0iIzFGM0E1RiIgZm9udC13ZWlnaHQ9IjcwMCI+ZGF0ZSAoZGF5IG9wdGlvbmFsKTwvdGV4dD48dGV4dCB4PSIxNjAiIHk9IjE5MyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIxMiIgZmlsbD0iIzVCNkI2NCI+c29ydHMgdGhlIHBob3RvIGFuZCBzaG93cyAiNCBKdWx5IDIwMjYiPC90ZXh0Pgo8dGV4dCB4PSI1NjAiIHk9IjE3NSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIxMyIgZmlsbD0iI0M4NjYzRiIgZm9udC13ZWlnaHQ9IjcwMCI+Y2FwdGlvbiwgd29yZHMgam9pbmVkIGJ5IGh5cGhlbnM8L3RleHQ+PHRleHQgeD0iNTYwIiB5PSIxOTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiM1QjZCNjQiPmJlY29tZXMgIlJlY2VpdmluZyBmaXJzdCBwbGFjZSBhdCBiaW9jb25uZWN0IjwvdGV4dD4KPHRleHQgeD0iNDgwIiB5PSIyNDAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMTMiIGZpbGw9IiM1QjZCNjQiPkhlbHBlciAzIGRvZXMgdGhlIG5hbWluZyBmb3IgeW91IGFuZCByZW1vdmVzIGhpZGRlbiBsb2NhdGlvbiBkYXRhIGZyb20gcGhvbmUgcGhvdG9zLjwvdGV4dD4KPHRleHQgeD0iNDgwIiB5PSIyNjIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMTMiIGZpbGw9IiM1QjZCNjQiPlN0b3J5IGxpbmVzIGdvIGluIHRoZSBjaGFwdGVyJ3MgYmVhdHMudHh0LCBlLmcuICAgMjAyNi0wNyB8IEZpcnN0IHBsYWNlIGF0IEJpb0Nvbm5lY3QgMjAyNi48L3RleHQ+Cjwvc3ZnPg==" /></p>
+<p>The short story lines between photos live in each chapter’s
+<code>beats.txt</code>, one per month:</p>
+<pre><code>2026-07 | First place at BioConnect 2026.
+2026-09-18 | Thesis presented.</code></pre>
+<p>Add a line for a new month and run helper 3 again (or, in Terminal
+inside the folder, <code>python3 gallery/make_gallery.py</code>).</p>
+<p><strong>Only publish photos you are allowed to.</strong> Ask people
+who appear in them. Never upload a photo that shows a student ID, a
+badge QR code or a document with personal details.</p>
+<h3 id="to-a-post-or-project">To a post or project</h3>
+<p>Copy the picture into the post’s or project’s folder and write
+<code>![Caption](picture.jpg)</code> where you want it. Keep pictures
+under about 1 MB (export at about 1600 px wide). To make one smaller on
+the page: <code>![Caption](picture.jpg){width=60%}</code>.</p>
+<h3 id="your-profile-photo">Your profile photo</h3>
+<p>Replace <code>images/me.jpg</code> with a square photo of the same
+name. The link-preview card is <code>images/share-card.jpg</code>; make
+a new one if you change the photo.</p>
+<h2 id="add-a-project">Add a project</h2>
+<ol type="1">
+<li>Double-click <strong>5 New project page</strong> and type a title.
+The folder appears under <code>projects/</code>.</li>
+<li>Fill in each section of <code>index.qmd</code>: question, data,
+methods, results, limitations, what you learned, code link. The number
+tiles at the top are optional: delete that block if you have no
+numbers.</li>
+<li>Put your figures in the same folder and set <code>image:</code> in
+the settings block to the one you want as the thumbnail.</li>
+<li>Preview, then publish. Projects are listed newest first by
+<code>date</code>.</li>
+</ol>
+<h2 id="change-the-words-on-a-page">Change the words on a page</h2>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Page</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Home</td>
+<td><code>index.qmd</code> (written in HTML: change the words between
+<code>&gt;</code> and <code>&lt;</code>, leave the tags)</td>
+</tr>
+<tr>
+<td>About</td>
+<td><code>about.qmd</code></td>
+</tr>
+<tr>
+<td>Timeline</td>
+<td><code>timeline.qmd</code> (copy an existing entry block and edit the
+date, place, tags and text)</td>
+</tr>
+<tr>
+<td>Publications</td>
+<td><code>publications.qmd</code></td>
+</tr>
+<tr>
+<td>CV</td>
+<td><code>cv.qmd</code></td>
+</tr>
+<tr>
+<td>Contact</td>
+<td><code>contact.qmd</code></td>
+</tr>
+<tr>
+<td>Menu and site title</td>
+<td><code>_quarto.yml</code></td>
+</tr>
+<tr>
+<td>Colours and fonts</td>
+<td><code>theme.scss</code> (the colour codes at the top)</td>
+</tr>
+</tbody>
+</table>
+<p>Every page starts with a block between two <code>---</code> lines.
+Keep the structure, change the words. If a page stops building, the
+mistake is almost always in that block: a missing quote mark or a
+changed indent.</p>
+<h2 id="publish">Publish</h2>
+<p>Double-click <strong>4 Publish</strong>. If it says the site did not
+build, read the last lines in the window: they name the file and the
+line. Fix it, save, run it again.</p>
+<p>After it says “Uploaded”, GitHub needs 1–3 minutes. If the live site
+looks old, press <strong>Cmd + Shift + R</strong>. If GitHub itself is
+slow (it happens), the Actions tab of your repository shows the job as
+<em>queued</em>; it will go through on its own.</p>
+<h2 id="two-things-only-you-can-finish">Two things only you can
+finish</h2>
+<ul>
+<li><strong>The contact form</strong> is switched off until it has a
+Formspree ID. Create a free form at https://formspree.io, copy its ID
+(it looks like <code>xabcdefg</code>), and paste it in
+<code>contact.qmd</code> on the line
+<code>const FORMSPREE_ID = &quot;&quot;;</code> between the quotes. Until then,
+visitors see your email address instead.</li>
+<li><strong>The CV download</strong> is hidden until a file called
+<code>cv/Halireena_Rushdiha_CV.pdf</code> exists. Save a PDF there and
+the button appears. Remember that anything in this folder becomes
+public.</li>
+</ul>
+<h2 id="if-something-goes-wrong">If something goes wrong</h2>
+<ul>
+<li><strong>Preview shows an error page:</strong> read the message; it
+names the file. Usually a typo in the <code>---</code> block.</li>
+<li><strong>A picture does not show:</strong> the file name in the text
+must match the file exactly, including <code>.jpg</code> vs
+<code>.jpeg</code> and capital letters.</li>
+<li><strong>Publish says “Nothing new to publish”:</strong> you have not
+saved any changes since the last publish.</li>
+<li><strong>You want to undo everything since the last publish:</strong>
+in Terminal, inside the folder, run <code>git checkout -- .</code> (this
+discards your unsaved edits).</li>
+<li><strong>Something is broken and you cannot see why:</strong> open a
+Claude Code session in this folder and describe the problem. The whole
+site, this guide and the helpers are in the folder, so any session can
+pick it up.</li>
+</ul>
+<h2 id="where-everything-is">Where everything is</h2>
+<ul>
+<li>Your master CV and the script that builds it:
+<code>Desktop › 04 Career › CV 2026</code></li>
+<li>This guide: <code>HOW_TO_EDIT.md</code> in the site folder, and the
+illustrated version <code>_guide/HOW_TO_EDIT.html</code></li>
+<li>The templates the helpers copy: <code>_templates/</code></li>
+<li>The published site’s code:
+https://github.com/halireena/halireena.github.io</li>
+</ul>
+</body>
+</html>

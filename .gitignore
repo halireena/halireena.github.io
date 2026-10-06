@@ -3,3 +3,5 @@
 .DS_Store
 
 **/*.quarto_ipynb
+/gallery/inbox/*
+!/gallery/inbox/README.txt

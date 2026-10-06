@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 470" font-family="Inter, Helvetica, Arial, sans-serif"><defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#1F3A5F"/></marker></defs><rect width="960" height="470" fill="#fff"/>
+<text x="480" y="36" text-anchor="middle" font-size="20" font-weight="700" fill="#1E2A26">Anatomy of a blog post (index.qmd)</text>
+<rect x="30" y="60" width="560" height="390" rx="8" fill="#FAFBFC" stroke="#DDE3EA"/>
+<text x="46" y="86" font-size="12.5" fill="#1E2A26" font-family="Menlo, monospace">---</text>
+<text x="46" y="106" font-size="12.5" fill="#1E2A26" font-family="Menlo, monospace">title: &quot;What I learned from my first RNA-seq run&quot;</text>
+<text x="46" y="126" font-size="12.5" fill="#1E2A26" font-family="Menlo, monospace">description: &quot;One sentence shown on the Blog page.&quot;</text>
+<text x="46" y="146" font-size="12.5" fill="#1E2A26" font-family="Menlo, monospace">date: 2026-11-02</text>
+<text x="46" y="166" font-size="12.5" fill="#1E2A26" font-family="Menlo, monospace">categories: [learning, RNA-seq]</text>
+<text x="46" y="186" font-size="12.5" fill="#1E2A26" font-family="Menlo, monospace">image: cover.jpg</text>
+<text x="46" y="206" font-size="12.5" fill="#1E2A26" font-family="Menlo, monospace">---</text>
+<text x="46" y="226" font-size="12.5" fill="#1E2A26" font-family="Menlo, monospace"></text>
+<text x="46" y="246" font-size="12.5" fill="#1E2A26" font-family="Menlo, monospace">[← All posts](../../blog.qmd){.back-link}</text>
+<text x="46" y="266" font-size="12.5" fill="#1E2A26" font-family="Menlo, monospace"></text>
+<text x="46" y="286" font-size="12.5" fill="#1E2A26" font-family="Menlo, monospace">First paragraph. Just type.</text>
+<text x="46" y="306" font-size="12.5" fill="#1E2A26" font-family="Menlo, monospace"></text>
+<text x="46" y="326" font-size="12.5" fill="#1E2A26" font-family="Menlo, monospace">## A heading</text>
+<text x="46" y="346" font-size="12.5" fill="#1E2A26" font-family="Menlo, monospace"></text>
+<text x="46" y="366" font-size="12.5" fill="#1E2A26" font-family="Menlo, monospace">- a bullet</text>
+<text x="46" y="386" font-size="12.5" fill="#1E2A26" font-family="Menlo, monospace">- another bullet</text>
+<text x="46" y="406" font-size="12.5" fill="#1E2A26" font-family="Menlo, monospace"></text>
+<text x="46" y="426" font-size="12.5" fill="#1E2A26" font-family="Menlo, monospace">![Caption under the picture](my-picture.jpg)</text>
+<path d="M595 82 L 615 82" stroke="#C8663F" stroke-width="2"/><text x="622" y="86" font-size="12.5" fill="#1E2A26">The block between the two --- lines is the settings.</text>
+<path d="M595 102 L 615 102" stroke="#C8663F" stroke-width="2"/><text x="622" y="106" font-size="12.5" fill="#1E2A26">title: shown at the top and on the Blog page.</text>
+<path d="M595 142 L 615 142" stroke="#C8663F" stroke-width="2"/><text x="622" y="146" font-size="12.5" fill="#1E2A26">date: YYYY-MM-DD. Newest posts appear first.</text>
+<path d="M595 162 L 615 162" stroke="#C8663F" stroke-width="2"/><text x="622" y="166" font-size="12.5" fill="#1E2A26">categories: a few tags in square brackets.</text>
+<path d="M595 182 L 615 182" stroke="#C8663F" stroke-width="2"/><text x="622" y="186" font-size="12.5" fill="#1E2A26">image: optional thumbnail; file must be in this folder.</text>
+<path d="M595 242 L 615 242" stroke="#C8663F" stroke-width="2"/><text x="622" y="246" font-size="12.5" fill="#1E2A26">Leave this line: it is the back link.</text>
+<path d="M595 322 L 615 322" stroke="#C8663F" stroke-width="2"/><text x="622" y="326" font-size="12.5" fill="#1E2A26">## makes a heading. One # is only for the page title.</text>
+<path d="M595 422 L 615 422" stroke="#C8663F" stroke-width="2"/><text x="622" y="426" font-size="12.5" fill="#1E2A26">Picture: put the file in the same folder, then ![caption](file).</text>
+</svg>

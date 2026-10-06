@@ -1,67 +1,72 @@
 ---
 title: "Do warmer days sell more ice cream?"
-description: "A short example project: one question, one dataset, two figures."
+description: "One sentence shown on the Projects page. Say what it was and the key result."
 date: 2026-10-03
-order: 99            # position on the Projects page (1 = first)
-categories: [Python, visualisation, regression]
-image: fig2.png          # thumbnail shown on the Projects page
-resources: [data.csv, make_figures.py]   # extra files to publish with the page
+categories: [example, Python, regression]
+image: fig2.png          # thumbnail on the Projects page: one of your figures in this folder
+# draft: true            # remove the # to hide the page until it is ready
 ---
 
-<!--
-  TEMPLATE: copy this whole folder to start a new project.
-  Keep the six headings below and replace the text under each one.
--->
+[← All projects](../../projects.qmd){.back-link}
+
+::: {.question-box}
+One sentence: the question this project answers.
+:::
+
+::: {.stats}
+::: {.stat}
+[90]{.num}
+[days of data]{.lbl}
+:::
+::: {.stat}
+[6.4]{.num}
+[extra sales per °C]{.lbl}
+:::
+::: {.stat}
+[2]{.num}
+[figures]{.lbl}
+:::
+::: {.stat}
+[1]{.num}
+[script]{.lbl}
+:::
+:::
 
 ## The question
 
-*What are you trying to find out, and why does it matter?* One or two sentences.
-
-Does the daily temperature predict how many ice creams a small shop sells?
-If so, the shop could use the weather forecast to plan stock.
+What were you trying to find out, and why does it matter? Two or three sentences.
 
 ## The data
 
-*Where did the data come from, how big is it, what does each row mean?*
-
-- **Source:** a simulated dataset made by [`make_figures.py`](make_figures.py)
-  (replace this with your real source and a link).
-- **Size:** 90 rows, one per day.
-- **Columns:** `day`, `temperature_c`, `sales`.
-- **Download:** [data.csv](data.csv)
+- **Source:** where the data came from (with a link if public).
+- **Size:** how many rows, samples or images.
+- **Columns or variables:** what each one means.
 
 ## Methods
 
-*What did you do, step by step? Keep it readable for a non-specialist.*
-
-1. Plotted daily sales over time to look for a trend.
-2. Plotted sales against temperature.
-3. Fitted a straight line (ordinary least squares) to estimate how many
-   extra ice creams are sold for each extra degree.
-
-```python
-slope = sum((t - mean_t) * (s - mean_s) for t, s in zip(temps, sales)) / \
-        sum((t - mean_t) ** 2 for t in temps)
-```
+1. What you did first.
+2. What you did next.
+3. How you checked the result.
 
 ## Results
 
-![Sales rise over the 90 days as the season warms up.](fig1.png){#fig-sales fig-alt="Line chart of daily ice cream sales over 90 days, trending upward."}
+![What this figure shows, in one sentence.](fig1.png){fig-alt="Describe the figure for screen readers"}
 
-![Each extra °C goes with roughly 6 more ice creams sold.](fig2.png){#fig-scatter fig-alt="Scatter plot of sales against temperature with an upward fitted line."}
+![What this second figure shows.](fig2.png){fig-alt="Describe the figure"}
 
-@fig-sales shows sales climbing through the season, and @fig-scatter shows
-that temperature explains much of that rise: about **6 extra sales per °C**.
+- The main finding, with a number.
+- A second finding.
+
+## Limitations and next steps
+
+- What the data or method could not tell you.
+- What you would do next.
 
 ## What I learned
 
-*Be honest and specific — this is the part employers read most closely.*
-
-- A simple scatter plot often answers the question before any model does.
-- Correlation is not causation: the season also brings holidays and tourists.
-- Next time I'd add day-of-week to the model and test on held-out data.
+- One honest, specific lesson.
+- Another.
 
 ## Code
 
-All code for this project is on GitHub:
-[github.com/halireena/example-project](https://github.com/halireena/example-project){.btn .btn-outline-primary}
+[View the repository on GitHub](https://github.com/halireena){.btn-cute .solid}
