@@ -112,7 +112,7 @@ After it says "Uploaded", GitHub needs 1–3 minutes. If the live site looks old
 ## Things to know
 
 - **The contact form** is connected to Formspree (form ID `mljgddvo`, account under your Gmail). Messages arrive in your inbox; the free plan allows 50 a month. If you ever make a new form, change the ID on the line `const FORMSPREE_ID = "…";` in `contact.qmd`.
-- **The CV download** on the site is `cv/Halireena_Rushdiha_CV.pdf`, a copy without your phone number. It is regenerated every time you run the CV build script (`Desktop › 04 Career › CV 2026 › _build (scripts, ignore) › build_cv_send.py`); after that, run helper 4 to publish it.
+- **The CV download** on the site is `cv/Halireena_Rushdiha_CV.pdf`, a copy without the logo and without your phone number. To update it: edit your CV as described in `Desktop › 04 Career › CV 2026 › How to edit your CV.md`, double-click **Rebuild CVs.command** there, then run helper 4 here to publish.
 
 ## If something goes wrong
 
@@ -124,7 +124,8 @@ After it says "Uploaded", GitHub needs 1–3 minutes. If the live site looks old
 
 ## Where everything is
 
-- Your master CV and the script that builds it: `Desktop › 04 Career › CV 2026`
+- Your CVs, resume and the guide to editing them: `Desktop › 04 Career › CV 2026`
+- Cold-email guide, templates, master prompt and target tracker: `Desktop › 04 Career › Networking`
 - This guide: `HOW_TO_EDIT.md` in the site folder, and the illustrated version `_guide/HOW_TO_EDIT.html`
 - The templates the helpers copy: `_templates/`
 - The published site's code: https://github.com/halireena/halireena.github.io
