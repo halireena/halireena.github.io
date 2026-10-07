@@ -30,7 +30,7 @@ results for inconsistencies. **Awarded Best Performance.**
 
 ### Higher Diploma in Biotechnology, Distinction
 
-Dissertation: amplification of the *rbcL* gene region in Sri Lankan pumpkin varieties.
+Dissertation, with the Industrial Technology Institute (ITI): amplification of the *rbcL* gene region in Sri Lankan pumpkin varieties.
 Accredited pathway into the final year of the BSc (Hons). [Project](projects/pumpkin-rbcl/)
 :::
 ::: {.tl-item}

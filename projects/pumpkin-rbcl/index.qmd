@@ -1,6 +1,6 @@
 ---
 title: "Amplification of the rbcL gene region in Sri Lankan pumpkin varieties"
-description: "Higher Diploma dissertation. DNA extraction, PCR amplification of the rbcL barcode region and gel verification across local pumpkin varieties."
+description: "Higher Diploma dissertation, in collaboration with the Industrial Technology Institute (ITI). DNA extraction, PCR amplification of the rbcL barcode region and gel verification across local pumpkin varieties."
 date: 2024-01-01
 order: 5             # position on the Projects page (1 = first)
 categories: [Higher Diploma, molecular biology, PCR, lab work]
