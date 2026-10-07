@@ -109,10 +109,10 @@ Double-click **4 Publish**. If it says the site did not build, read the last lin
 
 After it says "Uploaded", GitHub needs 1–3 minutes. If the live site looks old, press **Cmd + Shift + R**. If GitHub itself is slow (it happens), the Actions tab of your repository shows the job as *queued*; it will go through on its own.
 
-## One thing only you can finish
+## Things to know
 
 - **The contact form** is connected to Formspree (form ID `mljgddvo`, account under your Gmail). Messages arrive in your inbox; the free plan allows 50 a month. If you ever make a new form, change the ID on the line `const FORMSPREE_ID = "…";` in `contact.qmd`.
-- **The CV download** is hidden until a file called `cv/Halireena_Rushdiha_CV.pdf` exists. Save a PDF there and the button appears. Remember that anything in this folder becomes public.
+- **The CV download** on the site is `cv/Halireena_Rushdiha_CV.pdf`, a copy without your phone number. It is regenerated every time you run the CV build script (`Desktop › 04 Career › CV 2026 › _build (scripts, ignore) › build_cv_send.py`); after that, run helper 4 to publish it.
 
 ## If something goes wrong
 

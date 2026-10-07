@@ -5,10 +5,10 @@ resources:
   - cv/Halireena_Rushdiha_CV.pdf
 ---
 
-My full CV is available as a PDF.
+One page, updated October 2026. For a version with a phone number, or a CV tailored to a specific role, please [get in touch](contact.qmd).
 
 [Download CV (PDF)](cv/Halireena_Rushdiha_CV.pdf){.btn-cute .solid #cv-download download="Halireena_Rushdiha_CV.pdf"}
-[Request the latest version](contact.qmd){.btn-cute}
+[Contact me](contact.qmd){.btn-cute}
 
 ```{=html}
 <script>
@@ -25,4 +25,4 @@ My full CV is available as a PDF.
 ```
 <p id="cv-note" class="form-note"></p>
 
-My education, experience, module marks and awards are on the [About](about.qmd) page.
+Education, experience, module marks and awards are also on the [Timeline](timeline.qmd), and every project on the CV has a write-up under [Projects](projects.qmd).
