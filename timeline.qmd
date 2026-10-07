@@ -186,14 +186,6 @@ status. [Coursework](projects/msc-coursework/)
 | **Taught-module average** | **81%** |
 :::
 ::: {.tl-item}
-[Jun 2026 – Jul 2026]{.when} [Research]{.kind .k-res}
-
-### GrassBio: sorghum transcriptomics for biomaterials (independent project)
-
-An R pipeline linking *Sorghum bicolor* expression data (GSE49879) to lignin and cell-wall
-pathway scores, with an independent replication and an interactive HTML app.
-:::
-::: {.tl-item}
 [2–5 Jul 2026 · BioConnect 2026, University of Birmingham Dubai]{.when} [Research]{.kind .k-res} [Award]{.kind .k-award}
 
 ### First place at BioConnect 2026 (Abiomix challenge)
